@@ -1,0 +1,69 @@
+{
+  "title": "Spanish Basics",
+  "description": "Learn fundamental Spanish vocabulary and grammar",
+  "difficulty": "Easy",
+  "category": "languages",
+  "tags": ["spanish", "language-learning", "vocabulary", "basics", "beginner"],
+  "questions": [
+    {
+      "question": "How do you say 'Hello' in Spanish?",
+      "choices": ["Adiós", "Hola", "Gracias", "Por favor"],
+      "answer": 1,
+      "explanation": "Hola means 'hello' or 'hi' in Spanish. It's the most common greeting used in Spanish-speaking countries."
+    },
+    {
+      "question": "What does 'Gracias' mean?",
+      "choices": ["Please", "Sorry", "Thank you", "Goodbye"],
+      "answer": 2,
+      "explanation": "Gracias means 'thank you' in Spanish. It's used to express gratitude, just like in English."
+    },
+    {
+      "question": "How do you say 'Good morning' in Spanish?",
+      "choices": ["Buenas noches", "Buenas tardes", "Buenos días", "Hasta luego"],
+      "answer": 2,
+      "explanation": "Buenos días means 'good morning' in Spanish. It's used as a greeting typically until noon or early afternoon."
+    },
+    {
+      "question": "What is the Spanish word for 'water'?",
+      "choices": ["Leche", "Agua", "Jugo", "Café"],
+      "answer": 1,
+      "explanation": "Agua means 'water' in Spanish. Note that although agua is feminine (el agua), it uses the article 'el' because it starts with a stressed 'a'."
+    },
+    {
+      "question": "How do you say 'My name is...' in Spanish?",
+      "choices": ["Yo soy...", "Me llamo...", "Tú eres...", "Él es..."],
+      "answer": 1,
+      "explanation": "Me llamo... (literally 'I call myself...') is the most common way to introduce yourself in Spanish. You can also say 'Mi nombre es...' (My name is...)."
+    },
+    {
+      "question": "What does 'Por favor' mean?",
+      "choices": ["Thank you", "You're welcome", "Please", "Excuse me"],
+      "answer": 2,
+      "explanation": "Por favor means 'please' in Spanish. It's an important phrase for polite requests and is used similarly to English."
+    },
+    {
+      "question": "How do you say 'Yes' in Spanish?",
+      "choices": ["No", "Sí", "Tal vez", "Nunca"],
+      "answer": 1,
+      "explanation": "Sí means 'yes' in Spanish. Note the accent mark (í) which distinguishes it from 'si' (if)."
+    },
+    {
+      "question": "What is the Spanish word for 'house'?",
+      "choices": ["Coche", "Casa", "Calle", "Ciudad"],
+      "answer": 1,
+      "explanation": "Casa means 'house' or 'home' in Spanish. It's a feminine noun, so you say 'la casa'."
+    },
+    {
+      "question": "How do you say 'Goodbye' in Spanish?",
+      "choices": ["Hola", "Adiós", "Gracias", "Buenos días"],
+      "answer": 1,
+      "explanation": "Adiós means 'goodbye' in Spanish. You can also use 'Hasta luego' (see you later) or 'Hasta pronto' (see you soon)."
+    },
+    {
+      "question": "What does '¿Cómo estás?' mean?",
+      "choices": ["What's your name?", "How are you?", "Where are you?", "How old are you?"],
+      "answer": 1,
+      "explanation": "¿Cómo estás? means 'How are you?' in Spanish (informal). The formal version is '¿Cómo está usted?'."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "Pop Culture 2020s",
+  "description": "Test your knowledge of popular culture from the 2020s",
+  "difficulty": "Easy",
+  "category": "general",
+  "tags": ["pop-culture", "entertainment", "2020s", "trivia", "movies", "music"],
+  "questions": [
+    {
+      "question": "Which film won the Academy Award for Best Picture in 2020?",
+      "choices": ["1917", "Joker", "Parasite", "Once Upon a Time in Hollywood"],
+      "answer": 2,
+      "explanation": "Parasite, the South Korean film directed by Bong Joon-ho, won Best Picture at the 2020 Academy Awards, becoming the first non-English language film to win the award."
+    },
+    {
+      "question": "What popular video conferencing app became widely used during the COVID-19 pandemic?",
+      "choices": ["Skype", "Zoom", "Teams", "WebEx"],
+      "answer": 1,
+      "explanation": "Zoom became the most popular video conferencing platform during the 2020 pandemic, with its daily users jumping from 10 million to over 300 million."
+    },
+    {
+      "question": "Which streaming service launched in 2019 featuring Disney content?",
+      "choices": ["Disney+", "Hulu", "Paramount+", "Peacock"],
+      "answer": 0,
+      "explanation": "Disney+ launched in November 2019, quickly becoming one of the major streaming platforms with Marvel, Star Wars, and classic Disney content."
+    },
+    {
+      "question": "What social media platform did Elon Musk acquire in 2022?",
+      "choices": ["Facebook", "Instagram", "Twitter", "TikTok"],
+      "answer": 2,
+      "explanation": "Elon Musk acquired Twitter in October 2022 for approximately $44 billion and later rebranded it as X."
+    },
+    {
+      "question": "Which Taylor Swift album was released in 2020 during the pandemic?",
+      "choices": ["Reputation", "Lover", "Folklore", "Midnights"],
+      "answer": 2,
+      "explanation": "Taylor Swift surprise-released Folklore in July 2020 during the COVID-19 pandemic, marking a shift to indie folk and alternative rock sound."
+    },
+    {
+      "question": "What is the name of the AI chatbot released by OpenAI in 2022?",
+      "choices": ["GPT-3", "ChatGPT", "Copilot", "Bard"],
+      "answer": 1,
+      "explanation": "ChatGPT was released by OpenAI in November 2022 and quickly became one of the most popular AI applications in history."
+    },
+    {
+      "question": "Which streaming series broke Netflix viewership records in 2021?",
+      "choices": ["The Witcher", "Squid Game", "Stranger Things", "Bridgerton"],
+      "answer": 1,
+      "explanation": "Squid Game, a South Korean survival drama, became Netflix's most-watched series in 2021, with over 1.65 billion viewing hours in its first 28 days."
+    },
+    {
+      "question": "What was the most-streamed song globally on Spotify in 2023?",
+      "choices": ["Anti-Hero by Taylor Swift", "Flowers by Miley Cyrus", "As It Was by Harry Styles", "Calm Down by Rema"],
+      "answer": 1,
+      "explanation": "Flowers by Miley Cyrus was the most-streamed song globally on Spotify in 2023, accumulating over 1.6 billion streams."
+    }
+  ]
+}

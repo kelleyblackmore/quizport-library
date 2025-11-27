@@ -1,0 +1,39 @@
+{
+  "title": "Algebra 101",
+  "description": "Basic algebra concepts and problem solving",
+  "difficulty": "Easy",
+  "category": "math",
+  "tags": ["algebra", "math", "equations", "basics"],
+  "questions": [
+    {
+      "question": "What is x in the equation: 2x + 5 = 15?",
+      "choices": ["3", "5", "7", "10"],
+      "answer": 1,
+      "explanation": "Solving: 2x + 5 = 15, subtract 5 from both sides: 2x = 10, divide both sides by 2: x = 5."
+    },
+    {
+      "question": "What is the value of x² when x = 3?",
+      "choices": ["6", "9", "12", "27"],
+      "answer": 1,
+      "explanation": "x² means x multiplied by itself. So 3² = 3 × 3 = 9."
+    },
+    {
+      "question": "Simplify: 3x + 2x",
+      "choices": ["5x", "6x", "5x²", "6"],
+      "answer": 0,
+      "explanation": "When adding like terms, add the coefficients: 3x + 2x = 5x."
+    },
+    {
+      "question": "What is the slope of the line y = 2x + 3?",
+      "choices": ["2", "3", "5", "2/3"],
+      "answer": 0,
+      "explanation": "In the equation y = mx + b, m is the slope. So the slope is 2."
+    },
+    {
+      "question": "Solve for y: y - 7 = 12",
+      "choices": ["5", "12", "19", "84"],
+      "answer": 2,
+      "explanation": "Add 7 to both sides: y = 12 + 7 = 19."
+    }
+  ]
+}

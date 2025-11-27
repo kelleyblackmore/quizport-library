@@ -1,0 +1,54 @@
+{
+  "title": "World War II History",
+  "description": "Key events and facts about the Second World War",
+  "difficulty": "Medium",
+  "category": "history",
+  "tags": ["world-war-2", "history", "20th-century", "military"],
+  "questions": [
+    {
+      "question": "In which year did World War II begin?",
+      "choices": ["1937", "1939", "1941", "1945"],
+      "answer": 1,
+      "explanation": "World War II began on September 1, 1939, when Nazi Germany invaded Poland."
+    },
+    {
+      "question": "Which event brought the United States into World War II?",
+      "choices": [
+        "The invasion of Poland",
+        "The Battle of Britain",
+        "The attack on Pearl Harbor",
+        "D-Day"
+      ],
+      "answer": 2,
+      "explanation": "The Japanese attack on Pearl Harbor on December 7, 1941, led to the United States entering World War II."
+    },
+    {
+      "question": "What was D-Day?",
+      "choices": [
+        "The day Germany surrendered",
+        "The Allied invasion of Normandy",
+        "The bombing of Pearl Harbor",
+        "The day Japan surrendered"
+      ],
+      "answer": 1,
+      "explanation": "D-Day (June 6, 1944) was the Allied invasion of Normandy, France, which marked a turning point in the war in Europe."
+    },
+    {
+      "question": "Which cities were atomic bombs dropped on?",
+      "choices": [
+        "Tokyo and Kyoto",
+        "Hiroshima and Nagasaki",
+        "Berlin and Munich",
+        "London and Paris"
+      ],
+      "answer": 1,
+      "explanation": "The United States dropped atomic bombs on Hiroshima (August 6, 1945) and Nagasaki (August 9, 1945), leading to Japan's surrender."
+    },
+    {
+      "question": "When did World War II end?",
+      "choices": ["1943", "1944", "1945", "1946"],
+      "answer": 2,
+      "explanation": "World War II ended in 1945: Germany surrendered in May and Japan surrendered in September after the atomic bombings."
+    }
+  ]
+}

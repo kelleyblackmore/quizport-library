@@ -1,0 +1,27 @@
+{
+  "title": "True or False Template",
+  "description": "Template for true/false questions",
+  "difficulty": "Easy",
+  "category": "general",
+  "tags": ["true-false", "template"],
+  "questions": [
+    {
+      "question": "The Earth is flat.",
+      "choices": ["True", "False"],
+      "answer": 1,
+      "explanation": "The Earth is approximately spherical in shape, not flat."
+    },
+    {
+      "question": "Water boils at 100°C at sea level.",
+      "choices": ["True", "False"],
+      "answer": 0,
+      "explanation": "Water boils at 100°C (212°F) at standard atmospheric pressure (sea level)."
+    },
+    {
+      "question": "The sun revolves around the Earth.",
+      "choices": ["True", "False"],
+      "answer": 1,
+      "explanation": "The Earth revolves around the sun, not the other way around."
+    }
+  ]
+}

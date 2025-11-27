@@ -1,0 +1,81 @@
+{
+  "title": "CompTIA Security+ Fundamentals",
+  "description": "Test your knowledge of cybersecurity concepts for CompTIA Security+ certification",
+  "difficulty": "Hard",
+  "category": "programming",
+  "tags": ["security", "comptia", "security+", "cybersecurity", "certification"],
+  "questions": [
+    {
+      "question": "What does CIA stand for in information security?",
+      "choices": ["Confidentiality, Integrity, Availability", "Control, Identification, Authentication", "Cryptography, Identity, Access", "Central Intelligence Agency"],
+      "answer": 0,
+      "explanation": "The CIA triad consists of Confidentiality (preventing unauthorized access), Integrity (ensuring data accuracy), and Availability (ensuring authorized access to resources)."
+    },
+    {
+      "question": "Which type of attack involves an attacker intercepting communication between two parties?",
+      "choices": ["DDoS", "Phishing", "Man-in-the-Middle (MitM)", "SQL Injection"],
+      "answer": 2,
+      "explanation": "A Man-in-the-Middle (MitM) attack occurs when an attacker secretly intercepts and potentially alters communication between two parties who believe they are directly communicating with each other."
+    },
+    {
+      "question": "What is the primary purpose of a firewall?",
+      "choices": ["Encrypt data", "Control network traffic", "Detect viruses", "Backup data"],
+      "answer": 1,
+      "explanation": "A firewall's primary purpose is to control incoming and outgoing network traffic based on predetermined security rules, acting as a barrier between trusted and untrusted networks."
+    },
+    {
+      "question": "What type of authentication uses something you know, something you have, and something you are?",
+      "choices": ["Single-factor authentication", "Two-factor authentication", "Multi-factor authentication", "Biometric authentication"],
+      "answer": 2,
+      "explanation": "Multi-factor authentication (MFA) combines multiple authentication factors: knowledge (password), possession (token/phone), and inherence (biometric) to provide stronger security."
+    },
+    {
+      "question": "Which encryption standard is currently recommended for wireless networks?",
+      "choices": ["WEP", "WPA", "WPA2", "WPA3"],
+      "answer": 3,
+      "explanation": "WPA3 is the latest and most secure Wi-Fi encryption standard, addressing vulnerabilities found in WPA2. However, WPA2 with AES is still widely considered secure."
+    },
+    {
+      "question": "What is a zero-day vulnerability?",
+      "choices": ["A vulnerability that takes zero days to exploit", "A vulnerability unknown to the software vendor", "A vulnerability with no impact", "A vulnerability that expires in zero days"],
+      "answer": 1,
+      "explanation": "A zero-day vulnerability is a security flaw in software that is unknown to the vendor and has no available patch, making it particularly dangerous as attackers can exploit it before a fix is developed."
+    },
+    {
+      "question": "What does the principle of 'least privilege' mean?",
+      "choices": ["Users get no privileges", "Users get all privileges", "Users get only the minimum privileges needed", "Users share all privileges"],
+      "answer": 2,
+      "explanation": "The principle of least privilege means users should only be granted the minimum levels of access necessary to perform their job functions, reducing potential security risks."
+    },
+    {
+      "question": "Which protocol provides secure shell access to remote systems?",
+      "choices": ["Telnet", "FTP", "SSH", "HTTP"],
+      "answer": 2,
+      "explanation": "SSH (Secure Shell) provides encrypted remote login and command execution. It replaced Telnet which transmits data in plaintext."
+    },
+    {
+      "question": "What is the purpose of a DMZ in network security?",
+      "choices": ["To store backups", "To isolate public-facing servers from internal networks", "To encrypt data", "To authenticate users"],
+      "answer": 1,
+      "explanation": "A DMZ (Demilitarized Zone) is a physical or logical subnetwork that contains and exposes an organization's external-facing services to an untrusted network, usually the Internet, while keeping the internal network secure."
+    },
+    {
+      "question": "What type of attack floods a system with traffic to make it unavailable?",
+      "choices": ["Phishing", "SQL Injection", "DDoS", "Cross-Site Scripting"],
+      "answer": 2,
+      "explanation": "A DDoS (Distributed Denial of Service) attack overwhelms a target system with massive amounts of traffic from multiple sources, making the service unavailable to legitimate users."
+    },
+    {
+      "question": "What is hashing primarily used for in security?",
+      "choices": ["Encrypting data for transmission", "Verifying data integrity", "Generating random numbers", "Compressing files"],
+      "answer": 1,
+      "explanation": "Hashing creates a fixed-size unique fingerprint of data. It's primarily used to verify data integrity and store passwords securely. Unlike encryption, hashing is a one-way function."
+    },
+    {
+      "question": "Which of the following is an example of social engineering?",
+      "choices": ["SQL Injection", "Phishing emails", "Buffer overflow", "Port scanning"],
+      "answer": 1,
+      "explanation": "Phishing emails are a form of social engineering that manipulate people into revealing sensitive information or performing actions that compromise security, rather than exploiting technical vulnerabilities."
+    }
+  ]
+}

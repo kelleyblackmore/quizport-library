@@ -1,0 +1,57 @@
+{
+  "title": "World Geography Trivia",
+  "description": "Test your knowledge of countries, capitals, and landmarks around the world",
+  "difficulty": "Medium",
+  "category": "general",
+  "tags": ["geography", "trivia", "world", "countries", "capitals"],
+  "questions": [
+    {
+      "question": "What is the capital of Australia?",
+      "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "answer": 2,
+      "explanation": "Canberra is the capital of Australia. Sydney is the largest city, but Canberra was chosen as a compromise between Sydney and Melbourne."
+    },
+    {
+      "question": "Which is the longest river in the world?",
+      "choices": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+      "answer": 1,
+      "explanation": "The Nile River in Africa is generally considered the longest river in the world at approximately 6,650 km (4,130 miles)."
+    },
+    {
+      "question": "How many continents are there?",
+      "choices": ["5", "6", "7", "8"],
+      "answer": 2,
+      "explanation": "There are 7 continents: Africa, Antarctica, Asia, Australia/Oceania, Europe, North America, and South America."
+    },
+    {
+      "question": "Which country has the most time zones?",
+      "choices": ["Russia", "USA", "France", "China"],
+      "answer": 2,
+      "explanation": "France has the most time zones (12) when counting all its overseas territories. Russia has 11 time zones within its contiguous territory."
+    },
+    {
+      "question": "What is the smallest country in the world?",
+      "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+      "answer": 1,
+      "explanation": "Vatican City is the smallest country in the world with an area of approximately 0.44 square kilometers (0.17 square miles)."
+    },
+    {
+      "question": "Which desert is the largest in the world?",
+      "choices": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctic Desert"],
+      "answer": 3,
+      "explanation": "The Antarctic Desert is the largest desert in the world. The Sahara is the largest hot desert."
+    },
+    {
+      "question": "Mount Everest is located on the border between which two countries?",
+      "choices": ["India and China", "Nepal and China", "Nepal and India", "Bhutan and China"],
+      "answer": 1,
+      "explanation": "Mount Everest, the world's highest mountain, is located on the border between Nepal and China (Tibet)."
+    },
+    {
+      "question": "What is the most populated city in the world?",
+      "choices": ["Shanghai", "Mumbai", "Tokyo", "Mexico City"],
+      "answer": 2,
+      "explanation": "Tokyo, Japan is the most populated metropolitan area in the world with over 37 million people in its greater metro area."
+    }
+  ]
+}

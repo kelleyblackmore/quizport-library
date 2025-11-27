@@ -1,0 +1,44 @@
+{
+  "title": "Biology Basics",
+  "description": "Fundamental concepts in biology and life science",
+  "difficulty": "Easy",
+  "category": "science",
+  "tags": ["biology", "cells", "life-science", "fundamentals"],
+  "questions": [
+    {
+      "question": "What is the powerhouse of the cell?",
+      "choices": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
+      "answer": 1,
+      "explanation": "Mitochondria are known as the powerhouse of the cell because they produce ATP (energy) through cellular respiration."
+    },
+    {
+      "question": "What is the process by which plants make food?",
+      "choices": ["Respiration", "Photosynthesis", "Digestion", "Fermentation"],
+      "answer": 1,
+      "explanation": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of sugar."
+    },
+    {
+      "question": "What is DNA?",
+      "choices": [
+        "A type of protein",
+        "The genetic material that carries information",
+        "A type of carbohydrate",
+        "A cell membrane"
+      ],
+      "answer": 1,
+      "explanation": "DNA (Deoxyribonucleic Acid) is the molecule that carries genetic information and instructions for the development, functioning, and reproduction of all living organisms."
+    },
+    {
+      "question": "Which blood type is the universal donor?",
+      "choices": ["A", "B", "AB", "O"],
+      "answer": 3,
+      "explanation": "Type O negative blood is the universal donor because it can be given to people of any blood type in emergencies."
+    },
+    {
+      "question": "How many chambers does the human heart have?",
+      "choices": ["2", "3", "4", "5"],
+      "answer": 2,
+      "explanation": "The human heart has four chambers: two atria (upper chambers) and two ventricles (lower chambers)."
+    }
+  ]
+}

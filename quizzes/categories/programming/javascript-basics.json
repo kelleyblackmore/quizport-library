@@ -1,0 +1,44 @@
+{
+  "title": "JavaScript Fundamentals",
+  "description": "Test your knowledge of basic JavaScript concepts",
+  "difficulty": "Medium",
+  "category": "programming",
+  "tags": ["javascript", "programming", "fundamentals", "es6"],
+  "questions": [
+    {
+      "question": "What is the correct way to declare a variable in modern JavaScript?",
+      "choices": ["var x = 5;", "let x = 5;", "const x = 5;", "Both let and const"],
+      "answer": 3,
+      "explanation": "Both 'let' and 'const' are modern ways to declare variables in ES6+. Use 'const' for values that won't change, and 'let' for values that will."
+    },
+    {
+      "question": "What does '===' check in JavaScript?",
+      "choices": ["Value only", "Type only", "Both value and type", "Neither"],
+      "answer": 2,
+      "explanation": "The '===' operator checks for strict equality, comparing both value and type. For example, '5 === \"5\"' is false."
+    },
+    {
+      "question": "Which array method modifies the original array?",
+      "choices": ["map()", "filter()", "push()", "slice()"],
+      "answer": 2,
+      "explanation": "push() adds elements to the end of an array and modifies the original array. map(), filter(), and slice() return new arrays."
+    },
+    {
+      "question": "What is a closure in JavaScript?",
+      "choices": [
+        "A function that returns another function",
+        "A function that has access to variables from its outer scope",
+        "A way to close a browser window",
+        "A method to end a loop"
+      ],
+      "answer": 1,
+      "explanation": "A closure is a function that has access to variables in its outer (enclosing) lexical scope, even after the outer function has returned."
+    },
+    {
+      "question": "What is the output of: console.log(typeof null)?",
+      "choices": ["\"null\"", "\"undefined\"", "\"object\"", "\"number\""],
+      "answer": 2,
+      "explanation": "This is a known quirk in JavaScript. typeof null returns \"object\" due to a bug in the original JavaScript implementation."
+    }
+  ]
+}
