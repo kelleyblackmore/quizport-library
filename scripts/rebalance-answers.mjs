@@ -19,9 +19,12 @@
  */
 
 import { readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
-import { basename, join, relative } from 'node:path';
+import { basename, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
+// fileURLToPath, not URL.pathname: a checkout under a path containing spaces
+// keeps its %20 escapes in pathname and every read then fails with ENOENT.
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const QUIZ_DIR = join(ROOT, 'quizzes', 'categories');
 const APPLY = process.argv.includes('--apply');
 

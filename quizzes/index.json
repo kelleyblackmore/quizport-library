@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/schemas/quiz-schema.json",
   "generated": "run `npm run build:index` to regenerate",
+  "quizSchema": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/schemas/quiz-schema.json",
   "counts": {
     "quizzes": 22,
     "questions": 203,

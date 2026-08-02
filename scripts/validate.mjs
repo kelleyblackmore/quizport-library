@@ -11,8 +11,11 @@
 
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
+// fileURLToPath, not URL.pathname: a checkout under a path containing spaces
+// keeps its %20 escapes in pathname and every read then fails with ENOENT.
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const QUIZ_DIR = join(ROOT, 'quizzes', 'categories');
 const SCHEMA_PATH = join(ROOT, 'schemas', 'quiz-schema.json');
 
@@ -39,14 +42,25 @@ function checkAgainstSchema(quiz, where) {
   for (const key of schema.required ?? []) {
     if (quiz[key] === undefined) errors.push(`${where}: missing required "${key}"`);
   }
-  if (typeof quiz.title === 'string') {
-    const { minLength = 0, maxLength = Infinity } = p.title;
-    if (quiz.title.length < minLength || quiz.title.length > maxLength) {
-      errors.push(`${where}: title length ${quiz.title.length} outside ${minLength}-${maxLength}`);
+  // Check the TYPE before the constraint. Guarding with `typeof === 'string'`
+  // silently skipped validation for a numeric or null title, so a document
+  // violating the schema passed and build:index published the bad value.
+  if (quiz.title !== undefined) {
+    if (typeof quiz.title !== 'string') {
+      errors.push(`${where}: title must be a string (got ${typeof quiz.title})`);
+    } else {
+      const { minLength = 0, maxLength = Infinity } = p.title;
+      if (quiz.title.length < minLength || quiz.title.length > maxLength) {
+        errors.push(`${where}: title length ${quiz.title.length} outside ${minLength}-${maxLength}`);
+      }
     }
   }
-  if (quiz.description !== undefined && quiz.description.length > p.description.maxLength) {
-    errors.push(`${where}: description exceeds ${p.description.maxLength} chars`);
+  if (quiz.description !== undefined) {
+    if (typeof quiz.description !== 'string') {
+      errors.push(`${where}: description must be a string (got ${typeof quiz.description})`);
+    } else if (quiz.description.length > p.description.maxLength) {
+      errors.push(`${where}: description exceeds ${p.description.maxLength} chars`);
+    }
   }
   if (quiz.difficulty !== undefined && !p.difficulty.enum.includes(quiz.difficulty)) {
     errors.push(`${where}: difficulty "${quiz.difficulty}" not in ${p.difficulty.enum.join('|')}`);
@@ -72,19 +86,44 @@ function checkAgainstSchema(quiz, where) {
       errors.push(`${at}: missing answer`);
       return;
     }
-    const answerOk =
-      (Number.isInteger(q.answer) && q.answer >= 0) || typeof q.answer === 'string';
-    if (!answerOk) {
-      errors.push(`${at}: answer must be a non-negative integer or a string (got ${JSON.stringify(q.answer)})`);
+    // The schema permits three answer forms: an index, an array of indices
+    // for multi-select, or literal text. Rejecting arrays here would have made
+    // `npm run validate` fail on a quiz using the multi-select format the
+    // schema now advertises.
+    const isIndex = Number.isInteger(q.answer) && q.answer >= 0;
+    const isMulti = Array.isArray(q.answer);
+    const isText = typeof q.answer === 'string';
+
+    if (isMulti) {
+      if (q.answer.length === 0) {
+        errors.push(`${at}: multi-select answer array is empty`);
+      }
+      if (!q.answer.every((n) => Number.isInteger(n) && n >= 0)) {
+        errors.push(`${at}: every multi-select answer must be a non-negative integer`);
+      }
+      if (new Set(q.answer).size !== q.answer.length) {
+        errors.push(`${at}: multi-select answer contains duplicate indices`);
+      }
+    } else if (!isIndex && !isText) {
+      errors.push(
+        `${at}: answer must be a non-negative integer, an array of indices, or a string (got ${JSON.stringify(q.answer)})`
+      );
     }
+
     if (q.choices !== undefined) {
       if (!Array.isArray(q.choices) || q.choices.length < 2) {
         errors.push(`${at}: choices must be an array of at least 2`);
-      } else if (Number.isInteger(q.answer) && q.answer >= q.choices.length) {
-        errors.push(`${at}: answer index ${q.answer} is out of range for ${q.choices.length} choices`);
+      } else {
+        // Range-check every index, single or multi.
+        const indices = isMulti ? q.answer : isIndex ? [q.answer] : [];
+        for (const i of indices) {
+          if (Number.isInteger(i) && i >= q.choices.length) {
+            errors.push(`${at}: answer index ${i} is out of range for ${q.choices.length} choices`);
+          }
+        }
       }
-    } else if (Number.isInteger(q.answer)) {
-      errors.push(`${at}: integer answer requires a choices array`);
+    } else if (isIndex || isMulti) {
+      errors.push(`${at}: an index answer requires a choices array`);
     }
   });
 }
@@ -95,10 +134,22 @@ function checkContent(quiz, where, filePath) {
     const at = `${where} q${i + 1}`;
     stats.questions += 1;
 
-    if (q.explanation && q.explanation.trim()) stats.explanations += 1;
-    else errors.push(`${at}: no explanation. Every question in this library must explain its answer.`);
+    // Type-check before calling .trim(): a quiz with `explanation: 123` would
+    // otherwise throw here and abort the run instead of reporting the problem
+    // alongside everything else.
+    if (q.explanation !== undefined && typeof q.explanation !== 'string') {
+      errors.push(`${at}: explanation must be a string (got ${typeof q.explanation})`);
+    } else if (typeof q.explanation === 'string' && q.explanation.trim()) {
+      stats.explanations += 1;
+    } else {
+      errors.push(`${at}: no explanation. Every question in this library must explain its answer.`);
+    }
 
-    if (q.hint && q.hint.trim()) stats.hints += 1;
+    if (q.hint !== undefined && typeof q.hint !== 'string') {
+      errors.push(`${at}: hint must be a string (got ${typeof q.hint})`);
+    } else if (typeof q.hint === 'string' && q.hint.trim()) {
+      stats.hints += 1;
+    }
 
     if (Array.isArray(q.choices)) {
       const trimmed = q.choices.map((c) => String(c).trim());

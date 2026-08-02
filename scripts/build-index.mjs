@@ -14,8 +14,11 @@
 
 import { readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = new URL('..', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
+// fileURLToPath, not URL.pathname: a checkout under a path containing spaces
+// keeps its %20 escapes in pathname and every read then fails with ENOENT.
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const QUIZ_DIR = join(ROOT, 'quizzes', 'categories');
 const OUT = join(ROOT, 'quizzes', 'index.json');
 
@@ -60,8 +63,19 @@ const quizzes = walk(QUIZ_DIR)
     if (quiz.questions.some((q) => q.explanation)) features.push('explanations');
     if (quiz.questions.some((q) => q.hint)) features.push('hints');
     if (quiz.questions.some((q) => typeof q.answer === 'string' && !q.choices)) features.push('text');
-    if (quiz.questions.some((q) => Array.isArray(q.choices) && q.choices.length === 2
-      && q.choices.map((c) => String(c).toLowerCase()).includes('true'))) features.push('true-false');
+    if (quiz.questions.some((q) => Array.isArray(q.answer))) features.push('multi-select');
+    // Require BOTH true and false: checking only for "true" would tag a quiz
+    // whose choices are ["true", "maybe"], which is not a true/false question
+    // and is not what the app detects either.
+    if (
+      quiz.questions.some((q) => {
+        if (!Array.isArray(q.choices) || q.choices.length !== 2) return false;
+        const lowered = q.choices.map((c) => String(c).trim().toLowerCase());
+        return lowered.includes('true') && lowered.includes('false');
+      })
+    ) {
+      features.push('true-false');
+    }
     if (features.length) entry.features = features;
 
     return entry;
@@ -71,8 +85,12 @@ const byCategory = {};
 for (const q of quizzes) byCategory[q.category] = (byCategory[q.category] ?? 0) + 1;
 
 const index = {
-  $schema: `${RAW_BASE}/schemas/quiz-schema.json`,
+  // Deliberately no $schema. quiz-schema.json describes a single quiz, and
+  // this manifest has neither `title` nor `questions`, so advertising that
+  // URI made schema-aware editors validate the index against the wrong
+  // contract and flag it as permanently invalid.
   generated: 'run `npm run build:index` to regenerate',
+  quizSchema: `${RAW_BASE}/schemas/quiz-schema.json`,
   counts: {
     quizzes: quizzes.length,
     questions: quizzes.reduce((sum, q) => sum + q.questionCount, 0),
