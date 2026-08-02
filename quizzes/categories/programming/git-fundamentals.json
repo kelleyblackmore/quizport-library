@@ -1,0 +1,69 @@
+{
+  "title": "Git Fundamentals",
+  "description": "Everyday Git commands and concepts for developers new to version control",
+  "difficulty": "Easy",
+  "category": "programming",
+  "tags": ["git", "version-control", "programming", "basics", "beginner"],
+  "questions": [
+    {
+      "question": "Which command turns the current directory into a new Git repository?",
+      "choices": ["git start", "git init", "git new", "git create"],
+      "answer": 1,
+      "explanation": "git init creates the hidden .git directory that stores the repository's history and configuration. The other commands do not exist in Git."
+    },
+    {
+      "question": "Which command shows which files are modified, staged, or untracked?",
+      "choices": ["git status", "git show", "git log", "git diff"],
+      "answer": 0,
+      "explanation": "git status summarizes the state of the working directory and the staging area. git show displays a single commit, git log lists history, and git diff prints the actual line-level changes."
+    },
+    {
+      "question": "What does 'git add file.txt' do?",
+      "choices": ["Creates a new commit containing the file", "Uploads the file to the remote repository", "Adds the file to .gitignore", "Stages the file's changes for the next commit"],
+      "answer": 3,
+      "explanation": "git add moves changes into the staging area (also called the index), where they wait to be included in the next commit. Nothing is recorded in history until you run git commit."
+    },
+    {
+      "question": "Which command sends your local commits to a remote repository?",
+      "choices": ["git pull", "git fetch", "git push", "git commit"],
+      "answer": 2,
+      "explanation": "git push uploads commits from your local branch to the corresponding branch on the remote. pull and fetch move data in the opposite direction, from the remote to your machine."
+    },
+    {
+      "question": "Which command downloads new commits from a remote without changing your working branch?",
+      "choices": ["git pull", "git merge", "git fetch", "git rebase"],
+      "answer": 2,
+      "explanation": "git fetch updates your remote-tracking branches but leaves your local branch and working directory untouched. git pull is effectively a fetch followed by a merge (or rebase) into your current branch."
+    },
+    {
+      "question": "Which command creates a branch named 'feature' and switches to it in one step?",
+      "choices": ["git branch feature", "git checkout -b feature", "git switch feature", "git merge feature"],
+      "answer": 1,
+      "explanation": "git checkout -b feature creates the branch and checks it out immediately (the modern equivalent is git switch -c feature). git branch feature creates it without switching, and git switch feature only works if the branch already exists."
+    },
+    {
+      "question": "What is a merge conflict?",
+      "choices": ["A network error that occurs while pushing", "A situation where Git cannot automatically reconcile competing changes to the same part of a file", "A branch that contains no commits", "A commit whose signature failed verification"],
+      "answer": 1,
+      "explanation": "When two branches change the same lines of a file differently, Git cannot decide which version wins and marks the file as conflicted. You edit the file to resolve the conflict, then stage and commit the result."
+    },
+    {
+      "question": "Which file tells Git which paths it should leave untracked?",
+      "choices": [".gitignore", ".gitconfig", ".gitattributes", ".gitmodules"],
+      "answer": 0,
+      "explanation": ".gitignore lists patterns for files Git should not track, such as build output and secrets. .gitconfig holds settings, .gitattributes controls per-path behavior like line endings, and .gitmodules describes submodules."
+    },
+    {
+      "question": "Which command displays the commit history of the current branch?",
+      "choices": ["git history", "git list", "git commits", "git log"],
+      "answer": 3,
+      "explanation": "git log walks backwards from the current commit and prints each commit's hash, author, date, and message. The other three are not Git commands."
+    },
+    {
+      "question": "In Git, what does HEAD refer to?",
+      "choices": ["The very first commit in the repository", "The remote repository's default branch", "A pointer to the currently checked-out commit or branch", "The staging area"],
+      "answer": 2,
+      "explanation": "HEAD is a reference to what you currently have checked out, normally the tip of the branch you are on. That is why HEAD~1 means 'one commit before where I am now'."
+    }
+  ]
+}

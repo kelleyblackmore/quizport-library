@@ -1,0 +1,69 @@
+{
+  "title": "Python Fundamentals",
+  "description": "Core Python syntax and built-in behavior for people learning the language",
+  "difficulty": "Easy",
+  "category": "programming",
+  "tags": ["python", "programming", "basics", "beginner", "syntax"],
+  "questions": [
+    {
+      "question": "Which built-in function returns the number of items in a list?",
+      "choices": ["size()", "len()", "count()", "length()"],
+      "answer": 1,
+      "explanation": "len() is the built-in that returns the number of items in a sequence or collection, such as len([1, 2, 3]) returning 3. count() is a list method that counts occurrences of a specific value."
+    },
+    {
+      "question": "What is the result of 7 // 2 in Python 3?",
+      "choices": ["3.5", "4", "3", "1"],
+      "answer": 2,
+      "explanation": "The // operator is floor division: it divides and rounds down to the nearest whole number, so 7 // 2 is 3. Regular division with / would give 3.5."
+    },
+    {
+      "question": "Which of these built-in types is mutable (can be changed after creation)?",
+      "choices": ["tuple", "str", "list", "int"],
+      "answer": 2,
+      "explanation": "Lists are mutable, so you can append, remove, or reassign elements in place. Tuples, strings, and integers are immutable, and any operation that appears to modify them actually creates a new object."
+    },
+    {
+      "question": "Which character begins a single-line comment in Python?",
+      "choices": ["/*", "--", "//", "#"],
+      "answer": 3,
+      "explanation": "Python uses # to start a comment, and everything after it on that line is ignored by the interpreter. The other symbols are comment markers in languages such as C, Java, and SQL."
+    },
+    {
+      "question": "Which keyword is used to define a named function in Python?",
+      "choices": ["func", "def", "function", "declare"],
+      "answer": 1,
+      "explanation": "A named function is created with the def keyword, as in def greet(name):. The other spellings come from other languages and are not valid Python keywords."
+    },
+    {
+      "question": "In Python 3, what type does the input() function return?",
+      "choices": ["int", "float", "str", "bool"],
+      "answer": 2,
+      "explanation": "input() always returns a string, even when the user types digits. You must convert it explicitly, for example with int(input()), before doing arithmetic on it."
+    },
+    {
+      "question": "What is the index of the first element in a Python list?",
+      "choices": ["1", "-1", "0", "It depends on the list"],
+      "answer": 2,
+      "explanation": "Python uses zero-based indexing, so the first element is at index 0. The index -1 is a valid shortcut for the last element."
+    },
+    {
+      "question": "Which statement is used to handle runtime errors in Python?",
+      "choices": ["try / except", "try / catch", "begin / rescue", "check / error"],
+      "answer": 0,
+      "explanation": "Python catches exceptions with a try block followed by one or more except blocks. try/catch is Java and JavaScript syntax, and begin/rescue is Ruby."
+    },
+    {
+      "question": "Given nums = [10, 20, 30, 40], what does nums[1:3] return?",
+      "choices": ["[10, 20]", "[20, 30]", "[20, 30, 40]", "[10, 20, 30]"],
+      "answer": 1,
+      "explanation": "Slicing is inclusive of the start index and exclusive of the stop index, so nums[1:3] takes elements at index 1 and 2, giving [20, 30]."
+    },
+    {
+      "question": "Which of these reads a file and guarantees it is closed afterwards, even if an error occurs?",
+      "choices": ["with open('data.txt') as f:", "f = open('data.txt')", "f = read('data.txt')", "f = load('data.txt')"],
+      "answer": 0,
+      "explanation": "The with statement uses open() as a context manager, which closes the file automatically when the block exits, including on an exception. A bare open() leaves the file open until you call close() yourself."
+    }
+  ]
+}

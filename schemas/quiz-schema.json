@@ -56,7 +56,7 @@
             "minItems": 2
           },
           "answer": {
-            "description": "The correct answer (index for multiple choice, text for open-ended)",
+            "description": "The correct answer: a 0-based index into `choices` for single choice, an array of indices for multi-select, or the literal text for an open response.",
             "oneOf": [
               {
                 "type": "integer",
@@ -64,16 +64,39 @@
               },
               {
                 "type": "string"
+              },
+              {
+                "type": "array",
+                "description": "Multi-select: every index that must be chosen.",
+                "items": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "minItems": 1,
+                "uniqueItems": true
               }
             ]
           },
+          "type": {
+            "type": "string",
+            "description": "Optional. The question kind is normally inferred from the shape of `answer` and `choices`, so this is only needed to disambiguate. Omit it unless you must.",
+            "enum": ["single", "multi", "boolean", "text"]
+          },
+          "acceptable": {
+            "type": "array",
+            "description": "Open-response questions only. Additional spellings accepted alongside `answer`. Matching already ignores case, surrounding whitespace and trailing punctuation.",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
           "explanation": {
             "type": "string",
-            "description": "Optional explanation of the correct answer"
+            "description": "Explanation of the correct answer, shown after the user answers. Every quiz in this library provides one for every question."
           },
           "hint": {
             "type": "string",
-            "description": "Optional hint for the question"
+            "description": "Optional hint, available before the user answers."
           }
         }
       }

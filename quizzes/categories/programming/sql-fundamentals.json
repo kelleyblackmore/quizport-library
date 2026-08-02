@@ -1,0 +1,69 @@
+{
+  "title": "SQL Fundamentals",
+  "description": "Querying, joining, and constraining relational data with standard SQL",
+  "difficulty": "Medium",
+  "category": "programming",
+  "tags": ["sql", "databases", "queries", "relational", "programming"],
+  "questions": [
+    {
+      "question": "Which clause filters rows after they have been grouped and aggregated?",
+      "choices": ["WHERE", "GROUP BY", "ORDER BY", "HAVING"],
+      "answer": 3,
+      "explanation": "HAVING applies its condition to the results of aggregation, so it can reference things like COUNT(*) > 5. WHERE filters individual rows before grouping happens."
+    },
+    {
+      "question": "What does an INNER JOIN return?",
+      "choices": ["Every row from both tables regardless of matches", "Every row from the left table plus matches from the right", "Only rows that have matching values in both tables", "Only rows from the left table that have no match on the right"],
+      "answer": 2,
+      "explanation": "An INNER JOIN keeps only the row combinations that satisfy the join condition in both tables. Rows without a match on either side are excluded from the result."
+    },
+    {
+      "question": "In a LEFT JOIN, what appears in the right table's columns when a left row has no match?",
+      "choices": ["Zero", "An empty string", "NULL", "The left row is dropped from the result"],
+      "answer": 2,
+      "explanation": "A LEFT JOIN keeps every row from the left table and fills the right table's columns with NULL where no matching row exists. This is why IS NULL checks on the right side are a common way to find unmatched records."
+    },
+    {
+      "question": "Which keyword removes duplicate rows from a result set?",
+      "choices": ["UNIQUE", "DISTINCT", "DEDUPE", "SEPARATE"],
+      "answer": 1,
+      "explanation": "SELECT DISTINCT collapses identical result rows into one. UNIQUE is a table constraint that prevents duplicate values from being stored, not a way to filter query output."
+    },
+    {
+      "question": "Which set operator combines two result sets and keeps duplicate rows?",
+      "choices": ["UNION", "INTERSECT", "EXCEPT", "UNION ALL"],
+      "answer": 3,
+      "explanation": "UNION ALL concatenates both result sets as-is, while plain UNION performs an extra de-duplication pass. UNION ALL is therefore usually faster when you know duplicates are impossible or acceptable."
+    },
+    {
+      "question": "How does COUNT(column_name) treat NULL values in that column?",
+      "choices": ["It counts them as zero", "It skips them, so they do not increase the count", "It raises an error", "It counts them the same as any other value"],
+      "answer": 1,
+      "explanation": "Aggregate functions ignore NULLs, so COUNT(column_name) counts only rows where that column has a value. COUNT(*) counts every row regardless of NULLs, which is why the two can return different numbers."
+    },
+    {
+      "question": "Which constraint uniquely identifies each row in a table and disallows NULLs?",
+      "choices": ["FOREIGN KEY", "CHECK", "PRIMARY KEY", "DEFAULT"],
+      "answer": 2,
+      "explanation": "A PRIMARY KEY enforces both uniqueness and non-nullability for the column or columns it covers. A FOREIGN KEY instead points at a key in another table to enforce referential integrity."
+    },
+    {
+      "question": "In the logical processing order of a SELECT statement, which clause is evaluated first?",
+      "choices": ["SELECT", "FROM", "WHERE", "ORDER BY"],
+      "answer": 1,
+      "explanation": "SQL is logically processed as FROM, then WHERE, GROUP BY, HAVING, SELECT, and finally ORDER BY. Because SELECT is evaluated after WHERE, a column alias defined in SELECT generally cannot be used in the WHERE clause."
+    },
+    {
+      "question": "What is the correct way to find rows where a column has no value?",
+      "choices": ["WHERE col = NULL", "WHERE col == NULL", "WHERE col EQUALS NULL", "WHERE col IS NULL"],
+      "answer": 3,
+      "explanation": "NULL means 'unknown', so comparing it with = yields unknown rather than true and matches nothing. The IS NULL predicate exists specifically to test for the absence of a value."
+    },
+    {
+      "question": "What is the main purpose of creating an index on a table column?",
+      "choices": ["To speed up row lookups at the cost of extra storage and slower writes", "To enforce the column's data type", "To encrypt the column's contents", "To create an automatic backup of the column"],
+      "answer": 0,
+      "explanation": "An index is an auxiliary data structure that lets the database find matching rows without scanning the whole table. The trade-off is additional disk space and extra work on every INSERT, UPDATE, and DELETE that touches the indexed column."
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "generated": "run `npm run build:index` to regenerate",
+  "quizSchema": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/schemas/quiz-schema.json",
+  "counts": {
+    "quizzes": 22,
+    "questions": 203,
+    "byCategory": {
+      "general": 3,
+      "history": 3,
+      "languages": 3,
+      "math": 2,
+      "programming": 7,
+      "science": 4
+    }
+  },
+  "quizzes": [
+    {
+      "id": "pop-culture-2020s",
+      "title": "Pop Culture 2020s",
+      "category": "general",
+      "questionCount": 8,
+      "path": "quizzes/categories/general/pop-culture-2020s.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/general/pop-culture-2020s.json",
+      "description": "Test your knowledge of popular culture from the 2020s",
+      "difficulty": "Easy",
+      "tags": [
+        "pop-culture",
+        "entertainment",
+        "2020s",
+        "trivia",
+        "movies",
+        "music"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "world-capitals",
+      "title": "World Capitals",
+      "category": "general",
+      "questionCount": 10,
+      "path": "quizzes/categories/general/world-capitals.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/general/world-capitals.json",
+      "description": "Match countries from every continent to their capital cities",
+      "difficulty": "Easy",
+      "tags": [
+        "capitals",
+        "geography",
+        "world",
+        "countries",
+        "trivia"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "world-geography",
+      "title": "World Geography Trivia",
+      "category": "general",
+      "questionCount": 8,
+      "path": "quizzes/categories/general/world-geography.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/general/world-geography.json",
+      "description": "Test your knowledge of countries, capitals, and landmarks around the world",
+      "difficulty": "Medium",
+      "tags": [
+        "geography",
+        "trivia",
+        "world",
+        "countries",
+        "capitals"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "ancient-rome",
+      "title": "Ancient Rome",
+      "category": "history",
+      "questionCount": 10,
+      "path": "quizzes/categories/history/ancient-rome.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/history/ancient-rome.json",
+      "description": "Test your knowledge of the Roman Republic and Empire, from legendary founding to fall",
+      "difficulty": "Medium",
+      "tags": [
+        "ancient-rome",
+        "history",
+        "roman-empire",
+        "classical-antiquity"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "us-history",
+      "title": "US History Essentials",
+      "category": "history",
+      "questionCount": 10,
+      "path": "quizzes/categories/history/us-history.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/history/us-history.json",
+      "description": "Core events, documents and figures from American history",
+      "difficulty": "Medium",
+      "tags": [
+        "us-history",
+        "history",
+        "america",
+        "constitution",
+        "civil-war"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "world-war-2",
+      "title": "World War II History",
+      "category": "history",
+      "questionCount": 5,
+      "path": "quizzes/categories/history/world-war-2.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/history/world-war-2.json",
+      "description": "Key events and facts about the Second World War",
+      "difficulty": "Medium",
+      "tags": [
+        "world-war-2",
+        "history",
+        "20th-century",
+        "military"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "english-vocabulary",
+      "title": "English Vocabulary Builder",
+      "category": "languages",
+      "questionCount": 10,
+      "path": "quizzes/categories/languages/english-vocabulary.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/languages/english-vocabulary.json",
+      "description": "Expand your English vocabulary with commonly used words",
+      "difficulty": "Medium",
+      "tags": [
+        "english",
+        "vocabulary",
+        "words",
+        "definitions",
+        "language-learning"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "french-basics",
+      "title": "French Basics",
+      "category": "languages",
+      "questionCount": 10,
+      "path": "quizzes/categories/languages/french-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/languages/french-basics.json",
+      "description": "Essential French greetings, vocabulary and beginner grammar",
+      "difficulty": "Easy",
+      "tags": [
+        "french",
+        "language-learning",
+        "vocabulary",
+        "basics",
+        "beginner"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "spanish-basics",
+      "title": "Spanish Basics",
+      "category": "languages",
+      "questionCount": 10,
+      "path": "quizzes/categories/languages/spanish-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/languages/spanish-basics.json",
+      "description": "Learn fundamental Spanish vocabulary and grammar",
+      "difficulty": "Easy",
+      "tags": [
+        "spanish",
+        "language-learning",
+        "vocabulary",
+        "basics",
+        "beginner"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "algebra-101",
+      "title": "Algebra 101",
+      "category": "math",
+      "questionCount": 5,
+      "path": "quizzes/categories/math/algebra-101.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/math/algebra-101.json",
+      "description": "Basic algebra concepts and problem solving",
+      "difficulty": "Easy",
+      "tags": [
+        "algebra",
+        "math",
+        "equations",
+        "basics"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "geometry-basics",
+      "title": "Geometry Basics",
+      "category": "math",
+      "questionCount": 10,
+      "path": "quizzes/categories/math/geometry-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/math/geometry-basics.json",
+      "description": "Basic geometry covering shapes, angles, area, perimeter, and volume",
+      "difficulty": "Easy",
+      "tags": [
+        "geometry",
+        "math",
+        "shapes",
+        "area",
+        "basics"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "docker-essentials",
+      "title": "Docker Essentials",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/docker-essentials.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/docker-essentials.json",
+      "description": "Images, containers, Dockerfiles, and build behavior for developers containerizing applications",
+      "difficulty": "Medium",
+      "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "dockerfile",
+        "programming"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "git-fundamentals",
+      "title": "Git Fundamentals",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/git-fundamentals.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/git-fundamentals.json",
+      "description": "Everyday Git commands and concepts for developers new to version control",
+      "difficulty": "Easy",
+      "tags": [
+        "git",
+        "version-control",
+        "programming",
+        "basics",
+        "beginner"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "javascript-basics",
+      "title": "JavaScript Fundamentals",
+      "category": "programming",
+      "questionCount": 5,
+      "path": "quizzes/categories/programming/javascript-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/javascript-basics.json",
+      "description": "Test your knowledge of basic JavaScript concepts",
+      "difficulty": "Medium",
+      "tags": [
+        "javascript",
+        "programming",
+        "fundamentals",
+        "es6"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "linux-plus",
+      "title": "CompTIA Linux+ Essentials",
+      "category": "programming",
+      "questionCount": 15,
+      "path": "quizzes/categories/programming/linux-plus.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/linux-plus.json",
+      "description": "Test your Linux system administration knowledge for CompTIA Linux+ certification",
+      "difficulty": "Hard",
+      "tags": [
+        "linux",
+        "comptia",
+        "linux+",
+        "system-administration",
+        "certification"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "python-basics",
+      "title": "Python Fundamentals",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/python-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/python-basics.json",
+      "description": "Core Python syntax and built-in behavior for people learning the language",
+      "difficulty": "Easy",
+      "tags": [
+        "python",
+        "programming",
+        "basics",
+        "beginner",
+        "syntax"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "security-plus",
+      "title": "CompTIA Security+ Fundamentals",
+      "category": "programming",
+      "questionCount": 12,
+      "path": "quizzes/categories/programming/security-plus.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/security-plus.json",
+      "description": "Test your knowledge of cybersecurity concepts for CompTIA Security+ certification",
+      "difficulty": "Hard",
+      "tags": [
+        "security",
+        "comptia",
+        "security+",
+        "cybersecurity",
+        "certification"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "sql-fundamentals",
+      "title": "SQL Fundamentals",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/sql-fundamentals.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/sql-fundamentals.json",
+      "description": "Querying, joining, and constraining relational data with standard SQL",
+      "difficulty": "Medium",
+      "tags": [
+        "sql",
+        "databases",
+        "queries",
+        "relational",
+        "programming"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "biology-basics",
+      "title": "Biology Basics",
+      "category": "science",
+      "questionCount": 5,
+      "path": "quizzes/categories/science/biology-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/science/biology-basics.json",
+      "description": "Fundamental concepts in biology and life science",
+      "difficulty": "Easy",
+      "tags": [
+        "biology",
+        "cells",
+        "life-science",
+        "fundamentals"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "chemistry-basics",
+      "title": "Chemistry Basics",
+      "category": "science",
+      "questionCount": 10,
+      "path": "quizzes/categories/science/chemistry-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/science/chemistry-basics.json",
+      "description": "Fundamental chemistry concepts including elements, atoms, bonding, and reactions",
+      "difficulty": "Easy",
+      "tags": [
+        "chemistry",
+        "elements",
+        "atoms",
+        "fundamentals"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "human-anatomy",
+      "title": "Human Anatomy Basics",
+      "category": "science",
+      "questionCount": 10,
+      "path": "quizzes/categories/science/human-anatomy.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/science/human-anatomy.json",
+      "description": "An introduction to the organs, bones, and systems of the human body",
+      "difficulty": "Easy",
+      "tags": [
+        "anatomy",
+        "human-body",
+        "biology",
+        "fundamentals"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "physics-mechanics",
+      "title": "Physics: Motion and Forces",
+      "category": "science",
+      "questionCount": 10,
+      "path": "quizzes/categories/science/physics-mechanics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/science/physics-mechanics.json",
+      "description": "Classical mechanics essentials covering Newton's laws, momentum, energy, and motion",
+      "difficulty": "Medium",
+      "tags": [
+        "physics",
+        "mechanics",
+        "newtons-laws",
+        "motion",
+        "forces"
+      ],
+      "features": [
+        "explanations"
+      ]
+    }
+  ]
+}

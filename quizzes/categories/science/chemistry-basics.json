@@ -1,0 +1,69 @@
+{
+  "title": "Chemistry Basics",
+  "description": "Fundamental chemistry concepts including elements, atoms, bonding, and reactions",
+  "difficulty": "Easy",
+  "category": "science",
+  "tags": ["chemistry", "elements", "atoms", "fundamentals"],
+  "questions": [
+    {
+      "question": "What is the chemical symbol for gold?",
+      "choices": ["Ag", "Au", "Gd", "Go"],
+      "answer": 1,
+      "explanation": "Gold's symbol Au comes from its Latin name aurum. Ag is silver (argentum) and Gd is gadolinium."
+    },
+    {
+      "question": "How many protons does an atom of carbon have?",
+      "choices": ["6", "8", "12", "14"],
+      "answer": 0,
+      "explanation": "Carbon's atomic number is 6, and the atomic number is defined as the number of protons in the nucleus. The value 12 is carbon's most common mass number, not its proton count."
+    },
+    {
+      "question": "What is the chemical formula for water?",
+      "choices": ["H2O", "HO2", "H2O2", "CO2"],
+      "answer": 0,
+      "explanation": "A water molecule contains two hydrogen atoms bonded to one oxygen atom, giving the formula H2O. H2O2 is hydrogen peroxide, a different compound."
+    },
+    {
+      "question": "Which subatomic particle carries a negative electric charge?",
+      "choices": ["Proton", "Neutron", "Electron", "Nucleus"],
+      "answer": 2,
+      "explanation": "Electrons carry a negative charge and orbit the nucleus. Protons are positive and neutrons have no charge."
+    },
+    {
+      "question": "A solution with a pH of exactly 7 at room temperature is described as what?",
+      "choices": ["Strongly acidic", "Slightly acidic", "Neutral", "Strongly basic"],
+      "answer": 2,
+      "explanation": "On the 0-14 pH scale, 7 is the neutral midpoint where acid and base strengths balance, as in pure water. Values below 7 are acidic and above 7 are basic."
+    },
+    {
+      "question": "Which gas makes up the largest share of Earth's atmosphere?",
+      "choices": ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"],
+      "answer": 1,
+      "explanation": "Nitrogen makes up about 78% of dry air by volume, while oxygen is about 21%. Argon and carbon dioxide together account for well under 1%."
+    },
+    {
+      "question": "What is a substance called that speeds up a chemical reaction without being used up by it?",
+      "choices": ["Solvent", "Catalyst", "Reactant", "Precipitate"],
+      "answer": 1,
+      "explanation": "A catalyst lowers the activation energy of a reaction and emerges unchanged, so it can act over and over. Reactants, by contrast, are consumed during the reaction."
+    },
+    {
+      "question": "Which of these elements is a noble gas?",
+      "choices": ["Hydrogen", "Oxygen", "Chlorine", "Helium"],
+      "answer": 3,
+      "explanation": "Helium sits in Group 18, the noble gases, whose full outer electron shells make them very unreactive. Hydrogen, oxygen, and chlorine all readily form compounds."
+    },
+    {
+      "question": "What is the chemical symbol for sodium?",
+      "choices": ["So", "Na", "S", "Sd"],
+      "answer": 1,
+      "explanation": "Sodium's symbol Na comes from its Latin name natrium. The symbol S belongs to sulfur."
+    },
+    {
+      "question": "Table salt (NaCl) is held together by which type of chemical bond?",
+      "choices": ["Covalent", "Metallic", "Ionic", "Hydrogen"],
+      "answer": 2,
+      "explanation": "Sodium transfers an electron to chlorine, producing Na+ and Cl- ions that attract each other in an ionic bond. Covalent bonds instead involve shared electrons."
+    }
+  ]
+}
