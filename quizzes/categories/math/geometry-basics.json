@@ -1,0 +1,69 @@
+{
+  "title": "Geometry Basics",
+  "description": "Basic geometry covering shapes, angles, area, perimeter, and volume",
+  "difficulty": "Easy",
+  "category": "math",
+  "tags": ["geometry", "math", "shapes", "area", "basics"],
+  "questions": [
+    {
+      "question": "What do the three interior angles of any triangle add up to?",
+      "choices": ["90 degrees", "180 degrees", "270 degrees", "360 degrees"],
+      "answer": 1,
+      "explanation": "In Euclidean geometry the interior angles of a triangle always sum to 180 degrees, no matter the triangle's shape or size."
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "choices": ["5", "6", "7", "8"],
+      "answer": 1,
+      "explanation": "A hexagon has 6 sides. A 5-sided figure is a pentagon and an 8-sided one is an octagon."
+    },
+    {
+      "question": "What is the area of a rectangle that is 8 cm long and 3 cm wide?",
+      "choices": ["11 cm²", "22 cm²", "24 cm²", "48 cm²"],
+      "answer": 2,
+      "explanation": "Area of a rectangle is length × width, so 8 cm × 3 cm = 24 cm². The value 22 is the perimeter in cm, not the area."
+    },
+    {
+      "question": "What is the perimeter of a square with sides of 5 m?",
+      "choices": ["10 m", "15 m", "20 m", "25 m"],
+      "answer": 2,
+      "explanation": "A square has four equal sides, so the perimeter is 4 × 5 m = 20 m. The value 25 m² would be its area."
+    },
+    {
+      "question": "What is a triangle with all three sides of equal length called?",
+      "choices": ["Equilateral", "Isosceles", "Scalene", "Obtuse"],
+      "answer": 0,
+      "explanation": "An equilateral triangle has three equal sides and three 60-degree angles. An isosceles triangle has exactly two equal sides and a scalene triangle has none."
+    },
+    {
+      "question": "What is the area of a triangle with a base of 10 cm and a height of 6 cm?",
+      "choices": ["16 cm²", "30 cm²", "60 cm²", "80 cm²"],
+      "answer": 1,
+      "explanation": "Area of a triangle is ½ × base × height, so ½ × 10 cm × 6 cm = 30 cm²."
+    },
+    {
+      "question": "Which formula gives the circumference of a circle with radius r?",
+      "choices": ["πr²", "2πr", "πr³", "4πr²"],
+      "answer": 1,
+      "explanation": "Circumference is 2πr, the distance around the circle. The expression πr² is the circle's area instead."
+    },
+    {
+      "question": "What do the interior angles of a quadrilateral add up to?",
+      "choices": ["180 degrees", "270 degrees", "360 degrees", "540 degrees"],
+      "answer": 2,
+      "explanation": "A quadrilateral can be split into two triangles, so its interior angles total 2 × 180 = 360 degrees."
+    },
+    {
+      "question": "What is the volume of a cube with edges of 3 cm?",
+      "choices": ["27 cm³", "9 cm³", "18 cm³", "54 cm³"],
+      "answer": 0,
+      "explanation": "Volume of a cube is edge³, so 3 cm × 3 cm × 3 cm = 27 cm³. The value 54 cm² is its total surface area."
+    },
+    {
+      "question": "A right triangle has legs of 3 cm and 4 cm. How long is its hypotenuse?",
+      "choices": ["6 cm", "5 cm", "7 cm", "12 cm"],
+      "answer": 1,
+      "explanation": "By the Pythagorean theorem, a² + b² = c², so 3² + 4² = 9 + 16 = 25 and c = 5 cm."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Ancient Rome",
+  "description": "Test your knowledge of the Roman Republic and Empire, from legendary founding to fall",
+  "difficulty": "Medium",
+  "category": "history",
+  "tags": ["ancient-rome", "history", "roman-empire", "classical-antiquity"],
+  "questions": [
+    {
+      "question": "According to Roman tradition, in which year was the city of Rome founded?",
+      "choices": ["753 BC", "509 BC", "264 BC", "44 BC"],
+      "answer": 0,
+      "explanation": "Roman tradition dated the founding of the city to 753 BC, the legendary date associated with Romulus. Historians treat it as legend, but Romans themselves counted years from it."
+    },
+    {
+      "question": "Which river does the city of Rome stand on?",
+      "choices": ["The Po", "The Arno", "The Tiber", "The Rubicon"],
+      "answer": 2,
+      "explanation": "Rome grew up on the banks of the Tiber, whose crossing point and access to the sea made the site valuable for trade."
+    },
+    {
+      "question": "What were the three wars fought between Rome and Carthage called?",
+      "choices": [
+        "The Punic Wars",
+        "The Gallic Wars",
+        "The Macedonian Wars",
+        "The Social War"
+      ],
+      "answer": 0,
+      "explanation": "The Punic Wars (264-146 BC) were fought between Rome and Carthage. The name comes from 'Punicus', the Latin word for Phoenician, the origin of Carthage's settlers."
+    },
+    {
+      "question": "Which Carthaginian general famously crossed the Alps to invade Italy?",
+      "choices": ["Scipio Africanus", "Hannibal", "Vercingetorix", "Pyrrhus"],
+      "answer": 1,
+      "explanation": "Hannibal led an army, including war elephants, over the Alps into Italy during the Second Punic War. Scipio Africanus was the Roman general who ultimately defeated him."
+    },
+    {
+      "question": "In which year was Julius Caesar assassinated?",
+      "choices": ["49 BC", "44 BC", "31 BC", "27 BC"],
+      "answer": 1,
+      "explanation": "Caesar was assassinated in the Senate on the Ides of March (15 March) in 44 BC by a group of senators led by Brutus and Cassius."
+    },
+    {
+      "question": "Who is considered the first Roman emperor?",
+      "choices": ["Julius Caesar", "Augustus", "Tiberius", "Nero"],
+      "answer": 1,
+      "explanation": "Augustus, born Octavian and the adopted heir of Julius Caesar, became the first emperor in 27 BC. Julius Caesar held the title of dictator but was never emperor."
+    },
+    {
+      "question": "Which volcano erupted in AD 79 and buried the city of Pompeii?",
+      "choices": ["Mount Etna", "Mount Vesuvius", "Stromboli", "Mount Vulture"],
+      "answer": 1,
+      "explanation": "Mount Vesuvius erupted in AD 79, burying Pompeii and Herculaneum under ash and preserving much of both towns for archaeologists."
+    },
+    {
+      "question": "What is the name of the great amphitheatre in Rome completed around AD 80?",
+      "choices": ["The Circus Maximus", "The Pantheon", "The Colosseum", "The Forum Romanum"],
+      "answer": 2,
+      "explanation": "The Colosseum, also called the Flavian Amphitheatre, was completed under the emperor Titus and hosted gladiatorial games. The Circus Maximus was a chariot-racing track."
+    },
+    {
+      "question": "Which emperor, together with Licinius, issued the Edict of Milan in AD 313 granting toleration to Christians?",
+      "choices": ["Diocletian", "Trajan", "Constantine I", "Theodosius I"],
+      "answer": 2,
+      "explanation": "Constantine I and Licinius issued the Edict of Milan in AD 313, which ended official persecution and granted religious toleration across the empire."
+    },
+    {
+      "question": "Which year is conventionally given for the fall of the Western Roman Empire?",
+      "choices": ["AD 330", "AD 410", "AD 476", "AD 1453"],
+      "answer": 2,
+      "explanation": "In AD 476 the last western emperor, Romulus Augustulus, was deposed by Odoacer. The Eastern Roman (Byzantine) Empire continued until AD 1453."
+    }
+  ]
+}

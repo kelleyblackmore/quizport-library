@@ -1,0 +1,104 @@
+{
+  "title": "US History Essentials",
+  "description": "Core events, documents and figures from American history",
+  "difficulty": "Medium",
+  "category": "history",
+  "tags": ["us-history", "history", "america", "constitution", "civil-war"],
+  "questions": [
+    {
+      "question": "In which year was the Declaration of Independence adopted?",
+      "choices": ["1774", "1776", "1781", "1787"],
+      "answer": 1,
+      "explanation": "The Second Continental Congress adopted the Declaration of Independence on July 4, 1776, announcing the separation of the thirteen colonies from Great Britain."
+    },
+    {
+      "question": "Who was the first President of the United States?",
+      "choices": [
+        "Thomas Jefferson",
+        "John Adams",
+        "George Washington",
+        "Benjamin Franklin"
+      ],
+      "answer": 2,
+      "explanation": "George Washington took office in 1789 as the first president. John Adams was his vice president and became the second president in 1797."
+    },
+    {
+      "question": "What are the first ten amendments to the US Constitution collectively known as?",
+      "choices": [
+        "The Articles of Confederation",
+        "The Bill of Rights",
+        "The Federalist Papers",
+        "The Emancipation Proclamation"
+      ],
+      "answer": 1,
+      "explanation": "The first ten amendments, ratified in 1791, are called the Bill of Rights and protect liberties such as freedom of speech, religion and the press."
+    },
+    {
+      "question": "Which 1803 land deal roughly doubled the size of the United States?",
+      "choices": [
+        "The Gadsden Purchase",
+        "The Louisiana Purchase",
+        "The Alaska Purchase",
+        "The Oregon Treaty"
+      ],
+      "answer": 1,
+      "explanation": "The Louisiana Purchase of 1803 bought roughly 828,000 square miles of French territory and about doubled the size of the young United States."
+    },
+    {
+      "question": "Between which years was the American Civil War fought?",
+      "choices": ["1812-1815", "1846-1848", "1861-1865", "1898-1901"],
+      "answer": 2,
+      "explanation": "The Civil War ran from 1861, when Confederate forces fired on Fort Sumter, to 1865, when Lee surrendered at Appomattox Court House."
+    },
+    {
+      "question": "Which president issued the Emancipation Proclamation?",
+      "choices": [
+        "James Buchanan",
+        "Abraham Lincoln",
+        "Andrew Johnson",
+        "Ulysses S. Grant"
+      ],
+      "answer": 1,
+      "explanation": "Abraham Lincoln issued the Emancipation Proclamation, effective January 1, 1863, declaring enslaved people in Confederate-held territory to be free."
+    },
+    {
+      "question": "Which constitutional amendment abolished slavery in the United States?",
+      "choices": [
+        "The 13th Amendment",
+        "The 14th Amendment",
+        "The 15th Amendment",
+        "The 19th Amendment"
+      ],
+      "answer": 0,
+      "explanation": "The 13th Amendment, ratified in 1865, abolished slavery. The 14th granted citizenship and equal protection, and the 15th addressed voting rights regardless of race."
+    },
+    {
+      "question": "What right did the 19th Amendment, ratified in 1920, secure?",
+      "choices": [
+        "The right of women to vote",
+        "The right to a jury trial",
+        "The direct election of senators",
+        "The abolition of poll taxes"
+      ],
+      "answer": 0,
+      "explanation": "The 19th Amendment barred denying the vote on account of sex, securing women's suffrage nationwide after decades of campaigning."
+    },
+    {
+      "question": "Who delivered the 'I Have a Dream' speech at the 1963 March on Washington?",
+      "choices": [
+        "Malcolm X",
+        "Thurgood Marshall",
+        "Martin Luther King Jr.",
+        "John Lewis"
+      ],
+      "answer": 2,
+      "explanation": "Martin Luther King Jr. gave the speech from the steps of the Lincoln Memorial on August 28, 1963, a landmark moment of the civil rights movement."
+    },
+    {
+      "question": "In which year did Apollo 11 land the first humans on the Moon?",
+      "choices": ["1962", "1965", "1969", "1972"],
+      "answer": 2,
+      "explanation": "Apollo 11 landed on July 20, 1969, and Neil Armstrong and Buzz Aldrin became the first people to walk on the Moon."
+    }
+  ]
+}

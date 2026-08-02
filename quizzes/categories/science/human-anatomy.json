@@ -1,0 +1,69 @@
+{
+  "title": "Human Anatomy Basics",
+  "description": "An introduction to the organs, bones, and systems of the human body",
+  "difficulty": "Easy",
+  "category": "science",
+  "tags": ["anatomy", "human-body", "biology", "fundamentals"],
+  "questions": [
+    {
+      "question": "What is the largest organ of the human body?",
+      "choices": ["Liver", "Brain", "Skin", "Lungs"],
+      "answer": 2,
+      "explanation": "The skin is the body's largest organ by both surface area and weight, covering roughly 2 square meters in an adult. The liver is the largest internal organ."
+    },
+    {
+      "question": "How many bones are there in a typical adult human skeleton?",
+      "choices": ["106", "186", "206", "306"],
+      "answer": 2,
+      "explanation": "An adult skeleton has 206 bones. Babies are born with around 300, and many fuse together during growth."
+    },
+    {
+      "question": "Which organ filters waste from the blood to produce urine?",
+      "choices": ["Liver", "Kidneys", "Spleen", "Pancreas"],
+      "answer": 1,
+      "explanation": "The kidneys filter blood and excrete the waste products and excess water as urine. The liver processes toxins but does not produce urine."
+    },
+    {
+      "question": "Which is the longest bone in the human body?",
+      "choices": ["Humerus", "Tibia", "Femur", "Sternum"],
+      "answer": 2,
+      "explanation": "The femur, or thigh bone, is the longest and strongest bone in the body. The humerus is the upper arm bone and the tibia is the shin bone."
+    },
+    {
+      "question": "Which part of the brain is mainly responsible for balance and coordinating movement?",
+      "choices": ["Cerebrum", "Cerebellum", "Hypothalamus", "Medulla oblongata"],
+      "answer": 1,
+      "explanation": "The cerebellum, at the back and base of the brain, fine-tunes movement, posture, and balance. The medulla controls automatic functions such as breathing and heart rate."
+    },
+    {
+      "question": "Which protein in red blood cells carries oxygen around the body?",
+      "choices": ["Hemoglobin", "Insulin", "Keratin", "Collagen"],
+      "answer": 0,
+      "explanation": "Hemoglobin is the iron-containing protein in red blood cells that binds oxygen in the lungs and releases it to tissues. Keratin is found in hair and nails, and collagen in connective tissue."
+    },
+    {
+      "question": "Which organ produces the hormone insulin?",
+      "choices": ["Liver", "Thyroid gland", "Gallbladder", "Pancreas"],
+      "answer": 3,
+      "explanation": "The beta cells in the pancreas produce insulin, which lowers blood sugar. The thyroid makes hormones that regulate metabolism instead."
+    },
+    {
+      "question": "What connects muscle to bone?",
+      "choices": ["Ligaments", "Tendons", "Cartilage", "Nerves"],
+      "answer": 1,
+      "explanation": "Tendons are tough bands of connective tissue that attach muscle to bone so muscle contraction can move the skeleton. Ligaments connect bone to bone."
+    },
+    {
+      "question": "Where does most nutrient absorption take place in the digestive system?",
+      "choices": ["Stomach", "Small intestine", "Large intestine", "Esophagus"],
+      "answer": 1,
+      "explanation": "The small intestine is lined with villi that give it an enormous surface area for absorbing nutrients. The large intestine mainly absorbs water and salts."
+    },
+    {
+      "question": "Which type of blood vessel carries blood away from the heart?",
+      "choices": ["Veins", "Capillaries", "Arteries", "Venules"],
+      "answer": 2,
+      "explanation": "Arteries carry blood away from the heart, while veins return blood to it. Capillaries are the tiny vessels where exchange with tissues occurs."
+    }
+  ]
+}

@@ -80,25 +80,61 @@ We welcome contributions! To add a quiz:
 - No offensive or inappropriate content
 - No copyrighted material without permission
 
-## Categories
+## Quizzes
 
-### Science
-- Biology, Chemistry, Physics, Astronomy, Earth Science
-
-### History
-- World History, US History, Ancient Civilizations, Wars
+**22 quizzes, 203 questions**, every one with an explanation.
 
 ### Programming
-- JavaScript, Python, Java, React, Node.js, Algorithms, Security, Linux
+
+| Quiz | Difficulty | Questions |
+| --- | --- | --- |
+| [CompTIA Linux+ Essentials](quizzes/categories/programming/linux-plus.json) | Hard | 15 |
+| [CompTIA Security+ Fundamentals](quizzes/categories/programming/security-plus.json) | Hard | 12 |
+| [Docker Essentials](quizzes/categories/programming/docker-essentials.json) | Medium | 10 |
+| [Git Fundamentals](quizzes/categories/programming/git-fundamentals.json) | Easy | 10 |
+| [JavaScript Fundamentals](quizzes/categories/programming/javascript-basics.json) | Medium | 5 |
+| [Python Fundamentals](quizzes/categories/programming/python-basics.json) | Easy | 10 |
+| [SQL Fundamentals](quizzes/categories/programming/sql-fundamentals.json) | Medium | 10 |
+
+### Science
+
+| Quiz | Difficulty | Questions |
+| --- | --- | --- |
+| [Biology Basics](quizzes/categories/science/biology-basics.json) | Easy | 5 |
+| [Chemistry Basics](quizzes/categories/science/chemistry-basics.json) | Easy | 10 |
+| [Human Anatomy Basics](quizzes/categories/science/human-anatomy.json) | Easy | 10 |
+| [Physics: Motion and Forces](quizzes/categories/science/physics-mechanics.json) | Medium | 10 |
 
 ### Math
-- Algebra, Geometry, Calculus, Statistics, Trigonometry
+
+| Quiz | Difficulty | Questions |
+| --- | --- | --- |
+| [Algebra 101](quizzes/categories/math/algebra-101.json) | Easy | 5 |
+| [Geometry Basics](quizzes/categories/math/geometry-basics.json) | Easy | 10 |
+
+### History
+
+| Quiz | Difficulty | Questions |
+| --- | --- | --- |
+| [Ancient Rome](quizzes/categories/history/ancient-rome.json) | Medium | 10 |
+| [US History Essentials](quizzes/categories/history/us-history.json) | Medium | 10 |
+| [World War II History](quizzes/categories/history/world-war-2.json) | Medium | 5 |
 
 ### Languages
-- English, Spanish, French, German, Vocabulary, Grammar
+
+| Quiz | Difficulty | Questions |
+| --- | --- | --- |
+| [English Vocabulary Builder](quizzes/categories/languages/english-vocabulary.json) | Medium | 10 |
+| [French Basics](quizzes/categories/languages/french-basics.json) | Easy | 10 |
+| [Spanish Basics](quizzes/categories/languages/spanish-basics.json) | Easy | 10 |
 
 ### General
-- Trivia, Pop Culture, Geography, Sports, Entertainment
+
+| Quiz | Difficulty | Questions |
+| --- | --- | --- |
+| [Pop Culture 2020s](quizzes/categories/general/pop-culture-2020s.json) | Easy | 8 |
+| [World Capitals](quizzes/categories/general/world-capitals.json) | Easy | 10 |
+| [World Geography Trivia](quizzes/categories/general/world-geography.json) | Medium | 8 |
 
 ## Tools
 
@@ -120,18 +156,6 @@ Check the `templates/` folder for starter templates:
 ## License
 
 MIT License - feel free to use these quizzes in your own projects!
-
-## Popular Quizzes
-
-- [JavaScript Fundamentals](quizzes/categories/programming/javascript-basics.json)
-- [CompTIA Security+ Fundamentals](quizzes/categories/programming/security-plus.json)
-- [CompTIA Linux+ Essentials](quizzes/categories/programming/linux-plus.json)
-- [World War II History](quizzes/categories/history/world-war-2.json)
-- [Biology Basics](quizzes/categories/science/biology-basics.json)
-- [Algebra 101](quizzes/categories/math/algebra-101.json)
-- [World Geography Trivia](quizzes/categories/general/world-geography.json)
-- [English Vocabulary Builder](quizzes/categories/languages/english-vocabulary.json)
-- [Spanish Basics](quizzes/categories/languages/spanish-basics.json)
 
 ## Links
 

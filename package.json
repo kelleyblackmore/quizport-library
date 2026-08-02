@@ -1,0 +1,13 @@
+{
+  "name": "quizport-library",
+  "version": "1.0.0",
+  "description": "Community quiz library for QuizPort. JSON quizzes, validated in CI.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build:index": "node scripts/build-index.mjs",
+    "check": "npm run build:index && npm run validate"
+  },
+  "license": "MIT"
+}

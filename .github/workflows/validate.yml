@@ -1,0 +1,32 @@
+name: Validate quizzes
+
+# Every quiz here is fetched at runtime by quizport.io and the Obsidian plugin,
+# so a malformed file breaks consumers in production. Gate on it.
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+
+      - name: Validate every quiz
+        run: npm run validate
+
+      - name: Check the index is up to date
+        run: |
+          npm run build:index
+          if ! git diff --quiet -- quizzes/index.json; then
+            echo "::error::quizzes/index.json is stale. Run 'npm run build:index' and commit the result."
+            git diff -- quizzes/index.json
+            exit 1
+          fi
+          echo "index.json is current"

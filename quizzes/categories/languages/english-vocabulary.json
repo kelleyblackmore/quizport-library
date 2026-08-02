@@ -3,65 +3,121 @@
   "description": "Expand your English vocabulary with commonly used words",
   "difficulty": "Medium",
   "category": "languages",
-  "tags": ["english", "vocabulary", "words", "definitions", "language-learning"],
+  "tags": [
+    "english",
+    "vocabulary",
+    "words",
+    "definitions",
+    "language-learning"
+  ],
   "questions": [
     {
       "question": "What does 'ubiquitous' mean?",
-      "choices": ["Rare and unique", "Present everywhere", "Ancient", "Mysterious"],
-      "answer": 1,
+      "choices": [
+        "Present everywhere",
+        "Rare and unique",
+        "Ancient",
+        "Mysterious"
+      ],
+      "answer": 0,
       "explanation": "Ubiquitous means present, appearing, or found everywhere. It describes something that seems to be in all places at the same time."
     },
     {
       "question": "What is an 'antonym'?",
-      "choices": ["A word with the same meaning", "A word with the opposite meaning", "A word that sounds the same", "A word borrowed from another language"],
+      "choices": [
+        "A word with the same meaning",
+        "A word with the opposite meaning",
+        "A word that sounds the same",
+        "A word borrowed from another language"
+      ],
       "answer": 1,
       "explanation": "An antonym is a word that has the opposite meaning of another word. For example, 'hot' and 'cold' are antonyms."
     },
     {
       "question": "What does 'meticulous' mean?",
-      "choices": ["Careless", "Very careful and precise", "Quick", "Confused"],
-      "answer": 1,
+      "choices": [
+        "Careless",
+        "Quick",
+        "Very careful and precise",
+        "Confused"
+      ],
+      "answer": 2,
       "explanation": "Meticulous means showing great attention to detail; very careful and precise. A meticulous person pays close attention to small details."
     },
     {
       "question": "What does 'ambiguous' mean?",
-      "choices": ["Very clear", "Having more than one possible meaning", "Absolutely certain", "Simple"],
-      "answer": 1,
+      "choices": [
+        "Very clear",
+        "Absolutely certain",
+        "Simple",
+        "Having more than one possible meaning"
+      ],
+      "answer": 3,
       "explanation": "Ambiguous means open to more than one interpretation; not having one obvious meaning. It describes something unclear or uncertain."
     },
     {
       "question": "What is a 'palindrome'?",
-      "choices": ["A very long word", "A word that reads the same backward and forward", "A word with silent letters", "A compound word"],
-      "answer": 1,
+      "choices": [
+        "A word that reads the same backward and forward",
+        "A very long word",
+        "A word with silent letters",
+        "A compound word"
+      ],
+      "answer": 0,
       "explanation": "A palindrome is a word, phrase, or sequence that reads the same backward as forward. Examples include 'racecar', 'level', and 'noon'."
     },
     {
       "question": "What does 'ephemeral' mean?",
-      "choices": ["Eternal", "Lasting for a very short time", "Heavy", "Expensive"],
+      "choices": [
+        "Eternal",
+        "Lasting for a very short time",
+        "Heavy",
+        "Expensive"
+      ],
       "answer": 1,
       "explanation": "Ephemeral means lasting for a very short time; transitory. It describes something that is short-lived or temporary."
     },
     {
       "question": "What does 'eloquent' mean?",
-      "choices": ["Silent", "Fluent and persuasive in speaking or writing", "Confused", "Boring"],
-      "answer": 1,
+      "choices": [
+        "Silent",
+        "Confused",
+        "Fluent and persuasive in speaking or writing",
+        "Boring"
+      ],
+      "answer": 2,
       "explanation": "Eloquent means fluent or persuasive in speaking or writing. An eloquent person expresses themselves clearly and effectively."
     },
     {
       "question": "What is a 'homophone'?",
-      "choices": ["A word with multiple meanings", "A word that sounds the same as another but has different spelling", "A word with the same spelling", "A loud word"],
-      "answer": 1,
+      "choices": [
+        "A word with multiple meanings",
+        "A word with the same spelling",
+        "A loud word",
+        "A word that sounds the same as another but has different spelling"
+      ],
+      "answer": 3,
       "explanation": "A homophone is a word that sounds the same as another word but has a different meaning and often different spelling. Examples: 'their/there/they're' or 'to/too/two'."
     },
     {
       "question": "What does 'benevolent' mean?",
-      "choices": ["Evil", "Well-meaning and kindly", "Angry", "Indifferent"],
-      "answer": 1,
+      "choices": [
+        "Well-meaning and kindly",
+        "Evil",
+        "Angry",
+        "Indifferent"
+      ],
+      "answer": 0,
       "explanation": "Benevolent means well-meaning and kindly; showing goodwill and kindness. It describes someone who wishes to do good or help others."
     },
     {
       "question": "What does 'pragmatic' mean?",
-      "choices": ["Idealistic and dreamy", "Practical and realistic", "Artistic", "Lazy"],
+      "choices": [
+        "Idealistic and dreamy",
+        "Practical and realistic",
+        "Artistic",
+        "Lazy"
+      ],
       "answer": 1,
       "explanation": "Pragmatic means dealing with things sensibly and realistically in a practical way. A pragmatic approach focuses on what works rather than on theories."
     }

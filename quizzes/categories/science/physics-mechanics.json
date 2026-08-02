@@ -1,0 +1,89 @@
+{
+  "title": "Physics: Motion and Forces",
+  "description": "Classical mechanics essentials covering Newton's laws, momentum, energy, and motion",
+  "difficulty": "Medium",
+  "category": "science",
+  "tags": ["physics", "mechanics", "newtons-laws", "motion", "forces"],
+  "questions": [
+    {
+      "question": "What is the SI unit of force?",
+      "choices": ["Joule", "Newton", "Watt", "Pascal"],
+      "answer": 1,
+      "explanation": "The newton (N) is the SI unit of force, defined as the force that gives a 1 kg mass an acceleration of 1 m/s². The joule is energy, the watt is power, and the pascal is pressure."
+    },
+    {
+      "question": "What net force is needed to accelerate a 5 kg object at 3 m/s²?",
+      "choices": ["1.7 N", "8 N", "15 N", "45 N"],
+      "answer": 2,
+      "explanation": "Newton's second law gives F = ma, so F = 5 kg × 3 m/s² = 15 N."
+    },
+    {
+      "question": "According to Newton's first law, an object at rest stays at rest and an object in motion keeps moving in a straight line at constant speed unless acted on by what?",
+      "choices": [
+        "A net external force",
+        "Its own inertia",
+        "Gravity, in every case",
+        "A change in its mass"
+      ],
+      "answer": 0,
+      "explanation": "Newton's first law, the law of inertia, says only a nonzero net external force can change an object's state of motion. Inertia is the property that resists that change, not a force itself."
+    },
+    {
+      "question": "What is the approximate acceleration due to gravity near Earth's surface?",
+      "choices": ["3.7 m/s²", "9.8 m/s²", "19.6 m/s²", "32 m/s²"],
+      "answer": 1,
+      "explanation": "Objects in free fall near Earth's surface accelerate at about 9.8 m/s². The value 3.7 m/s² is roughly Mars's surface gravity."
+    },
+    {
+      "question": "Which of these quantities is a vector, having both magnitude and direction?",
+      "choices": ["Speed", "Mass", "Distance", "Velocity"],
+      "answer": 3,
+      "explanation": "Velocity specifies both how fast something moves and which way, making it a vector. Speed, mass, and distance are scalars with magnitude only."
+    },
+    {
+      "question": "What is the momentum of a 2 kg object moving at 5 m/s?",
+      "choices": ["2.5 kg·m/s", "7 kg·m/s", "10 kg·m/s", "25 kg·m/s"],
+      "answer": 2,
+      "explanation": "Momentum is p = mv, so p = 2 kg × 5 m/s = 10 kg·m/s."
+    },
+    {
+      "question": "By Newton's third law, when object A pushes on object B, the force B exerts back on A is:",
+      "choices": [
+        "Equal in magnitude and opposite in direction",
+        "Larger, because A initiated the push",
+        "Zero unless B actually moves",
+        "In the same direction as A's push"
+      ],
+      "answer": 0,
+      "explanation": "Newton's third law states that forces always come in pairs that are equal in size and opposite in direction. The pair acts on two different objects, which is why they do not cancel out."
+    },
+    {
+      "question": "What is the kinetic energy of a 4 kg object moving at 3 m/s?",
+      "choices": ["6 J", "12 J", "18 J", "36 J"],
+      "answer": 2,
+      "explanation": "Kinetic energy is KE = ½mv², so KE = ½ × 4 kg × (3 m/s)² = ½ × 4 × 9 = 18 J."
+    },
+    {
+      "question": "In a vacuum, if a heavy ball and a light ball are dropped from the same height at the same moment, what happens?",
+      "choices": [
+        "They land at the same time",
+        "The heavier ball lands first",
+        "The lighter ball lands first",
+        "The heavier ball lands first only if it is twice as massive"
+      ],
+      "answer": 0,
+      "explanation": "With no air resistance, every object falls with the same acceleration regardless of mass, because the larger gravitational force on a heavier object is exactly offset by its greater inertia."
+    },
+    {
+      "question": "In which direction does kinetic friction act on a sliding object?",
+      "choices": [
+        "In the same direction as the sliding motion",
+        "Opposite to the direction of the sliding motion",
+        "Perpendicular to the surfaces in contact",
+        "Always straight down toward the center of Earth"
+      ],
+      "answer": 1,
+      "explanation": "Kinetic friction always opposes the relative sliding between two surfaces, which is why it slows a sliding object down. The force perpendicular to the surfaces is the normal force, not friction."
+    }
+  ]
+}

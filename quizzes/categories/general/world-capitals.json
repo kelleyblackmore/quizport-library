@@ -1,0 +1,69 @@
+{
+  "title": "World Capitals",
+  "description": "Match countries from every continent to their capital cities",
+  "difficulty": "Easy",
+  "category": "general",
+  "tags": ["capitals", "geography", "world", "countries", "trivia"],
+  "questions": [
+    {
+      "question": "What is the capital of Japan?",
+      "choices": ["Osaka", "Kyoto", "Tokyo", "Hiroshima"],
+      "answer": 2,
+      "explanation": "Tokyo has been the seat of Japan's government since 1868, when the imperial court moved there from Kyoto, the former capital."
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "choices": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+      "answer": 3,
+      "explanation": "Ottawa was chosen as the capital by Queen Victoria in 1857. Toronto and Montreal are larger cities but neither is the capital."
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "choices": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+      "answer": 2,
+      "explanation": "Brasília was purpose-built inland and became the capital in 1960, taking over from Rio de Janeiro. São Paulo is the country's largest city."
+    },
+    {
+      "question": "What is the capital of Egypt?",
+      "choices": ["Alexandria", "Cairo", "Luxor", "Aswan"],
+      "answer": 1,
+      "explanation": "Cairo, on the Nile, is Egypt's capital and largest city. Alexandria is the main Mediterranean port and second largest city."
+    },
+    {
+      "question": "What is the capital of New Zealand?",
+      "choices": ["Auckland", "Christchurch", "Wellington", "Dunedin"],
+      "answer": 2,
+      "explanation": "Wellington became the capital in 1865 because of its central location. Auckland is the largest city and was the previous capital."
+    },
+    {
+      "question": "What is the capital of Turkey?",
+      "choices": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+      "answer": 1,
+      "explanation": "Ankara has been the capital since 1923, when the Republic of Turkey was founded. Istanbul is larger and was the capital of the Ottoman Empire."
+    },
+    {
+      "question": "What is the capital of Kenya?",
+      "choices": ["Mombasa", "Nairobi", "Kisumu", "Nakuru"],
+      "answer": 1,
+      "explanation": "Nairobi is Kenya's capital and largest city. Mombasa is the country's main port on the Indian Ocean."
+    },
+    {
+      "question": "Amsterdam is the constitutional capital of the Netherlands, but which city is the seat of the Dutch government?",
+      "choices": ["Rotterdam", "The Hague", "Utrecht", "Eindhoven"],
+      "answer": 1,
+      "explanation": "The Dutch constitution names Amsterdam as the capital, but parliament, the ministries and the monarch's working palace are all in The Hague."
+    },
+    {
+      "question": "What is the capital of South Korea?",
+      "choices": ["Busan", "Incheon", "Seoul", "Daegu"],
+      "answer": 2,
+      "explanation": "Seoul, in the north-west of the country, is South Korea's capital and by far its largest city. Busan is the biggest port."
+    },
+    {
+      "question": "What is the capital of Norway?",
+      "choices": ["Bergen", "Oslo", "Stockholm", "Trondheim"],
+      "answer": 1,
+      "explanation": "Oslo is Norway's capital and largest city. Stockholm is a plausible-looking option but it is the capital of Sweden."
+    }
+  ]
+}

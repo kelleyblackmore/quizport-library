@@ -1,0 +1,125 @@
+{
+  "title": "French Basics",
+  "description": "Essential French greetings, vocabulary and beginner grammar",
+  "difficulty": "Easy",
+  "category": "languages",
+  "tags": [
+    "french",
+    "language-learning",
+    "vocabulary",
+    "basics",
+    "beginner"
+  ],
+  "questions": [
+    {
+      "question": "How do you say 'Hello' in French?",
+      "choices": [
+        "Bonjour",
+        "Au revoir",
+        "Merci",
+        "S'il vous plaît"
+      ],
+      "answer": 0,
+      "explanation": "Bonjour is the standard French greeting, used from morning until evening. It literally means 'good day'."
+    },
+    {
+      "question": "What does 'Merci' mean?",
+      "choices": [
+        "Please",
+        "Thank you",
+        "Sorry",
+        "Goodbye"
+      ],
+      "answer": 1,
+      "explanation": "Merci means 'thank you'. To be more emphatic you can say 'merci beaucoup' (thank you very much)."
+    },
+    {
+      "question": "Which greeting would you use in the evening?",
+      "choices": [
+        "Bonjour",
+        "Bon matin",
+        "Bonsoir",
+        "Bonne nuit"
+      ],
+      "answer": 2,
+      "explanation": "Bonsoir is used when greeting someone in the evening. 'Bonne nuit' is only said when parting for bed, and 'bon matin' is not standard French."
+    },
+    {
+      "question": "What is the French word for 'water'?",
+      "choices": [
+        "Le pain",
+        "Le lait",
+        "Le vin",
+        "L'eau"
+      ],
+      "answer": 3,
+      "explanation": "Water is 'l'eau' (eau is a feminine noun, so it takes 'la', shortened to l' before a vowel). Le pain is bread, le lait is milk and le vin is wine."
+    },
+    {
+      "question": "How do you say 'My name is...' in French?",
+      "choices": [
+        "Je m'appelle...",
+        "J'ai...",
+        "Tu t'appelles...",
+        "Nous sommes..."
+      ],
+      "answer": 0,
+      "explanation": "Je m'appelle... literally means 'I call myself...' and is the usual way to introduce yourself. 'Tu t'appelles...' means 'your name is...'."
+    },
+    {
+      "question": "What does 'S'il vous plaît' mean?",
+      "choices": [
+        "Thank you",
+        "Please",
+        "You're welcome",
+        "Excuse me"
+      ],
+      "answer": 1,
+      "explanation": "S'il vous plaît means 'please' in formal or plural address. With someone you know well you would say 's'il te plaît'."
+    },
+    {
+      "question": "Complete the sentence: 'Je ___ étudiant.'",
+      "choices": [
+        "es",
+        "est",
+        "suis",
+        "sommes"
+      ],
+      "answer": 2,
+      "explanation": "The verb être (to be) is conjugated 'je suis' in the first person singular. 'Tu es', 'il est' and 'nous sommes' are the other forms shown."
+    },
+    {
+      "question": "Which definite article goes before a feminine singular noun?",
+      "choices": [
+        "le",
+        "les",
+        "un",
+        "la"
+      ],
+      "answer": 3,
+      "explanation": "Feminine singular nouns take 'la', as in 'la table'. Masculine singular nouns take 'le' and all plural nouns take 'les'."
+    },
+    {
+      "question": "What does 'Comment ça va ?' mean?",
+      "choices": [
+        "How are you?",
+        "What is your name?",
+        "Where do you live?",
+        "How old are you?"
+      ],
+      "answer": 0,
+      "explanation": "Comment ça va ? means 'How are you?' or 'How's it going?'. A common reply is 'Ça va bien, merci' (I'm well, thank you)."
+    },
+    {
+      "question": "How do you say 'Goodbye' in French?",
+      "choices": [
+        "Bonjour",
+        "Au revoir",
+        "Bienvenue",
+        "De rien"
+      ],
+      "answer": 1,
+      "explanation": "Au revoir is the standard way to say goodbye. 'Bienvenue' means welcome and 'de rien' means you're welcome."
+    }
+  ]
+}

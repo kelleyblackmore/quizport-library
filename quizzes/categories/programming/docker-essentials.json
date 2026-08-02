@@ -1,0 +1,69 @@
+{
+  "title": "Docker Essentials",
+  "description": "Images, containers, Dockerfiles, and build behavior for developers containerizing applications",
+  "difficulty": "Medium",
+  "category": "programming",
+  "tags": ["docker", "containers", "devops", "dockerfile", "programming"],
+  "questions": [
+    {
+      "question": "Which statement best describes the relationship between a Docker image and a container?",
+      "choices": ["An image is a read-only template and a container is a runnable instance created from it", "A container is a read-only template and an image is a running instance of it", "Images and containers are two names for the same thing", "An image is a container that has been pushed to a registry"],
+      "answer": 0,
+      "explanation": "An image is an immutable, layered filesystem plus metadata, and running it creates a container with its own writable layer and process namespace. One image can back many independent containers."
+    },
+    {
+      "question": "Which Dockerfile instruction executes a command at build time and produces a new image layer?",
+      "choices": ["CMD", "ENTRYPOINT", "RUN", "START"],
+      "answer": 2,
+      "explanation": "RUN executes during docker build and its filesystem changes are committed as a layer in the resulting image. CMD and ENTRYPOINT only describe what should happen when a container starts."
+    },
+    {
+      "question": "Which instruction sets the default command for a container, and is replaced when you pass a command to 'docker run'?",
+      "choices": ["ENTRYPOINT", "RUN", "EXEC", "CMD"],
+      "answer": 3,
+      "explanation": "CMD supplies the default command, and any command given on the docker run line overrides it entirely. Arguments passed to a container with an ENTRYPOINT are appended to that entrypoint instead of replacing it."
+    },
+    {
+      "question": "Which command lists the containers that are currently running?",
+      "choices": ["docker images", "docker ps", "docker ls", "docker running"],
+      "answer": 1,
+      "explanation": "docker ps shows running containers, and docker ps -a includes stopped ones. docker images lists local images rather than containers."
+    },
+    {
+      "question": "What is the recommended way to keep data after a container is removed?",
+      "choices": ["Write it to the container's writable layer", "Commit the container to a new image after every write", "Store it in a Docker volume or a bind mount", "Pass the data in environment variables"],
+      "answer": 2,
+      "explanation": "A container's writable layer is deleted along with the container, so persistent data belongs in a volume or bind mount that lives independently of the container's lifecycle."
+    },
+    {
+      "question": "What does the flag in 'docker run -p 8080:80 myapp' do?",
+      "choices": ["Publishes host port 8080 to port 80 inside the container", "Publishes host port 80 to port 8080 inside the container", "Limits the container to 8080 processes", "Starts 80 replicas of the container"],
+      "answer": 0,
+      "explanation": "The -p flag uses the form host:container, so traffic arriving at port 8080 on the host is forwarded to port 80 inside the container."
+    },
+    {
+      "question": "What does the EXPOSE instruction in a Dockerfile actually do?",
+      "choices": ["It automatically publishes the port on every host interface", "It documents which port the application listens on without publishing it to the host", "It opens the port in the host firewall", "It forwards the port to all other containers on the network"],
+      "answer": 1,
+      "explanation": "EXPOSE is metadata that tells users and tooling which port the image expects to serve on. You still need -p or -P at runtime to actually publish that port to the host."
+    },
+    {
+      "question": "What is the purpose of a .dockerignore file?",
+      "choices": ["To keep listed paths out of the build context sent to the Docker daemon", "To hide files from the running container's filesystem", "To let the build continue when an instruction fails", "To disable layer caching for the listed files"],
+      "answer": 0,
+      "explanation": "Everything in the build directory is normally packaged and sent to the daemon before the build starts, so .dockerignore excludes things like .git and node_modules. This speeds up builds and prevents unwanted files from being copied in by a broad COPY."
+    },
+    {
+      "question": "What is the main benefit of a multi-stage Dockerfile build?",
+      "choices": ["It allows several containers to share one image", "It encrypts each image layer separately", "It produces a smaller final image by copying only the needed artifacts out of earlier build stages", "It runs the build stages on different hosts in parallel"],
+      "answer": 2,
+      "explanation": "Compilers, SDKs, and intermediate files stay in the earlier stages, and the final stage copies just the built artifact into a slim base image. The result is a smaller image with a smaller attack surface."
+    },
+    {
+      "question": "Why do well-written Dockerfiles copy the dependency manifest and install dependencies before copying the rest of the source code?",
+      "choices": ["Because COPY is not allowed after a RUN instruction", "Because it reduces the total number of layers in the image", "Because dependencies cannot be installed once source files are present", "So the cached dependency layer can be reused when only application code changes"],
+      "answer": 3,
+      "explanation": "Docker caches each layer and invalidates every layer after the first change it detects, so copying frequently edited source code last keeps the expensive install step cached. Copying everything up front would re-run the install on every code edit."
+    }
+  ]
+}
