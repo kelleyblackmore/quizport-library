@@ -38,6 +38,10 @@ function walk(dir) {
 /** Minimal JSON Schema check covering the subset this schema actually uses. */
 function checkAgainstSchema(quiz, where) {
   const p = schema.properties;
+  // Question-level properties live under questions.items, not alongside the
+  // quiz-level ones. Reading `p.type` instead would silently yield undefined
+  // and reject every value as "not in the enum".
+  const qp = schema.properties.questions?.items?.properties ?? {};
 
   for (const key of schema.required ?? []) {
     if (quiz[key] === undefined) errors.push(`${where}: missing required "${key}"`);
@@ -112,10 +116,31 @@ function checkAgainstSchema(quiz, where) {
       );
     }
 
+    // `type` is optional, but when present it must be one of the values the
+    // schema allows. Without this a question converted away from open response
+    // could keep `type: "text"` and still pass, even though "text" is no
+    // longer in the enum.
+    if (q.type !== undefined) {
+      const allowed = qp.type?.enum ?? [];
+      if (typeof q.type !== 'string' || !allowed.includes(q.type)) {
+        errors.push(`${at}: type "${q.type}" is not one of ${allowed.join(', ')}`);
+      }
+    }
+
     if (q.choices !== undefined) {
       if (!Array.isArray(q.choices) || q.choices.length < 2) {
         errors.push(`${at}: choices must be an array of at least 2`);
       } else {
+        // The schema declares choices as strings. A numeric or object choice
+        // renders as "[object Object]" in the app rather than failing loudly.
+        const nonString = q.choices.filter((c) => typeof c !== 'string');
+        if (nonString.length) {
+          errors.push(
+            `${at}: every choice must be a string (got ${nonString
+              .map((c) => typeof c)
+              .join(', ')})`
+          );
+        }
         // Range-check every index, single or multi.
         const indices = isMulti ? q.answer : isIndex ? [q.answer] : [];
         for (const i of indices) {
