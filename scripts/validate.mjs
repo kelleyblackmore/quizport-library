@@ -38,6 +38,10 @@ function walk(dir) {
 /** Minimal JSON Schema check covering the subset this schema actually uses. */
 function checkAgainstSchema(quiz, where) {
   const p = schema.properties;
+  // Question-level properties live under questions.items, not alongside the
+  // quiz-level ones. Reading `p.type` instead would silently yield undefined
+  // and reject every value as "not in the enum".
+  const qp = schema.properties.questions?.items?.properties ?? {};
 
   for (const key of schema.required ?? []) {
     if (quiz[key] === undefined) errors.push(`${where}: missing required "${key}"`);
@@ -86,15 +90,17 @@ function checkAgainstSchema(quiz, where) {
       errors.push(`${at}: missing answer`);
       return;
     }
-    // The schema permits three answer forms: an index, an array of indices
-    // for multi-select, or literal text. Rejecting arrays here would have made
-    // `npm run validate` fail on a quiz using the multi-select format the
-    // schema now advertises.
+    // Two answer forms: an index, or an array of indices for multi-select.
+    // Typed answers were removed -- every question must be answerable by
+    // clicking, which is what keeps these quizzes quick to take.
     const isIndex = Number.isInteger(q.answer) && q.answer >= 0;
     const isMulti = Array.isArray(q.answer);
-    const isText = typeof q.answer === 'string';
 
-    if (isMulti) {
+    if (typeof q.answer === 'string') {
+      errors.push(
+        `${at}: typed answers are no longer supported. Give this question a "choices" array and set "answer" to the index of the correct one.`
+      );
+    } else if (isMulti) {
       if (q.answer.length === 0) {
         errors.push(`${at}: multi-select answer array is empty`);
       }
@@ -104,16 +110,37 @@ function checkAgainstSchema(quiz, where) {
       if (new Set(q.answer).size !== q.answer.length) {
         errors.push(`${at}: multi-select answer contains duplicate indices`);
       }
-    } else if (!isIndex && !isText) {
+    } else if (!isIndex) {
       errors.push(
-        `${at}: answer must be a non-negative integer, an array of indices, or a string (got ${JSON.stringify(q.answer)})`
+        `${at}: answer must be a non-negative integer or an array of indices (got ${JSON.stringify(q.answer)})`
       );
+    }
+
+    // `type` is optional, but when present it must be one of the values the
+    // schema allows. Without this a question converted away from open response
+    // could keep `type: "text"` and still pass, even though "text" is no
+    // longer in the enum.
+    if (q.type !== undefined) {
+      const allowed = qp.type?.enum ?? [];
+      if (typeof q.type !== 'string' || !allowed.includes(q.type)) {
+        errors.push(`${at}: type "${q.type}" is not one of ${allowed.join(', ')}`);
+      }
     }
 
     if (q.choices !== undefined) {
       if (!Array.isArray(q.choices) || q.choices.length < 2) {
         errors.push(`${at}: choices must be an array of at least 2`);
       } else {
+        // The schema declares choices as strings. A numeric or object choice
+        // renders as "[object Object]" in the app rather than failing loudly.
+        const nonString = q.choices.filter((c) => typeof c !== 'string');
+        if (nonString.length) {
+          errors.push(
+            `${at}: every choice must be a string (got ${nonString
+              .map((c) => typeof c)
+              .join(', ')})`
+          );
+        }
         // Range-check every index, single or multi.
         const indices = isMulti ? q.answer : isIndex ? [q.answer] : [];
         for (const i of indices) {
@@ -122,8 +149,9 @@ function checkAgainstSchema(quiz, where) {
           }
         }
       }
-    } else if (isIndex || isMulti) {
-      errors.push(`${at}: an index answer requires a choices array`);
+    } else {
+      // `choices` is required now -- there is no answer form without it.
+      errors.push(`${at}: missing required "choices"`);
     }
   });
 }
