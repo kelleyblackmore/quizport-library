@@ -3,7 +3,10 @@
   "title": "QuizPort Quiz Schema",
   "description": "JSON Schema for QuizPort quiz format",
   "type": "object",
-  "required": ["title", "questions"],
+  "required": [
+    "title",
+    "questions"
+  ],
   "properties": {
     "title": {
       "type": "string",
@@ -19,12 +22,23 @@
     "difficulty": {
       "type": "string",
       "description": "The difficulty level of the quiz",
-      "enum": ["Easy", "Medium", "Hard"]
+      "enum": [
+        "Easy",
+        "Medium",
+        "Hard"
+      ]
     },
     "category": {
       "type": "string",
       "description": "The category of the quiz",
-      "enum": ["science", "history", "programming", "math", "languages", "general"]
+      "enum": [
+        "science",
+        "history",
+        "programming",
+        "math",
+        "languages",
+        "general"
+      ]
     },
     "tags": {
       "type": "array",
@@ -40,7 +54,11 @@
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["question", "answer"],
+        "required": [
+          "question",
+          "choices",
+          "answer"
+        ],
         "properties": {
           "question": {
             "type": "string",
@@ -49,21 +67,18 @@
           },
           "choices": {
             "type": "array",
-            "description": "Array of answer choices (optional for text answer questions)",
+            "description": "Array of answer choices. Required: every question is answered by clicking a choice, so there is no typed-answer form.",
             "items": {
               "type": "string"
             },
             "minItems": 2
           },
           "answer": {
-            "description": "The correct answer: a 0-based index into `choices` for single choice, an array of indices for multi-select, or the literal text for an open response.",
+            "description": "The correct answer: a 0-based index into `choices` for single choice, or an array of indices for multi-select.",
             "oneOf": [
               {
                 "type": "integer",
                 "minimum": 0
-              },
-              {
-                "type": "string"
               },
               {
                 "type": "array",
@@ -80,15 +95,11 @@
           "type": {
             "type": "string",
             "description": "Optional. The question kind is normally inferred from the shape of `answer` and `choices`, so this is only needed to disambiguate. Omit it unless you must.",
-            "enum": ["single", "multi", "boolean", "text"]
-          },
-          "acceptable": {
-            "type": "array",
-            "description": "Open-response questions only. Additional spellings accepted alongside `answer`. Matching already ignores case, surrounding whitespace and trailing punctuation.",
-            "items": {
-              "type": "string"
-            },
-            "uniqueItems": true
+            "enum": [
+              "single",
+              "multi",
+              "boolean"
+            ]
           },
           "explanation": {
             "type": "string",

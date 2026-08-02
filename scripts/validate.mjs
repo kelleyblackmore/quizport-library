@@ -86,15 +86,17 @@ function checkAgainstSchema(quiz, where) {
       errors.push(`${at}: missing answer`);
       return;
     }
-    // The schema permits three answer forms: an index, an array of indices
-    // for multi-select, or literal text. Rejecting arrays here would have made
-    // `npm run validate` fail on a quiz using the multi-select format the
-    // schema now advertises.
+    // Two answer forms: an index, or an array of indices for multi-select.
+    // Typed answers were removed -- every question must be answerable by
+    // clicking, which is what keeps these quizzes quick to take.
     const isIndex = Number.isInteger(q.answer) && q.answer >= 0;
     const isMulti = Array.isArray(q.answer);
-    const isText = typeof q.answer === 'string';
 
-    if (isMulti) {
+    if (typeof q.answer === 'string') {
+      errors.push(
+        `${at}: typed answers are no longer supported. Give this question a "choices" array and set "answer" to the index of the correct one.`
+      );
+    } else if (isMulti) {
       if (q.answer.length === 0) {
         errors.push(`${at}: multi-select answer array is empty`);
       }
@@ -104,9 +106,9 @@ function checkAgainstSchema(quiz, where) {
       if (new Set(q.answer).size !== q.answer.length) {
         errors.push(`${at}: multi-select answer contains duplicate indices`);
       }
-    } else if (!isIndex && !isText) {
+    } else if (!isIndex) {
       errors.push(
-        `${at}: answer must be a non-negative integer, an array of indices, or a string (got ${JSON.stringify(q.answer)})`
+        `${at}: answer must be a non-negative integer or an array of indices (got ${JSON.stringify(q.answer)})`
       );
     }
 
@@ -122,8 +124,9 @@ function checkAgainstSchema(quiz, where) {
           }
         }
       }
-    } else if (isIndex || isMulti) {
-      errors.push(`${at}: an index answer requires a choices array`);
+    } else {
+      // `choices` is required now -- there is no answer form without it.
+      errors.push(`${at}: missing required "choices"`);
     }
   });
 }
