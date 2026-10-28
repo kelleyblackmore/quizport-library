@@ -1,0 +1,125 @@
+{
+  "title": "React Fundamentals",
+  "description": "Components, props, state and hooks in modern React",
+  "difficulty": "Medium",
+  "category": "programming",
+  "tags": [
+    "react",
+    "javascript",
+    "frontend",
+    "hooks",
+    "web-development"
+  ],
+  "questions": [
+    {
+      "question": "What syntax extension lets you write HTML-like markup inside JavaScript in React?",
+      "choices": [
+        "JSX",
+        "TSX only",
+        "HTMX",
+        "Handlebars"
+      ],
+      "answer": 0,
+      "explanation": "JSX looks like HTML but compiles to JavaScript function calls that create React elements."
+    },
+    {
+      "question": "Which hook adds local state to a function component?",
+      "choices": [
+        "useEffect",
+        "useRef",
+        "useContext",
+        "useState"
+      ],
+      "answer": 3,
+      "explanation": "useState returns the current value and a setter. Calling the setter schedules a re-render with the new value."
+    },
+    {
+      "question": "How does data normally flow between React components?",
+      "choices": [
+        "Child to parent through props",
+        "Parent to child through props",
+        "Through global variables only",
+        "Sideways between siblings"
+      ],
+      "answer": 1,
+      "explanation": "React uses one-way data flow: parents pass props down. Children talk back by calling functions the parent passed in."
+    },
+    {
+      "question": "Why does React need a 'key' prop on items rendered from a list?",
+      "choices": [
+        "To style each item",
+        "To make items clickable",
+        "To identify items between renders",
+        "To sort the list"
+      ],
+      "answer": 2,
+      "explanation": "Keys let React match list items across renders so it can update, reorder or remove the right elements. Stable IDs work best."
+    },
+    {
+      "question": "When does a useEffect with an empty dependency array ([]) run?",
+      "choices": [
+        "After the first render only",
+        "On every render",
+        "Before the first render",
+        "Never"
+      ],
+      "answer": 0,
+      "explanation": "With [] the effect runs once after the component mounts, and its cleanup runs when it unmounts. (Strict Mode runs it twice in development to surface bugs.)"
+    },
+    {
+      "question": "What should you do instead of mutating state directly, e.g. `state.items.push(x)`?",
+      "choices": [
+        "Call forceUpdate()",
+        "Call the setter with a new array or object",
+        "Assign to this.state",
+        "Use a global variable"
+      ],
+      "answer": 1,
+      "explanation": "React detects changes by reference. Create a new value, such as setItems([...items, x]), so React knows to re-render."
+    },
+    {
+      "question": "Which hook lets a component read a value without passing props through every level?",
+      "choices": [
+        "useMemo",
+        "useReducer",
+        "useLayoutEffect",
+        "useContext"
+      ],
+      "answer": 3,
+      "explanation": "useContext reads the nearest Provider's value, which avoids 'prop drilling' through intermediate components."
+    },
+    {
+      "question": "What does a React component return to describe its UI?",
+      "choices": [
+        "A DOM node",
+        "An HTML string",
+        "React elements (or null)",
+        "A CSS object"
+      ],
+      "answer": 2,
+      "explanation": "Components return React elements, usually written as JSX. React works out the DOM changes needed to match them."
+    },
+    {
+      "question": "Which hook holds a mutable value that persists across renders without triggering a re-render?",
+      "choices": [
+        "useRef",
+        "useState",
+        "useCallback",
+        "useId"
+      ],
+      "answer": 0,
+      "explanation": "useRef returns an object whose .current property survives re-renders. Changing it does not cause a re-render."
+    },
+    {
+      "question": "What is the rule about where hooks can be called?",
+      "choices": [
+        "Anywhere, including loops",
+        "At the top level of components or custom hooks",
+        "Only inside useEffect",
+        "Only in class components"
+      ],
+      "answer": 1,
+      "explanation": "Hooks must be called in the same order every render, so they belong at the top level, not inside conditions, loops or nested functions."
+    }
+  ]
+}

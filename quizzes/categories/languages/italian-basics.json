@@ -1,0 +1,124 @@
+{
+  "title": "Italian Basics",
+  "description": "Greetings, numbers and everyday words to start speaking Italian",
+  "difficulty": "Easy",
+  "category": "languages",
+  "tags": [
+    "italian",
+    "language",
+    "vocabulary",
+    "beginner"
+  ],
+  "questions": [
+    {
+      "question": "What does 'Buongiorno' mean?",
+      "choices": [
+        "Good night",
+        "Good morning / good day",
+        "Goodbye",
+        "Welcome"
+      ],
+      "answer": 1,
+      "explanation": "'Buongiorno' is used as 'good morning' or 'good day'. 'Buonanotte' means good night."
+    },
+    {
+      "question": "How do you say 'thank you' in Italian?",
+      "choices": [
+        "Prego",
+        "Per favore",
+        "Grazie",
+        "Scusi"
+      ],
+      "answer": 2,
+      "explanation": "'Grazie' means thank you. 'Prego' means you're welcome, and 'per favore' means please."
+    },
+    {
+      "question": "Which Italian word is an informal 'hi' or 'bye'?",
+      "choices": [
+        "Ciao",
+        "Arrivederci",
+        "Salve",
+        "Addio"
+      ],
+      "answer": 0,
+      "explanation": "'Ciao' works as both hello and goodbye among friends. 'Arrivederci' is a more standard goodbye."
+    },
+    {
+      "question": "What is the Italian word for 'bread'?",
+      "choices": [
+        "Pasta",
+        "Vino",
+        "Formaggio",
+        "Pane"
+      ],
+      "answer": 3,
+      "explanation": "'Pane' is bread. 'Vino' is wine and 'formaggio' is cheese."
+    },
+    {
+      "question": "What number is 'cinque'?",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "'Cinque' is five: uno, due, tre, quattro, cinque."
+    },
+    {
+      "question": "What does 'Come ti chiami?' mean?",
+      "choices": [
+        "What's your name?",
+        "How are you?",
+        "Where do you live?",
+        "How old are you?"
+      ],
+      "answer": 0,
+      "explanation": "'Come ti chiami?' literally means 'How do you call yourself?' and is the informal way to ask someone's name."
+    },
+    {
+      "question": "Which definite article goes with the plural masculine noun 'libri' (books)?",
+      "choices": [
+        "La",
+        "Il",
+        "Lo",
+        "I"
+      ],
+      "answer": 3,
+      "explanation": "'I libri'. 'Il' is used for singular masculine nouns (il libro), and 'i' is its plural."
+    },
+    {
+      "question": "What does 'acqua' mean?",
+      "choices": [
+        "Air",
+        "Water",
+        "Fire",
+        "Earth"
+      ],
+      "answer": 1,
+      "explanation": "'Acqua' means water. You might order 'acqua frizzante' (sparkling) or 'acqua naturale' (still)."
+    },
+    {
+      "question": "How do you say 'Excuse me' formally in Italian?",
+      "choices": [
+        "Mi scusi",
+        "Ciao",
+        "Grazie mille",
+        "Buona sera"
+      ],
+      "answer": 0,
+      "explanation": "'Mi scusi' is the formal 'excuse me'. 'Scusa' is the informal version."
+    },
+    {
+      "question": "What does 'Dov'è il bagno?' mean?",
+      "choices": [
+        "Where is the station?",
+        "What time is it?",
+        "Where is the bathroom?",
+        "How much is it?"
+      ],
+      "answer": 2,
+      "explanation": "'Dov'è il bagno?' means 'Where is the bathroom?'. 'Dov'è' is short for 'dove è', 'where is'."
+    }
+  ]
+}

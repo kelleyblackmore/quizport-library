@@ -1,0 +1,125 @@
+{
+  "title": "World Literature",
+  "description": "Famous novels, plays and poems and the writers behind them",
+  "difficulty": "Medium",
+  "category": "general",
+  "tags": [
+    "literature",
+    "books",
+    "authors",
+    "trivia",
+    "classics"
+  ],
+  "questions": [
+    {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "choices": [
+        "Charlotte Brontë",
+        "Jane Austen",
+        "George Eliot",
+        "Mary Shelley"
+      ],
+      "answer": 1,
+      "explanation": "Jane Austen published 'Pride and Prejudice' in 1813. It follows Elizabeth Bennet and Mr. Darcy."
+    },
+    {
+      "question": "Which Shakespeare play features the line 'To be, or not to be'?",
+      "choices": [
+        "Macbeth",
+        "King Lear",
+        "Hamlet",
+        "Othello"
+      ],
+      "answer": 2,
+      "explanation": "The line opens Prince Hamlet's famous soliloquy in Act 3, Scene 1 of 'Hamlet'."
+    },
+    {
+      "question": "Who wrote 'One Hundred Years of Solitude'?",
+      "choices": [
+        "Gabriel García Márquez",
+        "Jorge Luis Borges",
+        "Isabel Allende",
+        "Pablo Neruda"
+      ],
+      "answer": 0,
+      "explanation": "Colombian author Gabriel García Márquez published it in 1967. It is a landmark of magical realism."
+    },
+    {
+      "question": "Which novel begins with the line 'Call me Ishmael'?",
+      "choices": [
+        "Treasure Island",
+        "The Old Man and the Sea",
+        "Robinson Crusoe",
+        "Moby-Dick"
+      ],
+      "answer": 3,
+      "explanation": "Herman Melville's 'Moby-Dick' (1851) opens with Ishmael introducing himself before joining Captain Ahab's whaling voyage."
+    },
+    {
+      "question": "Who wrote the dystopian novel '1984'?",
+      "choices": [
+        "Aldous Huxley",
+        "George Orwell",
+        "Ray Bradbury",
+        "H. G. Wells"
+      ],
+      "answer": 1,
+      "explanation": "George Orwell published '1984' in 1949. Huxley wrote 'Brave New World' and Bradbury wrote 'Fahrenheit 451'."
+    },
+    {
+      "question": "Which ancient Greek epic follows Odysseus's journey home after the Trojan War?",
+      "choices": [
+        "The Iliad",
+        "The Aeneid",
+        "The Odyssey",
+        "The Argonautica"
+      ],
+      "answer": 2,
+      "explanation": "Homer's 'Odyssey' tells of Odysseus's ten-year voyage home to Ithaca. The 'Iliad' covers the war itself, and the 'Aeneid' is Virgil's Latin epic."
+    },
+    {
+      "question": "Who wrote 'War and Peace'?",
+      "choices": [
+        "Leo Tolstoy",
+        "Fyodor Dostoevsky",
+        "Anton Chekhov",
+        "Ivan Turgenev"
+      ],
+      "answer": 0,
+      "explanation": "Leo Tolstoy wrote 'War and Peace', set during the Napoleonic invasion of Russia. Dostoevsky wrote 'Crime and Punishment'."
+    },
+    {
+      "question": "In 'Don Quixote', what does the hero mistake for giants?",
+      "choices": [
+        "Castles",
+        "Sheep",
+        "Trees",
+        "Windmills"
+      ],
+      "answer": 3,
+      "explanation": "Don Quixote charges at windmills believing they are giants, the origin of the phrase 'tilting at windmills'. The novel is by Miguel de Cervantes."
+    },
+    {
+      "question": "Who wrote 'Things Fall Apart'?",
+      "choices": [
+        "Wole Soyinka",
+        "Chinua Achebe",
+        "Ngũgĩ wa Thiong'o",
+        "Chimamanda Ngozi Adichie"
+      ],
+      "answer": 1,
+      "explanation": "Nigerian author Chinua Achebe published 'Things Fall Apart' in 1958. It follows Okonkwo and the impact of colonialism on Igbo society."
+    },
+    {
+      "question": "Which author created the detective Hercule Poirot?",
+      "choices": [
+        "Arthur Conan Doyle",
+        "Dorothy L. Sayers",
+        "Agatha Christie",
+        "Raymond Chandler"
+      ],
+      "answer": 2,
+      "explanation": "Agatha Christie introduced the Belgian detective Hercule Poirot in 'The Mysterious Affair at Styles' (1920). Conan Doyle created Sherlock Holmes."
+    }
+  ]
+}

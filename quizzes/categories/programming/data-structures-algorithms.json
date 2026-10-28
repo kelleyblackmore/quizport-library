@@ -1,0 +1,124 @@
+{
+  "title": "Data Structures and Algorithms",
+  "description": "Big-O, core data structures and classic algorithms for interviews and beyond",
+  "difficulty": "Hard",
+  "category": "programming",
+  "tags": [
+    "algorithms",
+    "data-structures",
+    "big-o",
+    "computer-science"
+  ],
+  "questions": [
+    {
+      "question": "What is the time complexity of binary search on a sorted array?",
+      "choices": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(1)"
+      ],
+      "answer": 1,
+      "explanation": "Binary search halves the search range each step, so it needs about log₂(n) comparisons."
+    },
+    {
+      "question": "Which data structure follows Last In, First Out (LIFO) order?",
+      "choices": [
+        "Queue",
+        "Heap",
+        "Stack",
+        "Linked list"
+      ],
+      "answer": 2,
+      "explanation": "A stack removes the most recently added item first. A queue is First In, First Out."
+    },
+    {
+      "question": "What is the average time complexity of a lookup in a hash table?",
+      "choices": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": 0,
+      "explanation": "With a good hash function and low load factor, lookups average O(1). Many collisions can degrade the worst case to O(n)."
+    },
+    {
+      "question": "What is quicksort's worst-case time complexity?",
+      "choices": [
+        "O(n log n)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": 3,
+      "explanation": "Quicksort averages O(n log n) but degrades to O(n²) when pivots are consistently poor, for example the first element of an already sorted array."
+    },
+    {
+      "question": "Which traversal visits a binary search tree's nodes in ascending order?",
+      "choices": [
+        "Pre-order",
+        "In-order",
+        "Post-order",
+        "Level-order"
+      ],
+      "answer": 1,
+      "explanation": "In-order traversal visits left subtree, node, then right subtree, which yields a BST's keys in sorted order."
+    },
+    {
+      "question": "Which algorithm finds shortest paths from one source in a graph with non-negative edge weights?",
+      "choices": [
+        "Dijkstra's algorithm",
+        "Kruskal's algorithm",
+        "Depth-first search",
+        "Topological sort"
+      ],
+      "answer": 0,
+      "explanation": "Dijkstra's algorithm greedily settles the closest unvisited node. Kruskal's finds a minimum spanning tree instead."
+    },
+    {
+      "question": "Which data structure does breadth-first search use to track nodes to visit?",
+      "choices": [
+        "A stack",
+        "A priority queue",
+        "A queue",
+        "A hash set only"
+      ],
+      "answer": 2,
+      "explanation": "BFS uses a FIFO queue so nodes are explored level by level. Depth-first search uses a stack, often via recursion."
+    },
+    {
+      "question": "What is the time complexity of merge sort in every case?",
+      "choices": [
+        "O(n)",
+        "O(n²)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": 3,
+      "explanation": "Merge sort always splits in half (log n levels) and merges each level in O(n), giving O(n log n) for best, average and worst cases."
+    },
+    {
+      "question": "In a binary min-heap, where is the smallest element?",
+      "choices": [
+        "At the root",
+        "At the last leaf",
+        "In the leftmost leaf",
+        "Anywhere in the bottom level"
+      ],
+      "answer": 0,
+      "explanation": "The heap property keeps every parent no larger than its children, so the minimum is always at the root and can be read in O(1)."
+    },
+    {
+      "question": "What technique stores solutions to overlapping subproblems to avoid recomputing them?",
+      "choices": [
+        "Divide and conquer",
+        "Dynamic programming",
+        "Backtracking",
+        "Greedy selection"
+      ],
+      "answer": 1,
+      "explanation": "Dynamic programming caches subproblem results (memoization or tabulation). For example, it turns naive exponential Fibonacci into O(n)."
+    }
+  ]
+}

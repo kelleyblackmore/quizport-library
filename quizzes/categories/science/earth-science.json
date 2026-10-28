@@ -1,0 +1,124 @@
+{
+  "title": "Earth Science Basics",
+  "description": "Rocks, plate tectonics, weather and the layers of our planet",
+  "difficulty": "Easy",
+  "category": "science",
+  "tags": [
+    "earth-science",
+    "geology",
+    "weather",
+    "plate-tectonics"
+  ],
+  "questions": [
+    {
+      "question": "What is the outermost solid layer of the Earth called?",
+      "choices": [
+        "The mantle",
+        "The crust",
+        "The outer core",
+        "The inner core"
+      ],
+      "answer": 1,
+      "explanation": "The crust is the thin rocky outer shell. Beneath it lie the mantle, the liquid outer core and the solid inner core."
+    },
+    {
+      "question": "Which type of rock forms when magma or lava cools and solidifies?",
+      "choices": [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic",
+        "Fossil"
+      ],
+      "answer": 0,
+      "explanation": "Igneous rocks such as granite and basalt form from cooled molten rock. Sedimentary rocks form from compacted sediment, and metamorphic rocks from rock changed by heat and pressure."
+    },
+    {
+      "question": "What is the name of the theory that Earth's surface is divided into moving plates?",
+      "choices": [
+        "Continental drift only",
+        "Uniformitarianism",
+        "Plate tectonics",
+        "The Big Bang theory"
+      ],
+      "answer": 2,
+      "explanation": "Plate tectonics explains that the lithosphere is broken into plates that move over the mantle, causing earthquakes, volcanoes and mountain building."
+    },
+    {
+      "question": "What scale is commonly used today to report the size of large earthquakes?",
+      "choices": [
+        "The Beaufort scale",
+        "The Mohs scale",
+        "The Fujita scale",
+        "The moment magnitude scale"
+      ],
+      "answer": 3,
+      "explanation": "Seismologists use the moment magnitude scale for large earthquakes. The Beaufort scale measures wind, Mohs measures mineral hardness and Fujita rates tornadoes."
+    },
+    {
+      "question": "Which mineral has a hardness of 10 on the Mohs scale?",
+      "choices": [
+        "Quartz",
+        "Diamond",
+        "Topaz",
+        "Corundum"
+      ],
+      "answer": 1,
+      "explanation": "Diamond is the hardest natural mineral and sits at 10. Corundum is 9, topaz 8 and quartz 7."
+    },
+    {
+      "question": "In which layer of the atmosphere does almost all weather occur?",
+      "choices": [
+        "The troposphere",
+        "The stratosphere",
+        "The mesosphere",
+        "The thermosphere"
+      ],
+      "answer": 0,
+      "explanation": "The troposphere is the lowest layer, and it holds most of the atmosphere's mass and water vapor, so clouds and weather form there."
+    },
+    {
+      "question": "What is the process by which water vapor turns into liquid water, forming clouds?",
+      "choices": [
+        "Evaporation",
+        "Transpiration",
+        "Precipitation",
+        "Condensation"
+      ],
+      "answer": 3,
+      "explanation": "Condensation happens when water vapor cools and changes to liquid droplets, which gather into clouds."
+    },
+    {
+      "question": "What is the name of the supercontinent that existed about 300 to 200 million years ago?",
+      "choices": [
+        "Gondwana",
+        "Laurasia",
+        "Pangaea",
+        "Rodinia"
+      ],
+      "answer": 2,
+      "explanation": "Pangaea joined nearly all landmasses before breaking apart. Gondwana and Laurasia were the two large pieces it split into."
+    },
+    {
+      "question": "Which gas makes up most of Earth's atmosphere?",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide",
+        "Argon"
+      ],
+      "answer": 1,
+      "explanation": "Dry air is about 78% nitrogen, 21% oxygen and nearly 1% argon. Carbon dioxide is a small fraction of a percent."
+    },
+    {
+      "question": "What do we call a crack in Earth's crust along which rocks have moved?",
+      "choices": [
+        "A fault",
+        "A fold",
+        "A vent",
+        "A rift valley"
+      ],
+      "answer": 0,
+      "explanation": "A fault is a fracture where blocks of rock have slipped past one another. Sudden slip along a fault causes earthquakes."
+    }
+  ]
+}

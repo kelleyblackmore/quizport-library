@@ -1,0 +1,124 @@
+{
+  "title": "Famous Inventions",
+  "description": "Who invented what, and when: the breakthroughs that shaped modern life",
+  "difficulty": "Easy",
+  "category": "general",
+  "tags": [
+    "inventions",
+    "history",
+    "technology",
+    "trivia"
+  ],
+  "questions": [
+    {
+      "question": "Who is credited with patenting the first practical telephone in 1876?",
+      "choices": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Guglielmo Marconi"
+      ],
+      "answer": 1,
+      "explanation": "Alexander Graham Bell received the US patent for the telephone in 1876, though others, such as Antonio Meucci and Elisha Gray, worked on similar devices."
+    },
+    {
+      "question": "Which brothers made the first powered, controlled airplane flight in 1903?",
+      "choices": [
+        "The Montgolfier brothers",
+        "The Lumière brothers",
+        "The Wright brothers",
+        "The Grimm brothers"
+      ],
+      "answer": 2,
+      "explanation": "Orville and Wilbur Wright flew at Kitty Hawk, North Carolina, on 17 December 1903. The Montgolfiers pioneered hot-air balloons."
+    },
+    {
+      "question": "Who discovered penicillin in 1928?",
+      "choices": [
+        "Alexander Fleming",
+        "Louis Pasteur",
+        "Marie Curie",
+        "Edward Jenner"
+      ],
+      "answer": 0,
+      "explanation": "Alexander Fleming noticed mold killing bacteria in a petri dish. Florey and Chain later developed penicillin into a usable drug."
+    },
+    {
+      "question": "Who proposed the World Wide Web in 1989?",
+      "choices": [
+        "Bill Gates",
+        "Steve Jobs",
+        "Vint Cerf",
+        "Tim Berners-Lee"
+      ],
+      "answer": 3,
+      "explanation": "Tim Berners-Lee proposed the Web at CERN in 1989. Vint Cerf co-designed TCP/IP, the internet protocols the Web runs on."
+    },
+    {
+      "question": "Which ancient civilization is credited with inventing paper around the 2nd century AD?",
+      "choices": [
+        "China",
+        "Egypt",
+        "Greece",
+        "Rome"
+      ],
+      "answer": 0,
+      "explanation": "Cai Lun of the Han dynasty is traditionally credited with papermaking around 105 AD. Egyptian papyrus was an earlier, different material."
+    },
+    {
+      "question": "Who developed a successful smallpox vaccine in 1796?",
+      "choices": [
+        "Jonas Salk",
+        "Edward Jenner",
+        "Robert Koch",
+        "Joseph Lister"
+      ],
+      "answer": 1,
+      "explanation": "Edward Jenner used cowpox to protect against smallpox. Jonas Salk developed a polio vaccine in the 1950s."
+    },
+    {
+      "question": "Whose improvements to the steam engine in the 1760s and 1770s helped drive the Industrial Revolution?",
+      "choices": [
+        "George Stephenson",
+        "Isambard Kingdom Brunel",
+        "Henry Ford",
+        "James Watt"
+      ],
+      "answer": 3,
+      "explanation": "James Watt's separate condenser made steam engines much more efficient. Stephenson later built famous steam locomotives."
+    },
+    {
+      "question": "Who is famous for developing a long-lasting incandescent light bulb in 1879?",
+      "choices": [
+        "Nikola Tesla",
+        "Benjamin Franklin",
+        "Thomas Edison",
+        "Michael Faraday"
+      ],
+      "answer": 2,
+      "explanation": "Thomas Edison's team produced a practical carbon-filament bulb in 1879. Joseph Swan developed a similar bulb in England around the same time."
+    },
+    {
+      "question": "What did Karl Benz build in 1885-1886 that is often called the first practical automobile?",
+      "choices": [
+        "The Benz Patent-Motorwagen",
+        "The Model T",
+        "The Volkswagen Beetle",
+        "The steam carriage"
+      ],
+      "answer": 0,
+      "explanation": "The three-wheeled Benz Patent-Motorwagen ran on a gasoline engine. Ford's Model T arrived in 1908 and made cars affordable."
+    },
+    {
+      "question": "What did Tim Berners-Lee, Johannes Gutenberg and Alexander Graham Bell all transform?",
+      "choices": [
+        "Transportation",
+        "Communication",
+        "Medicine",
+        "Agriculture"
+      ],
+      "answer": 1,
+      "explanation": "The Web, the printing press and the telephone each changed how people share information over distance."
+    }
+  ]
+}

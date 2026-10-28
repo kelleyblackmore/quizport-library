@@ -1,0 +1,124 @@
+{
+  "title": "HTML and CSS Basics",
+  "description": "Elements, selectors and the box model: the building blocks of web pages",
+  "difficulty": "Easy",
+  "category": "programming",
+  "tags": [
+    "html",
+    "css",
+    "web-development",
+    "frontend"
+  ],
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "choices": [
+        "Hyperlinks and Text Markup Language",
+        "HyperText Markup Language",
+        "Home Tool Markup Language",
+        "High Transfer Markup Language"
+      ],
+      "answer": 1,
+      "explanation": "HTML stands for HyperText Markup Language, the standard language for structuring web pages."
+    },
+    {
+      "question": "Which HTML element creates a hyperlink?",
+      "choices": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 0,
+      "explanation": "The <a> (anchor) element creates links, with the destination in its href attribute. <link> connects resources such as stylesheets."
+    },
+    {
+      "question": "Which HTML element holds the largest default heading?",
+      "choices": [
+        "<heading>",
+        "<h6>",
+        "<head>",
+        "<h1>"
+      ],
+      "answer": 3,
+      "explanation": "<h1> is the top-level heading and <h6> the smallest. <head> holds page metadata, not visible headings."
+    },
+    {
+      "question": "Which attribute provides alternative text for an image?",
+      "choices": [
+        "title",
+        "src",
+        "alt",
+        "caption"
+      ],
+      "answer": 2,
+      "explanation": "The alt attribute describes the image for screen readers and is shown if the image fails to load."
+    },
+    {
+      "question": "Which CSS property changes the text color of an element?",
+      "choices": [
+        "color",
+        "font-color",
+        "text-color",
+        "foreground"
+      ],
+      "answer": 0,
+      "explanation": "The color property sets text color. font-color and text-color are not CSS properties."
+    },
+    {
+      "question": "Which CSS selector targets an element with id=\"main\"?",
+      "choices": [
+        ".main",
+        "#main",
+        "main",
+        "*main"
+      ],
+      "answer": 1,
+      "explanation": "# selects by id and . selects by class. A bare 'main' selects <main> elements."
+    },
+    {
+      "question": "In the CSS box model, which area lies between the content and the border?",
+      "choices": [
+        "Margin",
+        "Outline",
+        "Padding",
+        "Gap"
+      ],
+      "answer": 2,
+      "explanation": "Moving outward from the center the box model goes content, padding, border, margin."
+    },
+    {
+      "question": "Which CSS display value turns an element into a flex container?",
+      "choices": [
+        "display: block",
+        "display: grid",
+        "display: inline",
+        "display: flex"
+      ],
+      "answer": 3,
+      "explanation": "display: flex makes an element a flex container, laying out its children along a main axis."
+    },
+    {
+      "question": "What does CSS stand for?",
+      "choices": [
+        "Cascading Style Sheets",
+        "Creative Style System",
+        "Computer Style Sheets",
+        "Colorful Style Syntax"
+      ],
+      "answer": 0,
+      "explanation": "CSS means Cascading Style Sheets. 'Cascading' refers to how rules from several sources combine and override each other."
+    },
+    {
+      "question": "Which HTML element should wrap the main navigation links of a page?",
+      "choices": [
+        "<menu>",
+        "<nav>",
+        "<links>",
+        "<navigation>"
+      ],
+      "answer": 1,
+      "explanation": "<nav> is the semantic element for major navigation blocks, and it helps assistive technology find them."
+    }
+  ]
+}

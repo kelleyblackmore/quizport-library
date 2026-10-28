@@ -1,0 +1,124 @@
+{
+  "title": "Astronomy: The Solar System",
+  "description": "Planets, moons and the Sun: a tour of our corner of the Milky Way",
+  "difficulty": "Easy",
+  "category": "science",
+  "tags": [
+    "astronomy",
+    "solar-system",
+    "planets",
+    "space"
+  ],
+  "questions": [
+    {
+      "question": "Which planet is closest to the Sun?",
+      "choices": [
+        "Venus",
+        "Mercury",
+        "Mars",
+        "Earth"
+      ],
+      "answer": 1,
+      "explanation": "Mercury orbits closest to the Sun, at an average distance of about 58 million km."
+    },
+    {
+      "question": "Which is the largest planet in the Solar System?",
+      "choices": [
+        "Saturn",
+        "Neptune",
+        "Earth",
+        "Jupiter"
+      ],
+      "answer": 3,
+      "explanation": "Jupiter is the largest planet; its mass is more than twice that of all the other planets combined."
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "choices": [
+        "Mars",
+        "Mercury",
+        "Venus",
+        "Uranus"
+      ],
+      "answer": 0,
+      "explanation": "Mars looks red because iron oxide (rust) in its dust and rocks colors its surface."
+    },
+    {
+      "question": "Which planet has the hottest average surface temperature?",
+      "choices": [
+        "Mercury",
+        "Mars",
+        "Venus",
+        "Jupiter"
+      ],
+      "answer": 2,
+      "explanation": "Venus is hotter than Mercury despite being farther from the Sun: its thick carbon dioxide atmosphere traps heat, keeping the surface around 465 °C."
+    },
+    {
+      "question": "Roughly how long does sunlight take to reach Earth?",
+      "choices": [
+        "8 seconds",
+        "8 minutes",
+        "8 hours",
+        "8 days"
+      ],
+      "answer": 1,
+      "explanation": "Earth sits about 150 million km from the Sun, so light moving at about 300,000 km/s takes roughly 8 minutes 20 seconds to arrive."
+    },
+    {
+      "question": "What is the name of the band of rocky bodies between Mars and Jupiter?",
+      "choices": [
+        "The Kuiper Belt",
+        "The Oort Cloud",
+        "The Van Allen Belt",
+        "The Asteroid Belt"
+      ],
+      "answer": 3,
+      "explanation": "The main Asteroid Belt lies between the orbits of Mars and Jupiter. The Kuiper Belt is much farther out, beyond Neptune."
+    },
+    {
+      "question": "In 2006 the International Astronomical Union reclassified Pluto as what?",
+      "choices": [
+        "A dwarf planet",
+        "A moon of Neptune",
+        "An asteroid",
+        "A comet"
+      ],
+      "answer": 0,
+      "explanation": "The IAU's 2006 definition requires a planet to have cleared its orbital neighborhood. Pluto has not, so it became a dwarf planet."
+    },
+    {
+      "question": "What is the largest moon in the Solar System?",
+      "choices": [
+        "Titan",
+        "Ganymede",
+        "The Moon",
+        "Europa"
+      ],
+      "answer": 1,
+      "explanation": "Jupiter's moon Ganymede is the largest moon, and is even bigger than the planet Mercury. Saturn's Titan is a close second."
+    },
+    {
+      "question": "Which planet rotates on its side, with an axial tilt of about 98 degrees?",
+      "choices": [
+        "Neptune",
+        "Saturn",
+        "Uranus",
+        "Venus"
+      ],
+      "answer": 2,
+      "explanation": "Uranus is tipped over so far that it effectively rolls along its orbit, likely the result of a giant collision long ago."
+    },
+    {
+      "question": "What type of star is the Sun?",
+      "choices": [
+        "A red giant",
+        "A white dwarf",
+        "A neutron star",
+        "A yellow dwarf (G-type main-sequence star)"
+      ],
+      "answer": 3,
+      "explanation": "The Sun is a G-type main-sequence star, often called a yellow dwarf. It fuses hydrogen into helium in its core."
+    }
+  ]
+}

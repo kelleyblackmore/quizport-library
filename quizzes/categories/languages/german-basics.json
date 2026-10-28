@@ -1,0 +1,124 @@
+{
+  "title": "German Basics",
+  "description": "Common words, greetings and grammar to start learning German",
+  "difficulty": "Easy",
+  "category": "languages",
+  "tags": [
+    "german",
+    "language",
+    "vocabulary",
+    "beginner"
+  ],
+  "questions": [
+    {
+      "question": "What does 'Guten Morgen' mean?",
+      "choices": [
+        "Good night",
+        "Good morning",
+        "Good evening",
+        "Goodbye"
+      ],
+      "answer": 1,
+      "explanation": "'Guten Morgen' means 'Good morning'. 'Gute Nacht' is 'good night' and 'Guten Abend' is 'good evening'."
+    },
+    {
+      "question": "How do you say 'thank you' in German?",
+      "choices": [
+        "Bitte",
+        "Danke",
+        "Tschüss",
+        "Entschuldigung"
+      ],
+      "answer": 1,
+      "explanation": "'Danke' means 'thank you'. 'Bitte' means 'please' or 'you're welcome', and 'Tschüss' is an informal 'bye'."
+    },
+    {
+      "question": "What is the German word for 'water'?",
+      "choices": [
+        "Wasser",
+        "Wein",
+        "Milch",
+        "Brot"
+      ],
+      "answer": 0,
+      "explanation": "'Wasser' is water. 'Wein' is wine, 'Milch' is milk and 'Brot' is bread."
+    },
+    {
+      "question": "Which is the German number 'drei'?",
+      "choices": [
+        "2",
+        "4",
+        "3",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "'Drei' is three. Counting starts eins, zwei, drei, vier."
+    },
+    {
+      "question": "What does 'Ich heiße Anna' mean?",
+      "choices": [
+        "I am hungry, Anna",
+        "I live with Anna",
+        "I like Anna",
+        "My name is Anna"
+      ],
+      "answer": 3,
+      "explanation": "'Ich heiße' means 'I am called' or 'my name is'."
+    },
+    {
+      "question": "What is the definite article for the German noun 'Mädchen' (girl)?",
+      "choices": [
+        "Der",
+        "Die",
+        "Das",
+        "Den"
+      ],
+      "answer": 2,
+      "explanation": "It is 'das Mädchen'. Nouns ending in the diminutive '-chen' are always neuter, even when they refer to a girl."
+    },
+    {
+      "question": "How do you say 'Excuse me' or 'Sorry' in German?",
+      "choices": [
+        "Entschuldigung",
+        "Wiedersehen",
+        "Gesundheit",
+        "Willkommen"
+      ],
+      "answer": 0,
+      "explanation": "'Entschuldigung' means 'excuse me' or 'sorry'. 'Gesundheit' is said after someone sneezes."
+    },
+    {
+      "question": "What does 'Wie geht es Ihnen?' mean?",
+      "choices": [
+        "Where are you from?",
+        "What is your name?",
+        "How are you? (formal)",
+        "How old are you?"
+      ],
+      "answer": 2,
+      "explanation": "'Wie geht es Ihnen?' is the formal 'How are you?'. Among friends you would say 'Wie geht's?'."
+    },
+    {
+      "question": "What is the German word for 'cat'?",
+      "choices": [
+        "Hund",
+        "Vogel",
+        "Maus",
+        "Katze"
+      ],
+      "answer": 3,
+      "explanation": "'Katze' is cat. 'Hund' is dog, 'Vogel' is bird and 'Maus' is mouse."
+    },
+    {
+      "question": "Which German word means 'yes'?",
+      "choices": [
+        "Nein",
+        "Ja",
+        "Nie",
+        "Vielleicht"
+      ],
+      "answer": 1,
+      "explanation": "'Ja' means yes and 'nein' means no. 'Nie' means never, and 'vielleicht' means maybe."
+    }
+  ]
+}

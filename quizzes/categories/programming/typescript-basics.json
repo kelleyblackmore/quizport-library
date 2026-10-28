@@ -1,0 +1,124 @@
+{
+  "title": "TypeScript Basics",
+  "description": "Types, interfaces and generics: the core of typed JavaScript",
+  "difficulty": "Medium",
+  "category": "programming",
+  "tags": [
+    "typescript",
+    "javascript",
+    "types",
+    "web-development"
+  ],
+  "questions": [
+    {
+      "question": "What does TypeScript compile to?",
+      "choices": [
+        "WebAssembly",
+        "Java bytecode",
+        "JavaScript",
+        "Machine code"
+      ],
+      "answer": 2,
+      "explanation": "TypeScript is a typed superset of JavaScript. The compiler checks types and emits plain JavaScript."
+    },
+    {
+      "question": "Which keyword declares a named object shape that can be extended and merged?",
+      "choices": [
+        "interface",
+        "struct",
+        "shape",
+        "record"
+      ],
+      "answer": 0,
+      "explanation": "An interface describes the shape of an object. Interfaces can extend others, and two declarations with the same name merge."
+    },
+    {
+      "question": "Which type should you prefer for a value whose type is not yet known, forcing a check before use?",
+      "choices": [
+        "any",
+        "never",
+        "void",
+        "unknown"
+      ],
+      "answer": 3,
+      "explanation": "unknown accepts any value but must be narrowed before you use it. any switches type checking off entirely."
+    },
+    {
+      "question": "What does the '?' mean in `name?: string` inside an interface?",
+      "choices": [
+        "The property may be null",
+        "The property is optional",
+        "The property is read-only",
+        "The property is private"
+      ],
+      "answer": 1,
+      "explanation": "A '?' marks an optional property, so its type becomes string | undefined and the key may be left out."
+    },
+    {
+      "question": "What is the type `string | number` called?",
+      "choices": [
+        "A union type",
+        "An intersection type",
+        "A tuple type",
+        "A mapped type"
+      ],
+      "answer": 0,
+      "explanation": "A union type allows a value to be one of several types. An intersection (A & B) must satisfy all of them."
+    },
+    {
+      "question": "Which utility type makes every property of T optional?",
+      "choices": [
+        "Required<T>",
+        "Readonly<T>",
+        "Partial<T>",
+        "Pick<T, K>"
+      ],
+      "answer": 2,
+      "explanation": "Partial<T> marks all properties optional. Required<T> does the opposite, and Readonly<T> prevents reassignment."
+    },
+    {
+      "question": "What is `function identity<T>(value: T): T` an example of?",
+      "choices": [
+        "Overloading",
+        "Type assertion",
+        "Decorators",
+        "A generic function"
+      ],
+      "answer": 3,
+      "explanation": "T is a type parameter, so the function works for any type while keeping input and output types linked."
+    },
+    {
+      "question": "What is the return type of a function that always throws and never returns?",
+      "choices": [
+        "void",
+        "never",
+        "undefined",
+        "null"
+      ],
+      "answer": 1,
+      "explanation": "never describes values that never occur, such as a function that always throws or loops forever. void means it returns without a useful value."
+    },
+    {
+      "question": "Which file usually holds TypeScript compiler options for a project?",
+      "choices": [
+        "tsconfig.json",
+        "package.json",
+        ".babelrc",
+        "typescript.config.js"
+      ],
+      "answer": 0,
+      "explanation": "tsconfig.json sets options such as target, module and strict, and lists which files are part of the project."
+    },
+    {
+      "question": "What does `as const` do to `const colors = ['red', 'blue'] as const`?",
+      "choices": [
+        "Converts it to an object",
+        "Makes it mutable",
+        "Infers a readonly tuple of literal types",
+        "Removes its type"
+      ],
+      "answer": 2,
+      "explanation": "as const infers the narrowest types: here readonly ['red', 'blue'] instead of string[]."
+    }
+  ]
+}

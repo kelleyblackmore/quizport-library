@@ -1,0 +1,125 @@
+{
+  "title": "Probability and Statistics",
+  "description": "Averages, spread and chance: core ideas for reasoning about data",
+  "difficulty": "Medium",
+  "category": "math",
+  "tags": [
+    "probability",
+    "statistics",
+    "data",
+    "mean",
+    "median"
+  ],
+  "questions": [
+    {
+      "question": "What is the mean of 2, 4, 4, 5 and 10?",
+      "choices": [
+        "4",
+        "5",
+        "4.5",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "The mean is the sum divided by the count: (2 + 4 + 4 + 5 + 10) / 5 = 25 / 5 = 5."
+    },
+    {
+      "question": "What is the median of 3, 9, 1, 7 and 5?",
+      "choices": [
+        "5",
+        "7",
+        "3",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "Sort the values (1, 3, 5, 7, 9) and take the middle one: 5."
+    },
+    {
+      "question": "What is the mode of 1, 2, 2, 3, 3, 3, 4?",
+      "choices": [
+        "2",
+        "2.57",
+        "4",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "The mode is the most frequent value. 3 appears three times, more than any other value."
+    },
+    {
+      "question": "What is the probability of rolling a 6 on a fair six-sided die?",
+      "choices": [
+        "1/3",
+        "1/2",
+        "1/6",
+        "1/12"
+      ],
+      "answer": 2,
+      "explanation": "A fair die has six equally likely outcomes and exactly one of them is a 6, so the probability is 1/6."
+    },
+    {
+      "question": "What is the probability of flipping two heads in a row with a fair coin?",
+      "choices": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "3/4"
+      ],
+      "answer": 0,
+      "explanation": "The flips are independent, so multiply: 1/2 × 1/2 = 1/4."
+    },
+    {
+      "question": "A bag holds 3 red and 7 blue marbles. What is the probability of drawing a red marble?",
+      "choices": [
+        "3/7",
+        "0.3",
+        "0.7",
+        "1/3"
+      ],
+      "answer": 1,
+      "explanation": "There are 10 marbles and 3 are red, so the probability is 3/10 = 0.3."
+    },
+    {
+      "question": "What is the range of the data set 4, 12, 7, 19, 2?",
+      "choices": [
+        "15",
+        "12",
+        "7",
+        "17"
+      ],
+      "answer": 3,
+      "explanation": "The range is the maximum minus the minimum: 19 - 2 = 17."
+    },
+    {
+      "question": "Which measure of center is least affected by extreme outliers?",
+      "choices": [
+        "Mean",
+        "Range",
+        "Median",
+        "Standard deviation"
+      ],
+      "answer": 2,
+      "explanation": "The median only depends on the middle value(s), so a single extreme value barely moves it. The mean is pulled toward outliers."
+    },
+    {
+      "question": "In a normal distribution, roughly what percentage of values fall within one standard deviation of the mean?",
+      "choices": [
+        "68%",
+        "50%",
+        "95%",
+        "99.7%"
+      ],
+      "answer": 0,
+      "explanation": "The empirical (68-95-99.7) rule says about 68% fall within one standard deviation, 95% within two and 99.7% within three."
+    },
+    {
+      "question": "What is the probability of an event that is certain to happen?",
+      "choices": [
+        "0",
+        "1",
+        "0.5",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "Probabilities range from 0 (impossible) to 1 (certain). A certain event has probability 1, which is 100% when written as a percentage."
+    }
+  ]
+}

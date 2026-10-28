@@ -1,0 +1,124 @@
+{
+  "title": "Art History",
+  "description": "Famous paintings, sculptures and the movements behind them",
+  "difficulty": "Medium",
+  "category": "general",
+  "tags": [
+    "art",
+    "art-history",
+    "painting",
+    "trivia"
+  ],
+  "questions": [
+    {
+      "question": "Who painted 'The Starry Night' (1889)?",
+      "choices": [
+        "Claude Monet",
+        "Vincent van Gogh",
+        "Paul Cézanne",
+        "Edvard Munch"
+      ],
+      "answer": 1,
+      "explanation": "Vincent van Gogh painted it while staying at an asylum in Saint-Rémy-de-Provence. It hangs at MoMA in New York."
+    },
+    {
+      "question": "Which art movement takes its name from Claude Monet's painting 'Impression, Sunrise'?",
+      "choices": [
+        "Impressionism",
+        "Expressionism",
+        "Cubism",
+        "Fauvism"
+      ],
+      "answer": 0,
+      "explanation": "A critic mocked the painting's title in 1874, and the name 'Impressionism' stuck for the whole group."
+    },
+    {
+      "question": "Which artist co-founded Cubism with Georges Braque?",
+      "choices": [
+        "Salvador Dalí",
+        "Henri Matisse",
+        "Pablo Picasso",
+        "Joan Miró"
+      ],
+      "answer": 2,
+      "explanation": "Picasso and Braque developed Cubism around 1907-1914, breaking objects into geometric facets seen from several viewpoints."
+    },
+    {
+      "question": "Who painted 'The Persistence of Memory', with its melting clocks?",
+      "choices": [
+        "René Magritte",
+        "Max Ernst",
+        "Frida Kahlo",
+        "Salvador Dalí"
+      ],
+      "answer": 3,
+      "explanation": "Salvador Dalí painted it in 1931. It is a famous work of Surrealism."
+    },
+    {
+      "question": "Who painted 'Girl with a Pearl Earring'?",
+      "choices": [
+        "Johannes Vermeer",
+        "Rembrandt van Rijn",
+        "Frans Hals",
+        "Peter Paul Rubens"
+      ],
+      "answer": 0,
+      "explanation": "Johannes Vermeer painted it around 1665. It is in the Mauritshuis in The Hague."
+    },
+    {
+      "question": "Which artist is known for 'The Scream'?",
+      "choices": [
+        "Gustav Klimt",
+        "Egon Schiele",
+        "Wassily Kandinsky",
+        "Edvard Munch"
+      ],
+      "answer": 3,
+      "explanation": "Norwegian painter Edvard Munch made several versions of 'The Scream' from 1893, an icon of Expressionism."
+    },
+    {
+      "question": "Which Pop Art artist made famous silkscreens of Campbell's Soup cans and Marilyn Monroe?",
+      "choices": [
+        "Roy Lichtenstein",
+        "Andy Warhol",
+        "Keith Haring",
+        "Jasper Johns"
+      ],
+      "answer": 1,
+      "explanation": "Andy Warhol used commercial silkscreen printing to turn mass-produced images into art in the 1960s."
+    },
+    {
+      "question": "Which Mexican artist is known for vivid self-portraits such as 'The Two Fridas'?",
+      "choices": [
+        "Diego Rivera",
+        "Tamara de Lempicka",
+        "Frida Kahlo",
+        "Georgia O'Keeffe"
+      ],
+      "answer": 2,
+      "explanation": "Frida Kahlo painted 'The Two Fridas' in 1939. She was married to the muralist Diego Rivera."
+    },
+    {
+      "question": "Who sculpted 'The Thinker'?",
+      "choices": [
+        "Auguste Rodin",
+        "Michelangelo",
+        "Donatello",
+        "Gian Lorenzo Bernini"
+      ],
+      "answer": 0,
+      "explanation": "Auguste Rodin conceived 'The Thinker' around 1880 as part of his 'Gates of Hell' commission."
+    },
+    {
+      "question": "Which Dutch artist painted 'The Night Watch' (1642)?",
+      "choices": [
+        "Vincent van Gogh",
+        "Rembrandt van Rijn",
+        "Hieronymus Bosch",
+        "Piet Mondrian"
+      ],
+      "answer": 1,
+      "explanation": "Rembrandt painted 'The Night Watch', a group portrait of a civic militia company. It is in the Rijksmuseum in Amsterdam."
+    }
+  ]
+}

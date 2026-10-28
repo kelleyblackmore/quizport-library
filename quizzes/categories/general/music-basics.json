@@ -1,0 +1,124 @@
+{
+  "title": "Music Basics",
+  "description": "Notes, instruments, composers and the building blocks of music",
+  "difficulty": "Easy",
+  "category": "general",
+  "tags": [
+    "music",
+    "music-theory",
+    "instruments",
+    "trivia"
+  ],
+  "questions": [
+    {
+      "question": "How many lines are on a standard musical staff?",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "A staff has five lines and four spaces. Notes are placed on them to show pitch."
+    },
+    {
+      "question": "How many keys does a standard modern piano have?",
+      "choices": [
+        "88",
+        "76",
+        "96",
+        "72"
+      ],
+      "answer": 0,
+      "explanation": "A full-size piano has 88 keys: 52 white and 36 black."
+    },
+    {
+      "question": "In standard 4/4 time, how many beats does a whole note last?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "A whole note lasts four beats in 4/4. A half note lasts two and a quarter note one."
+    },
+    {
+      "question": "Which instrument family does the trumpet belong to?",
+      "choices": [
+        "Woodwinds",
+        "Brass",
+        "Strings",
+        "Percussion"
+      ],
+      "answer": 1,
+      "explanation": "Trumpets are brass instruments: the player buzzes their lips into a cup-shaped mouthpiece."
+    },
+    {
+      "question": "Which composer wrote the 'Moonlight Sonata' and continued composing after losing his hearing?",
+      "choices": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Frédéric Chopin"
+      ],
+      "answer": 0,
+      "explanation": "Beethoven wrote the 'Moonlight Sonata' in 1801. He was almost completely deaf when he composed his Ninth Symphony."
+    },
+    {
+      "question": "What does 'forte' mean in sheet music?",
+      "choices": [
+        "Slow",
+        "Fast",
+        "Loud",
+        "Soft"
+      ],
+      "answer": 2,
+      "explanation": "'Forte' (f) means loud and 'piano' (p) means soft. Tempo terms like 'allegro' (fast) are separate."
+    },
+    {
+      "question": "How many notes are in a standard major scale, not counting the repeated top note?",
+      "choices": [
+        "5",
+        "8",
+        "12",
+        "7"
+      ],
+      "answer": 3,
+      "explanation": "A major scale has seven distinct notes, such as C D E F G A B, before returning to C an octave higher."
+    },
+    {
+      "question": "Which note is a perfect fifth above C?",
+      "choices": [
+        "G",
+        "F",
+        "E",
+        "A"
+      ],
+      "answer": 0,
+      "explanation": "Counting C, D, E, F, G gives five letter names, and C to G is a perfect fifth (seven semitones)."
+    },
+    {
+      "question": "How many strings does a standard guitar have?",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "A standard guitar has six strings, usually tuned E A D G B E. Twelve-string guitars exist but are less common."
+    },
+    {
+      "question": "Which composer wrote 'The Four Seasons' violin concertos?",
+      "choices": [
+        "George Frideric Handel",
+        "Joseph Haydn",
+        "Antonio Vivaldi",
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "answer": 2,
+      "explanation": "Antonio Vivaldi published 'The Four Seasons' in 1725. Each concerto depicts a season of the year."
+    }
+  ]
+}
