@@ -1,0 +1,125 @@
+{
+  "title": "The Cold War",
+  "description": "The rivalry between the United States and the Soviet Union, from 1947 to 1991",
+  "difficulty": "Medium",
+  "category": "history",
+  "tags": [
+    "cold-war",
+    "history",
+    "20th-century",
+    "usa",
+    "soviet-union"
+  ],
+  "questions": [
+    {
+      "question": "Which two superpowers were the main rivals of the Cold War?",
+      "choices": [
+        "The UK and Germany",
+        "The US and China",
+        "The US and the Soviet Union",
+        "France and the Soviet Union"
+      ],
+      "answer": 2,
+      "explanation": "The Cold War was a geopolitical rivalry between the United States and its allies and the Soviet Union and its allies."
+    },
+    {
+      "question": "Who coined the phrase 'Iron Curtain' in a 1946 speech?",
+      "choices": [
+        "Winston Churchill",
+        "Harry Truman",
+        "Franklin Roosevelt",
+        "Joseph Stalin"
+      ],
+      "answer": 0,
+      "explanation": "Winston Churchill described an 'iron curtain' descending across Europe in his speech at Fulton, Missouri, in March 1946."
+    },
+    {
+      "question": "Which US program provided economic aid to rebuild Western Europe after WWII?",
+      "choices": [
+        "The New Deal",
+        "The Lend-Lease Act",
+        "The Truman Doctrine",
+        "The Marshall Plan"
+      ],
+      "answer": 3,
+      "explanation": "The Marshall Plan (1948) sent over $13 billion to help Western European economies recover. The Truman Doctrine was a policy of containing communism."
+    },
+    {
+      "question": "In what year was the Berlin Wall built?",
+      "choices": [
+        "1949",
+        "1961",
+        "1968",
+        "1989"
+      ],
+      "answer": 1,
+      "explanation": "East Germany began building the Berlin Wall in August 1961 to stop people escaping to West Berlin. It fell in November 1989."
+    },
+    {
+      "question": "What 1962 crisis brought the US and USSR closest to nuclear war?",
+      "choices": [
+        "The Cuban Missile Crisis",
+        "The Suez Crisis",
+        "The Berlin Blockade",
+        "The U-2 incident"
+      ],
+      "answer": 0,
+      "explanation": "In October 1962 the US discovered Soviet nuclear missiles in Cuba. A 13-day standoff ended when the Soviets agreed to remove them."
+    },
+    {
+      "question": "What was the first artificial satellite, launched by the Soviet Union in 1957?",
+      "choices": [
+        "Vostok 1",
+        "Explorer 1",
+        "Sputnik 1",
+        "Luna 2"
+      ],
+      "answer": 2,
+      "explanation": "Sputnik 1 launched on 4 October 1957, starting the Space Race. Explorer 1 was the first US satellite, launched in 1958."
+    },
+    {
+      "question": "Which military alliance did the Soviet Union and its Eastern European allies form in 1955?",
+      "choices": [
+        "NATO",
+        "SEATO",
+        "The Warsaw Pact",
+        "The Comecon"
+      ],
+      "answer": 2,
+      "explanation": "The Warsaw Pact was the Soviet bloc's answer to NATO. Comecon was an economic organization, not a military alliance."
+    },
+    {
+      "question": "Which Soviet leader introduced the policies of glasnost and perestroika?",
+      "choices": [
+        "Nikita Khrushchev",
+        "Leonid Brezhnev",
+        "Yuri Andropov",
+        "Mikhail Gorbachev"
+      ],
+      "answer": 3,
+      "explanation": "Mikhail Gorbachev introduced glasnost (openness) and perestroika (restructuring) in the mid-1980s."
+    },
+    {
+      "question": "What did the term 'MAD' stand for in Cold War nuclear strategy?",
+      "choices": [
+        "Mutually Assured Destruction",
+        "Military Air Defense",
+        "Massive Atomic Deterrence",
+        "Missile Attack Detection"
+      ],
+      "answer": 0,
+      "explanation": "Mutually Assured Destruction held that a full nuclear attack by either side would lead to the destruction of both, so neither would start one."
+    },
+    {
+      "question": "In what year was the Soviet Union dissolved, ending the Cold War?",
+      "choices": [
+        "1985",
+        "1991",
+        "1989",
+        "1993"
+      ],
+      "answer": 1,
+      "explanation": "The Soviet Union formally dissolved in December 1991, breaking into 15 independent states."
+    }
+  ]
+}

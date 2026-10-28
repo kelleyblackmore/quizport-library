@@ -1,0 +1,124 @@
+{
+  "title": "Ancient Egypt",
+  "description": "Pharaohs, pyramids and the Nile: three thousand years of Egyptian civilization",
+  "difficulty": "Medium",
+  "category": "history",
+  "tags": [
+    "ancient-egypt",
+    "history",
+    "pharaohs",
+    "classical-antiquity"
+  ],
+  "questions": [
+    {
+      "question": "Which river was the lifeline of ancient Egyptian civilization?",
+      "choices": [
+        "The Euphrates",
+        "The Nile",
+        "The Tigris",
+        "The Jordan"
+      ],
+      "answer": 1,
+      "explanation": "The Nile's yearly flood left fertile silt along its banks, making farming possible in an otherwise desert land."
+    },
+    {
+      "question": "For which pharaoh was the Great Pyramid of Giza built?",
+      "choices": [
+        "Tutankhamun",
+        "Ramesses II",
+        "Khufu",
+        "Akhenaten"
+      ],
+      "answer": 2,
+      "explanation": "The Great Pyramid was built for Khufu (also called Cheops) of the Fourth Dynasty, around 2560 BC."
+    },
+    {
+      "question": "What was the name of the writing system using pictures and symbols in ancient Egypt?",
+      "choices": [
+        "Hieroglyphs",
+        "Cuneiform",
+        "Linear B",
+        "Runes"
+      ],
+      "answer": 0,
+      "explanation": "Egyptians wrote with hieroglyphs. Cuneiform was used in Mesopotamia and Linear B in Mycenaean Greece."
+    },
+    {
+      "question": "Which artifact was key to deciphering Egyptian hieroglyphs?",
+      "choices": [
+        "The Narmer Palette",
+        "The Book of the Dead",
+        "The Pyramid Texts",
+        "The Rosetta Stone"
+      ],
+      "answer": 3,
+      "explanation": "The Rosetta Stone carries the same decree in hieroglyphic, Demotic and Greek. Jean-François Champollion used it to decipher hieroglyphs in 1822."
+    },
+    {
+      "question": "Who discovered the nearly intact tomb of Tutankhamun in 1922?",
+      "choices": [
+        "Howard Carter",
+        "Flinders Petrie",
+        "Jean-François Champollion",
+        "Heinrich Schliemann"
+      ],
+      "answer": 0,
+      "explanation": "British archaeologist Howard Carter found the tomb in the Valley of the Kings in November 1922, with funding from Lord Carnarvon."
+    },
+    {
+      "question": "Who was the last active ruler of the Ptolemaic Kingdom of Egypt?",
+      "choices": [
+        "Nefertiti",
+        "Hatshepsut",
+        "Cleopatra VII",
+        "Nefertari"
+      ],
+      "answer": 2,
+      "explanation": "Cleopatra VII ruled until her death in 30 BC, after which Egypt became a Roman province."
+    },
+    {
+      "question": "Which pharaoh tried to shift Egyptian worship to a single sun god, the Aten?",
+      "choices": [
+        "Khafre",
+        "Akhenaten",
+        "Thutmose III",
+        "Ramesses II"
+      ],
+      "answer": 1,
+      "explanation": "Akhenaten promoted worship of the Aten and founded a new capital at Amarna. His reforms were reversed after his death."
+    },
+    {
+      "question": "What material did Egyptians make from a reed to write on?",
+      "choices": [
+        "Parchment",
+        "Vellum",
+        "Clay tablets",
+        "Papyrus"
+      ],
+      "answer": 3,
+      "explanation": "Papyrus was made from strips of the papyrus plant pressed together. Our word 'paper' comes from it."
+    },
+    {
+      "question": "Which female pharaoh ruled during the 18th Dynasty and is known for her temple at Deir el-Bahari?",
+      "choices": [
+        "Hatshepsut",
+        "Cleopatra VII",
+        "Nefertiti",
+        "Ankhesenamun"
+      ],
+      "answer": 0,
+      "explanation": "Hatshepsut ruled as pharaoh in the 15th century BC. Her mortuary temple at Deir el-Bahari is one of Egypt's best-known monuments."
+    },
+    {
+      "question": "Why did ancient Egyptians mummify their dead?",
+      "choices": [
+        "To prevent the spread of disease",
+        "To preserve the body for the afterlife",
+        "To display them in temples",
+        "To honor only military heroes"
+      ],
+      "answer": 1,
+      "explanation": "Egyptians believed the soul needed a preserved body to live on in the afterlife, so they embalmed and wrapped the dead."
+    }
+  ]
+}

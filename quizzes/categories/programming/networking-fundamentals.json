@@ -1,0 +1,125 @@
+{
+  "title": "Networking Fundamentals",
+  "description": "IP addresses, ports, protocols and the OSI model",
+  "difficulty": "Medium",
+  "category": "programming",
+  "tags": [
+    "networking",
+    "tcp-ip",
+    "protocols",
+    "osi-model",
+    "dns"
+  ],
+  "questions": [
+    {
+      "question": "How many layers are in the OSI model?",
+      "choices": [
+        "4",
+        "5",
+        "7",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "The OSI model has seven layers: Physical, Data Link, Network, Transport, Session, Presentation and Application."
+    },
+    {
+      "question": "Which protocol translates domain names into IP addresses?",
+      "choices": [
+        "DHCP",
+        "DNS",
+        "ARP",
+        "FTP"
+      ],
+      "answer": 1,
+      "explanation": "DNS (Domain Name System) resolves names like example.com to IP addresses. ARP maps IP addresses to MAC addresses on a local network."
+    },
+    {
+      "question": "What is the default port for HTTPS?",
+      "choices": [
+        "443",
+        "80",
+        "22",
+        "8080"
+      ],
+      "answer": 0,
+      "explanation": "HTTPS uses TCP port 443 by default. Plain HTTP uses port 80 and SSH uses port 22."
+    },
+    {
+      "question": "Which transport protocol is connectionless and does not guarantee delivery?",
+      "choices": [
+        "TCP",
+        "IP",
+        "ICMP",
+        "UDP"
+      ],
+      "answer": 3,
+      "explanation": "UDP sends datagrams with no handshake or retransmission, which makes it fast and suited to streaming, gaming and DNS lookups."
+    },
+    {
+      "question": "How many bits are in an IPv4 address?",
+      "choices": [
+        "32",
+        "64",
+        "128",
+        "48"
+      ],
+      "answer": 0,
+      "explanation": "IPv4 addresses are 32 bits, usually written as four decimal octets. IPv6 addresses are 128 bits, and MAC addresses are 48 bits."
+    },
+    {
+      "question": "Which protocol automatically assigns IP addresses to devices on a network?",
+      "choices": [
+        "DNS",
+        "SNMP",
+        "DHCP",
+        "NAT"
+      ],
+      "answer": 2,
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) hands out IP addresses, subnet masks, gateways and DNS servers to clients."
+    },
+    {
+      "question": "At which OSI layer do routers primarily operate?",
+      "choices": [
+        "Layer 2 (Data Link)",
+        "Layer 3 (Network)",
+        "Layer 4 (Transport)",
+        "Layer 1 (Physical)"
+      ],
+      "answer": 1,
+      "explanation": "Routers forward packets based on IP addresses, which is Layer 3. Switches typically work at Layer 2 using MAC addresses."
+    },
+    {
+      "question": "Which address range is reserved for private networks?",
+      "choices": [
+        "8.8.8.0/24",
+        "172.217.0.0/16",
+        "100.0.0.0/8",
+        "192.168.0.0/16"
+      ],
+      "answer": 3,
+      "explanation": "RFC 1918 reserves 10.0.0.0/8, 172.16.0.0/12 and 192.168.0.0/16 for private networks. 8.8.8.8 is a public Google DNS server."
+    },
+    {
+      "question": "What does the TCP three-way handshake consist of?",
+      "choices": [
+        "SYN, SYN-ACK, ACK",
+        "SYN, ACK, FIN",
+        "HELLO, ACK, DONE",
+        "REQUEST, RESPONSE, CLOSE"
+      ],
+      "answer": 0,
+      "explanation": "The client sends SYN, the server replies SYN-ACK, and the client confirms with ACK before data flows."
+    },
+    {
+      "question": "How many usable host addresses are in a /24 IPv4 subnet?",
+      "choices": [
+        "256",
+        "254",
+        "255",
+        "128"
+      ],
+      "answer": 1,
+      "explanation": "A /24 has 256 addresses. One is the network address and one is the broadcast address, which leaves 254 usable hosts."
+    }
+  ]
+}

@@ -2,15 +2,15 @@
   "generated": "run `npm run build:index` to regenerate",
   "quizSchema": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/schemas/quiz-schema.json",
   "counts": {
-    "quizzes": 22,
-    "questions": 203,
+    "quizzes": 32,
+    "questions": 303,
     "byCategory": {
-      "general": 3,
-      "history": 3,
-      "languages": 3,
-      "math": 2,
-      "programming": 7,
-      "science": 4
+      "general": 4,
+      "history": 5,
+      "languages": 4,
+      "math": 4,
+      "programming": 9,
+      "science": 6
     }
   },
   "quizzes": [
@@ -76,6 +76,45 @@
       ]
     },
     {
+      "id": "world-literature",
+      "title": "World Literature",
+      "category": "general",
+      "questionCount": 10,
+      "path": "quizzes/categories/general/world-literature.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/general/world-literature.json",
+      "description": "Famous novels, plays and poems and the writers behind them",
+      "difficulty": "Medium",
+      "tags": [
+        "literature",
+        "books",
+        "authors",
+        "trivia",
+        "classics"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "ancient-egypt",
+      "title": "Ancient Egypt",
+      "category": "history",
+      "questionCount": 10,
+      "path": "quizzes/categories/history/ancient-egypt.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/history/ancient-egypt.json",
+      "description": "Pharaohs, pyramids and the Nile: three thousand years of Egyptian civilization",
+      "difficulty": "Medium",
+      "tags": [
+        "ancient-egypt",
+        "history",
+        "pharaohs",
+        "classical-antiquity"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "ancient-rome",
       "title": "Ancient Rome",
       "category": "history",
@@ -89,6 +128,26 @@
         "history",
         "roman-empire",
         "classical-antiquity"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "cold-war",
+      "title": "The Cold War",
+      "category": "history",
+      "questionCount": 10,
+      "path": "quizzes/categories/history/cold-war.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/history/cold-war.json",
+      "description": "The rivalry between the United States and the Soviet Union, from 1947 to 1991",
+      "difficulty": "Medium",
+      "tags": [
+        "cold-war",
+        "history",
+        "20th-century",
+        "usa",
+        "soviet-union"
       ],
       "features": [
         "explanations"
@@ -174,6 +233,25 @@
       ]
     },
     {
+      "id": "german-basics",
+      "title": "German Basics",
+      "category": "languages",
+      "questionCount": 10,
+      "path": "quizzes/categories/languages/german-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/languages/german-basics.json",
+      "description": "Common words, greetings and grammar to start learning German",
+      "difficulty": "Easy",
+      "tags": [
+        "german",
+        "language",
+        "vocabulary",
+        "beginner"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "spanish-basics",
       "title": "Spanish Basics",
       "category": "languages",
@@ -213,6 +291,25 @@
       ]
     },
     {
+      "id": "fractions-percentages",
+      "title": "Fractions, Decimals and Percentages",
+      "category": "math",
+      "questionCount": 10,
+      "path": "quizzes/categories/math/fractions-percentages.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/math/fractions-percentages.json",
+      "description": "Convert, compare and calculate with fractions, decimals and percents",
+      "difficulty": "Easy",
+      "tags": [
+        "fractions",
+        "decimals",
+        "percentages",
+        "arithmetic"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "geometry-basics",
       "title": "Geometry Basics",
       "category": "math",
@@ -227,6 +324,26 @@
         "shapes",
         "area",
         "basics"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "probability-statistics",
+      "title": "Probability and Statistics",
+      "category": "math",
+      "questionCount": 10,
+      "path": "quizzes/categories/math/probability-statistics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/math/probability-statistics.json",
+      "description": "Averages, spread and chance: core ideas for reasoning about data",
+      "difficulty": "Medium",
+      "tags": [
+        "probability",
+        "statistics",
+        "data",
+        "mean",
+        "median"
       ],
       "features": [
         "explanations"
@@ -273,6 +390,25 @@
       ]
     },
     {
+      "id": "html-css-basics",
+      "title": "HTML and CSS Basics",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/html-css-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/html-css-basics.json",
+      "description": "Elements, selectors and the box model: the building blocks of web pages",
+      "difficulty": "Easy",
+      "tags": [
+        "html",
+        "css",
+        "web-development",
+        "frontend"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "javascript-basics",
       "title": "JavaScript Fundamentals",
       "category": "programming",
@@ -306,6 +442,26 @@
         "linux+",
         "system-administration",
         "certification"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "networking-fundamentals",
+      "title": "Networking Fundamentals",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/networking-fundamentals.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/networking-fundamentals.json",
+      "description": "IP addresses, ports, protocols and the OSI model",
+      "difficulty": "Medium",
+      "tags": [
+        "networking",
+        "tcp-ip",
+        "protocols",
+        "osi-model",
+        "dns"
       ],
       "features": [
         "explanations"
@@ -372,6 +528,25 @@
       ]
     },
     {
+      "id": "astronomy-solar-system",
+      "title": "Astronomy: The Solar System",
+      "category": "science",
+      "questionCount": 10,
+      "path": "quizzes/categories/science/astronomy-solar-system.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/science/astronomy-solar-system.json",
+      "description": "Planets, moons and the Sun: a tour of our corner of the Milky Way",
+      "difficulty": "Easy",
+      "tags": [
+        "astronomy",
+        "solar-system",
+        "planets",
+        "space"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "biology-basics",
       "title": "Biology Basics",
       "category": "science",
@@ -404,6 +579,25 @@
         "elements",
         "atoms",
         "fundamentals"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "earth-science",
+      "title": "Earth Science Basics",
+      "category": "science",
+      "questionCount": 10,
+      "path": "quizzes/categories/science/earth-science.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/science/earth-science.json",
+      "description": "Rocks, plate tectonics, weather and the layers of our planet",
+      "difficulty": "Easy",
+      "tags": [
+        "earth-science",
+        "geology",
+        "weather",
+        "plate-tectonics"
       ],
       "features": [
         "explanations"
