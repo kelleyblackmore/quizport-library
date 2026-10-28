@@ -114,11 +114,11 @@
       "choices": [
         "Nein",
         "Ja",
-        "Doch",
+        "Nie",
         "Vielleicht"
       ],
       "answer": 1,
-      "explanation": "'Ja' means yes and 'nein' means no. 'Doch' contradicts a negative statement, and 'vielleicht' means maybe."
+      "explanation": "'Ja' means yes and 'nein' means no. 'Nie' means never, and 'vielleicht' means maybe."
     }
   ]
 }
