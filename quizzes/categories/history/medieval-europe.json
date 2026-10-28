@@ -1,0 +1,124 @@
+{
+  "title": "Medieval Europe",
+  "description": "Kings, castles, crusades and plague in Europe's Middle Ages",
+  "difficulty": "Medium",
+  "category": "history",
+  "tags": [
+    "medieval",
+    "middle-ages",
+    "history",
+    "europe"
+  ],
+  "questions": [
+    {
+      "question": "Which event in 476 AD is often used to mark the start of the Middle Ages?",
+      "choices": [
+        "The crowning of Charlemagne",
+        "The fall of the Western Roman Empire",
+        "The Battle of Hastings",
+        "The founding of Constantinople"
+      ],
+      "answer": 1,
+      "explanation": "In 476 the Germanic leader Odoacer deposed the last Western Roman emperor, Romulus Augustulus, a common starting point for the Middle Ages."
+    },
+    {
+      "question": "Who was crowned Emperor of the Romans by Pope Leo III on Christmas Day, 800 AD?",
+      "choices": [
+        "Charlemagne",
+        "Otto the Great",
+        "Clovis",
+        "Charles Martel"
+      ],
+      "answer": 0,
+      "explanation": "Charlemagne, king of the Franks, was crowned emperor in Rome in 800, reviving the idea of a western empire."
+    },
+    {
+      "question": "In what year did William the Conqueror win the Battle of Hastings?",
+      "choices": [
+        "1215",
+        "1096",
+        "1066",
+        "1346"
+      ],
+      "answer": 2,
+      "explanation": "William of Normandy defeated King Harold II at Hastings in 1066, beginning the Norman conquest of England."
+    },
+    {
+      "question": "What document did English barons force King John to seal in 1215?",
+      "choices": [
+        "The Domesday Book",
+        "The Bill of Rights",
+        "The Golden Bull",
+        "Magna Carta"
+      ],
+      "answer": 3,
+      "explanation": "Magna Carta limited the king's power and became a foundation of later ideas about the rule of law."
+    },
+    {
+      "question": "What was the social system in which vassals received land in exchange for military service?",
+      "choices": [
+        "Feudalism",
+        "Mercantilism",
+        "Capitalism",
+        "Absolutism"
+      ],
+      "answer": 0,
+      "explanation": "Under feudalism, lords granted fiefs (land) to vassals, who owed loyalty and military service in return."
+    },
+    {
+      "question": "Which pandemic killed an estimated third or more of Europe's population in the mid-1300s?",
+      "choices": [
+        "Smallpox",
+        "The Black Death",
+        "The Spanish flu",
+        "Cholera"
+      ],
+      "answer": 1,
+      "explanation": "The Black Death (1347-1351), an outbreak of bubonic plague, killed roughly 30-50% of Europe's people."
+    },
+    {
+      "question": "Who called for the First Crusade in 1095?",
+      "choices": [
+        "Pope Innocent III",
+        "Richard the Lionheart",
+        "Pope Urban II",
+        "Saladin"
+      ],
+      "answer": 2,
+      "explanation": "Pope Urban II launched the First Crusade at the Council of Clermont in 1095."
+    },
+    {
+      "question": "Which young French woman led troops during the Hundred Years' War before being burned at the stake in 1431?",
+      "choices": [
+        "Eleanor of Aquitaine",
+        "Catherine de' Medici",
+        "Blanche of Castile",
+        "Joan of Arc"
+      ],
+      "answer": 3,
+      "explanation": "Joan of Arc helped lift the Siege of Orléans in 1429. She was captured, tried and executed in Rouen in 1431."
+    },
+    {
+      "question": "Which empire, centered on Constantinople, survived until 1453?",
+      "choices": [
+        "The Byzantine Empire",
+        "The Holy Roman Empire",
+        "The Carolingian Empire",
+        "The Ottoman Empire"
+      ],
+      "answer": 0,
+      "explanation": "The Byzantine (Eastern Roman) Empire lasted until the Ottomans captured Constantinople in 1453."
+    },
+    {
+      "question": "Which language was used for scholarship and the Church throughout medieval Western Europe?",
+      "choices": [
+        "Greek",
+        "Latin",
+        "French",
+        "Hebrew"
+      ],
+      "answer": 1,
+      "explanation": "Latin was the shared language of the Western Church, universities and learning, even as everyday speech shifted to vernacular languages."
+    }
+  ]
+}

@@ -2,18 +2,75 @@
   "generated": "run `npm run build:index` to regenerate",
   "quizSchema": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/schemas/quiz-schema.json",
   "counts": {
-    "quizzes": 32,
-    "questions": 303,
+    "quizzes": 44,
+    "questions": 423,
     "byCategory": {
-      "general": 4,
-      "history": 5,
-      "languages": 4,
-      "math": 4,
-      "programming": 9,
-      "science": 6
+      "general": 7,
+      "history": 7,
+      "languages": 5,
+      "math": 5,
+      "programming": 13,
+      "science": 7
     }
   },
   "quizzes": [
+    {
+      "id": "art-history",
+      "title": "Art History",
+      "category": "general",
+      "questionCount": 10,
+      "path": "quizzes/categories/general/art-history.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/general/art-history.json",
+      "description": "Famous paintings, sculptures and the movements behind them",
+      "difficulty": "Medium",
+      "tags": [
+        "art",
+        "art-history",
+        "painting",
+        "trivia"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "famous-inventions",
+      "title": "Famous Inventions",
+      "category": "general",
+      "questionCount": 10,
+      "path": "quizzes/categories/general/famous-inventions.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/general/famous-inventions.json",
+      "description": "Who invented what, and when: the breakthroughs that shaped modern life",
+      "difficulty": "Easy",
+      "tags": [
+        "inventions",
+        "history",
+        "technology",
+        "trivia"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "music-basics",
+      "title": "Music Basics",
+      "category": "general",
+      "questionCount": 10,
+      "path": "quizzes/categories/general/music-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/general/music-basics.json",
+      "description": "Notes, instruments, composers and the building blocks of music",
+      "difficulty": "Easy",
+      "tags": [
+        "music",
+        "music-theory",
+        "instruments",
+        "trivia"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
     {
       "id": "pop-culture-2020s",
       "title": "Pop Culture 2020s",
@@ -154,6 +211,44 @@
       ]
     },
     {
+      "id": "medieval-europe",
+      "title": "Medieval Europe",
+      "category": "history",
+      "questionCount": 10,
+      "path": "quizzes/categories/history/medieval-europe.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/history/medieval-europe.json",
+      "description": "Kings, castles, crusades and plague in Europe's Middle Ages",
+      "difficulty": "Medium",
+      "tags": [
+        "medieval",
+        "middle-ages",
+        "history",
+        "europe"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "renaissance",
+      "title": "The Renaissance",
+      "category": "history",
+      "questionCount": 10,
+      "path": "quizzes/categories/history/renaissance.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/history/renaissance.json",
+      "description": "Artists, thinkers and inventions of Europe's rebirth, from about 1300 to 1600",
+      "difficulty": "Medium",
+      "tags": [
+        "renaissance",
+        "history",
+        "art",
+        "europe"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "us-history",
       "title": "US History Essentials",
       "category": "history",
@@ -252,6 +347,25 @@
       ]
     },
     {
+      "id": "italian-basics",
+      "title": "Italian Basics",
+      "category": "languages",
+      "questionCount": 10,
+      "path": "quizzes/categories/languages/italian-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/languages/italian-basics.json",
+      "description": "Greetings, numbers and everyday words to start speaking Italian",
+      "difficulty": "Easy",
+      "tags": [
+        "italian",
+        "language",
+        "vocabulary",
+        "beginner"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "spanish-basics",
       "title": "Spanish Basics",
       "category": "languages",
@@ -285,6 +399,25 @@
         "math",
         "equations",
         "basics"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "calculus-basics",
+      "title": "Calculus Fundamentals",
+      "category": "math",
+      "questionCount": 10,
+      "path": "quizzes/categories/math/calculus-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/math/calculus-basics.json",
+      "description": "Limits, derivatives and integrals for students past the first few weeks of calculus",
+      "difficulty": "Hard",
+      "tags": [
+        "calculus",
+        "derivatives",
+        "integrals",
+        "limits"
       ],
       "features": [
         "explanations"
@@ -344,6 +477,25 @@
         "data",
         "mean",
         "median"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "data-structures-algorithms",
+      "title": "Data Structures and Algorithms",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/data-structures-algorithms.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/data-structures-algorithms.json",
+      "description": "Big-O, core data structures and classic algorithms for interviews and beyond",
+      "difficulty": "Hard",
+      "tags": [
+        "algorithms",
+        "data-structures",
+        "big-o",
+        "computer-science"
       ],
       "features": [
         "explanations"
@@ -428,6 +580,25 @@
       ]
     },
     {
+      "id": "kubernetes-essentials",
+      "title": "Kubernetes Essentials",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/kubernetes-essentials.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/kubernetes-essentials.json",
+      "description": "Pods, deployments, services and kubectl for running containers at scale",
+      "difficulty": "Hard",
+      "tags": [
+        "kubernetes",
+        "containers",
+        "devops",
+        "cloud"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "linux-plus",
       "title": "CompTIA Linux+ Essentials",
       "category": "programming",
@@ -488,6 +659,26 @@
       ]
     },
     {
+      "id": "react-fundamentals",
+      "title": "React Fundamentals",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/react-fundamentals.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/react-fundamentals.json",
+      "description": "Components, props, state and hooks in modern React",
+      "difficulty": "Medium",
+      "tags": [
+        "react",
+        "javascript",
+        "frontend",
+        "hooks",
+        "web-development"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
       "id": "security-plus",
       "title": "CompTIA Security+ Fundamentals",
       "category": "programming",
@@ -522,6 +713,25 @@
         "queries",
         "relational",
         "programming"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "typescript-basics",
+      "title": "TypeScript Basics",
+      "category": "programming",
+      "questionCount": 10,
+      "path": "quizzes/categories/programming/typescript-basics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/programming/typescript-basics.json",
+      "description": "Types, interfaces and generics: the core of typed JavaScript",
+      "difficulty": "Medium",
+      "tags": [
+        "typescript",
+        "javascript",
+        "types",
+        "web-development"
       ],
       "features": [
         "explanations"
@@ -598,6 +808,25 @@
         "geology",
         "weather",
         "plate-tectonics"
+      ],
+      "features": [
+        "explanations"
+      ]
+    },
+    {
+      "id": "genetics",
+      "title": "Genetics and Heredity",
+      "category": "science",
+      "questionCount": 10,
+      "path": "quizzes/categories/science/genetics.json",
+      "url": "https://raw.githubusercontent.com/kelleyblackmore/quizport-library/main/quizzes/categories/science/genetics.json",
+      "description": "DNA, genes and inheritance, from Mendel to modern molecular biology",
+      "difficulty": "Medium",
+      "tags": [
+        "genetics",
+        "dna",
+        "heredity",
+        "biology"
       ],
       "features": [
         "explanations"

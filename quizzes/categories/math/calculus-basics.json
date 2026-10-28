@@ -1,0 +1,124 @@
+{
+  "title": "Calculus Fundamentals",
+  "description": "Limits, derivatives and integrals for students past the first few weeks of calculus",
+  "difficulty": "Hard",
+  "category": "math",
+  "tags": [
+    "calculus",
+    "derivatives",
+    "integrals",
+    "limits"
+  ],
+  "questions": [
+    {
+      "question": "What is the derivative of x³?",
+      "choices": [
+        "x²",
+        "3x²",
+        "3x³",
+        "x⁴/4"
+      ],
+      "answer": 1,
+      "explanation": "By the power rule, d/dx xⁿ = n·xⁿ⁻¹, so the derivative of x³ is 3x²."
+    },
+    {
+      "question": "What is the derivative of sin(x)?",
+      "choices": [
+        "cos(x)",
+        "-cos(x)",
+        "-sin(x)",
+        "tan(x)"
+      ],
+      "answer": 0,
+      "explanation": "d/dx sin(x) = cos(x). The derivative of cos(x) is -sin(x)."
+    },
+    {
+      "question": "What is the limit of sin(x)/x as x approaches 0?",
+      "choices": [
+        "0",
+        "Infinity",
+        "1",
+        "It does not exist"
+      ],
+      "answer": 2,
+      "explanation": "This classic limit equals 1. It can be shown with the squeeze theorem and is the basis for differentiating sin(x)."
+    },
+    {
+      "question": "What is the derivative of eˣ?",
+      "choices": [
+        "x·eˣ⁻¹",
+        "eˣ⁻¹",
+        "ln(x)",
+        "eˣ"
+      ],
+      "answer": 3,
+      "explanation": "eˣ is its own derivative, which is what makes e special as a base."
+    },
+    {
+      "question": "What is the indefinite integral of 1/x (for x > 0)?",
+      "choices": [
+        "ln(x) + C",
+        "x⁻²/(-2) + C",
+        "1/x² + C",
+        "eˣ + C"
+      ],
+      "answer": 0,
+      "explanation": "Since d/dx ln(x) = 1/x, the antiderivative of 1/x is ln|x| + C, which is ln(x) + C for positive x."
+    },
+    {
+      "question": "Using the chain rule, what is the derivative of (2x + 1)⁵?",
+      "choices": [
+        "5(2x + 1)⁴",
+        "10(2x + 1)⁴",
+        "(2x + 1)⁴",
+        "10x(2x + 1)⁴"
+      ],
+      "answer": 1,
+      "explanation": "Differentiate the outer power and multiply by the inner derivative: 5(2x + 1)⁴ × 2 = 10(2x + 1)⁴."
+    },
+    {
+      "question": "What is the value of the definite integral of 2x from 0 to 3?",
+      "choices": [
+        "6",
+        "3",
+        "18",
+        "9"
+      ],
+      "answer": 3,
+      "explanation": "An antiderivative is x². Evaluating from 0 to 3 gives 3² - 0² = 9."
+    },
+    {
+      "question": "If f'(c) = 0 and f''(c) > 0, what does f have at x = c?",
+      "choices": [
+        "A local maximum",
+        "An inflection point",
+        "A local minimum",
+        "A vertical asymptote"
+      ],
+      "answer": 2,
+      "explanation": "The second derivative test: a zero slope with positive concavity means the graph cups upward, so c is a local minimum."
+    },
+    {
+      "question": "What does the Fundamental Theorem of Calculus connect?",
+      "choices": [
+        "Differentiation and integration",
+        "Limits and sequences",
+        "Series and polynomials",
+        "Vectors and matrices"
+      ],
+      "answer": 0,
+      "explanation": "It shows that differentiation and integration are inverse operations, and lets definite integrals be evaluated with antiderivatives."
+    },
+    {
+      "question": "Using the product rule, what is the derivative of x·sin(x)?",
+      "choices": [
+        "cos(x)",
+        "sin(x) + x·cos(x)",
+        "x·cos(x)",
+        "sin(x) - x·cos(x)"
+      ],
+      "answer": 1,
+      "explanation": "The product rule gives (fg)' = f'g + fg'. Here that is 1·sin(x) + x·cos(x)."
+    }
+  ]
+}

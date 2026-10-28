@@ -1,0 +1,124 @@
+{
+  "title": "The Renaissance",
+  "description": "Artists, thinkers and inventions of Europe's rebirth, from about 1300 to 1600",
+  "difficulty": "Medium",
+  "category": "history",
+  "tags": [
+    "renaissance",
+    "history",
+    "art",
+    "europe"
+  ],
+  "questions": [
+    {
+      "question": "In which Italian city did the Renaissance largely begin?",
+      "choices": [
+        "Rome",
+        "Venice",
+        "Florence",
+        "Milan"
+      ],
+      "answer": 2,
+      "explanation": "Florence, wealthy from banking and the wool trade and home to patrons such as the Medici, is generally seen as the Renaissance's birthplace."
+    },
+    {
+      "question": "Which powerful banking family were major patrons of the arts in Florence?",
+      "choices": [
+        "The Medici",
+        "The Borgia",
+        "The Sforza",
+        "The Habsburgs"
+      ],
+      "answer": 0,
+      "explanation": "The Medici funded artists and scholars including Botticelli and Michelangelo. The family later produced popes and queens."
+    },
+    {
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "choices": [
+        "Raphael",
+        "Leonardo da Vinci",
+        "Donatello",
+        "Michelangelo"
+      ],
+      "answer": 3,
+      "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512, including the famous 'Creation of Adam'."
+    },
+    {
+      "question": "Who developed a movable-type printing press in Europe around 1440?",
+      "choices": [
+        "William Caxton",
+        "Johannes Gutenberg",
+        "Aldus Manutius",
+        "Nicolaus Copernicus"
+      ],
+      "answer": 1,
+      "explanation": "Johannes Gutenberg's press in Mainz made books far cheaper and spread Renaissance ideas quickly. His Bible was printed around 1455."
+    },
+    {
+      "question": "Who wrote 'The Prince', a treatise on political power?",
+      "choices": [
+        "Niccolò Machiavelli",
+        "Thomas More",
+        "Erasmus",
+        "Dante Alighieri"
+      ],
+      "answer": 0,
+      "explanation": "Machiavelli wrote 'The Prince' in 1513. Thomas More wrote 'Utopia', and Dante wrote the 'Divine Comedy' earlier, around 1308-1321."
+    },
+    {
+      "question": "Which intellectual movement of the Renaissance focused on classical texts and human potential?",
+      "choices": [
+        "Scholasticism",
+        "Humanism",
+        "Romanticism",
+        "Rationalism"
+      ],
+      "answer": 1,
+      "explanation": "Renaissance humanists such as Petrarch studied Greek and Roman texts and emphasized human achievement and education."
+    },
+    {
+      "question": "Which astronomer proposed a heliocentric model in 'On the Revolutions of the Heavenly Spheres' (1543)?",
+      "choices": [
+        "Galileo Galilei",
+        "Johannes Kepler",
+        "Tycho Brahe",
+        "Nicolaus Copernicus"
+      ],
+      "answer": 3,
+      "explanation": "Copernicus put the Sun at the center of the cosmos. Galileo and Kepler later supported and refined the idea."
+    },
+    {
+      "question": "Who painted the 'Mona Lisa'?",
+      "choices": [
+        "Titian",
+        "Sandro Botticelli",
+        "Leonardo da Vinci",
+        "Jan van Eyck"
+      ],
+      "answer": 2,
+      "explanation": "Leonardo da Vinci painted the 'Mona Lisa' in the early 1500s. It now hangs in the Louvre in Paris."
+    },
+    {
+      "question": "Which architect engineered the great dome of Florence Cathedral?",
+      "choices": [
+        "Filippo Brunelleschi",
+        "Andrea Palladio",
+        "Donato Bramante",
+        "Leon Battista Alberti"
+      ],
+      "answer": 0,
+      "explanation": "Brunelleschi completed the dome in 1436 without traditional wooden centering. He is also credited with developing linear perspective."
+    },
+    {
+      "question": "Which Botticelli painting shows a goddess arriving on a scallop shell?",
+      "choices": [
+        "Primavera",
+        "The Birth of Venus",
+        "The School of Athens",
+        "The Last Supper"
+      ],
+      "answer": 1,
+      "explanation": "'The Birth of Venus' (c. 1485) shows Venus arriving at the shore on a shell. 'The School of Athens' is by Raphael and 'The Last Supper' by Leonardo."
+    }
+  ]
+}

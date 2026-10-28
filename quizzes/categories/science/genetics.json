@@ -1,0 +1,124 @@
+{
+  "title": "Genetics and Heredity",
+  "description": "DNA, genes and inheritance, from Mendel to modern molecular biology",
+  "difficulty": "Medium",
+  "category": "science",
+  "tags": [
+    "genetics",
+    "dna",
+    "heredity",
+    "biology"
+  ],
+  "questions": [
+    {
+      "question": "What is the shape of the DNA molecule?",
+      "choices": [
+        "A single helix",
+        "A double helix",
+        "A triple helix",
+        "A flat ladder"
+      ],
+      "answer": 1,
+      "explanation": "DNA is a double helix: two strands wound around each other, joined by base pairs. Watson and Crick described it in 1953, drawing on Rosalind Franklin's X-ray data."
+    },
+    {
+      "question": "In DNA, adenine pairs with which base?",
+      "choices": [
+        "Thymine",
+        "Guanine",
+        "Cytosine",
+        "Uracil"
+      ],
+      "answer": 0,
+      "explanation": "Adenine pairs with thymine and guanine pairs with cytosine. In RNA, uracil takes thymine's place."
+    },
+    {
+      "question": "Who is known as the father of genetics for his experiments with pea plants?",
+      "choices": [
+        "Charles Darwin",
+        "Louis Pasteur",
+        "Gregor Mendel",
+        "Thomas Hunt Morgan"
+      ],
+      "answer": 2,
+      "explanation": "Gregor Mendel's pea experiments in the 1860s showed that traits are inherited as discrete units, which we now call genes."
+    },
+    {
+      "question": "How many chromosomes does a typical human body cell contain?",
+      "choices": [
+        "23",
+        "44",
+        "48",
+        "46"
+      ],
+      "answer": 3,
+      "explanation": "Human somatic cells have 46 chromosomes in 23 pairs. Eggs and sperm carry 23."
+    },
+    {
+      "question": "If both parents are heterozygous (Aa) for a trait, what fraction of offspring are expected to be homozygous recessive (aa)?",
+      "choices": [
+        "1/4",
+        "1/2",
+        "3/4",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "A Punnett square for Aa × Aa gives AA, Aa, Aa and aa, so 1 in 4 offspring is expected to be aa."
+    },
+    {
+      "question": "What is the process of copying DNA into messenger RNA called?",
+      "choices": [
+        "Translation",
+        "Transcription",
+        "Replication",
+        "Mutation"
+      ],
+      "answer": 1,
+      "explanation": "Transcription copies a gene into mRNA. Translation then reads the mRNA at the ribosome to build a protein."
+    },
+    {
+      "question": "How many bases make up one codon?",
+      "choices": [
+        "2",
+        "4",
+        "3",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "A codon is three nucleotides long, and each codon specifies one amino acid or a stop signal."
+    },
+    {
+      "question": "Which organelle is the site of protein synthesis?",
+      "choices": [
+        "The mitochondrion",
+        "The nucleus",
+        "The lysosome",
+        "The ribosome"
+      ],
+      "answer": 3,
+      "explanation": "Ribosomes translate mRNA into chains of amino acids. They float free in the cytoplasm or sit on the rough endoplasmic reticulum."
+    },
+    {
+      "question": "What kind of cell division produces gametes with half the usual number of chromosomes?",
+      "choices": [
+        "Meiosis",
+        "Mitosis",
+        "Binary fission",
+        "Budding"
+      ],
+      "answer": 0,
+      "explanation": "Meiosis involves two rounds of division and yields four haploid cells. Mitosis produces two identical diploid cells."
+    },
+    {
+      "question": "Which sex chromosomes does a typical human male have?",
+      "choices": [
+        "XX",
+        "XY",
+        "YY",
+        "X only"
+      ],
+      "answer": 1,
+      "explanation": "Typical males are XY and typical females are XX. The SRY gene on the Y chromosome triggers male development."
+    }
+  ]
+}

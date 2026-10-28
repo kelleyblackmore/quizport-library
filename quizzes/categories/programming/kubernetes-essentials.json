@@ -1,0 +1,124 @@
+{
+  "title": "Kubernetes Essentials",
+  "description": "Pods, deployments, services and kubectl for running containers at scale",
+  "difficulty": "Hard",
+  "category": "programming",
+  "tags": [
+    "kubernetes",
+    "containers",
+    "devops",
+    "cloud"
+  ],
+  "questions": [
+    {
+      "question": "What is the smallest deployable unit in Kubernetes?",
+      "choices": [
+        "A container",
+        "A Pod",
+        "A Node",
+        "A Deployment"
+      ],
+      "answer": 1,
+      "explanation": "A Pod wraps one or more containers that share networking and storage. Kubernetes schedules Pods, not individual containers."
+    },
+    {
+      "question": "Which object keeps a set number of Pod replicas running and handles rolling updates?",
+      "choices": [
+        "Deployment",
+        "Service",
+        "ConfigMap",
+        "Namespace"
+      ],
+      "answer": 0,
+      "explanation": "A Deployment manages ReplicaSets to keep the desired number of Pods running, and rolls out new versions gradually."
+    },
+    {
+      "question": "Which object gives a stable network endpoint to a changing set of Pods?",
+      "choices": [
+        "Ingress controller",
+        "PersistentVolume",
+        "Service",
+        "DaemonSet"
+      ],
+      "answer": 2,
+      "explanation": "A Service selects Pods by label and provides a stable virtual IP and DNS name, load-balancing across them."
+    },
+    {
+      "question": "Which command-line tool is used to interact with a Kubernetes cluster?",
+      "choices": [
+        "kubeadm",
+        "minikube",
+        "helm",
+        "kubectl"
+      ],
+      "answer": 3,
+      "explanation": "kubectl talks to the API server to create, inspect and delete resources. kubeadm bootstraps clusters and helm manages charts."
+    },
+    {
+      "question": "Which control plane component stores all cluster state as key-value data?",
+      "choices": [
+        "etcd",
+        "kube-scheduler",
+        "kubelet",
+        "kube-proxy"
+      ],
+      "answer": 0,
+      "explanation": "etcd is the consistent key-value store behind the API server. Backing it up is backing up the cluster's state."
+    },
+    {
+      "question": "Which object ensures one copy of a Pod runs on every (or every matching) node?",
+      "choices": [
+        "StatefulSet",
+        "DaemonSet",
+        "ReplicaSet",
+        "Job"
+      ],
+      "answer": 1,
+      "explanation": "DaemonSets suit node-level agents such as log collectors and monitoring exporters."
+    },
+    {
+      "question": "Which agent runs on each node and makes sure the containers in its Pods are running?",
+      "choices": [
+        "kube-apiserver",
+        "kube-controller-manager",
+        "kubelet",
+        "coredns"
+      ],
+      "answer": 2,
+      "explanation": "The kubelet receives Pod specs for its node and works with the container runtime to start and monitor containers."
+    },
+    {
+      "question": "Which object should hold sensitive values such as passwords and API tokens?",
+      "choices": [
+        "ConfigMap",
+        "Annotation",
+        "Label",
+        "Secret"
+      ],
+      "answer": 3,
+      "explanation": "Secrets are meant for sensitive data. Note they are only base64-encoded by default, so enable encryption at rest and restrict access with RBAC."
+    },
+    {
+      "question": "What does a failing readiness probe cause?",
+      "choices": [
+        "The Pod is removed from Service endpoints",
+        "The container is restarted",
+        "The node is drained",
+        "The Deployment is deleted"
+      ],
+      "answer": 0,
+      "explanation": "A failing readiness probe stops traffic to the Pod without restarting it. A failing liveness probe restarts the container."
+    },
+    {
+      "question": "Which workload object is designed for stateful apps that need stable network identities and persistent storage per replica?",
+      "choices": [
+        "Deployment",
+        "StatefulSet",
+        "CronJob",
+        "ReplicationController"
+      ],
+      "answer": 1,
+      "explanation": "StatefulSets give each Pod a stable name (such as db-0, db-1) and its own PersistentVolumeClaim, and start them in order."
+    }
+  ]
+}
